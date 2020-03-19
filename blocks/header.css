@@ -1,0 +1,135 @@
+.header {
+    padding: 12px 0 0 0;
+    display: flex;
+}
+
+.header__logo {
+    width: 184px;
+}
+
+/* nav */
+ 
+.header__nav {
+    margin: 0 0 0 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-links-item:not(:last-of-type) {
+    margin: 0 40px 0 0;
+}
+
+.header__nav-links-item {
+    list-style: none;
+}
+
+.header__nav-link { 
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    transition: all .3s;
+}
+
+.header__nav-link_theme_dark {
+    color: #fff;
+}
+
+.header__nav-link_theme_light {
+    color: #232323;
+}   
+
+.header__nav-link:hover { 
+    color: #a89365;
+    text-decoration: underline;
+}
+
+/* phone  */
+
+.header__communication {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 112px;
+}
+
+.header__communication-item {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 24px;
+    transition: all .3s;
+}
+
+.header__communication-item:hover {
+    color: #a89365;
+}
+
+
+.header__communication-item:not(:first-of-type) {
+    margin: 0 0 0 40px;
+}
+
+.header__communication-item:first-of-type::before {
+    font-family: 'icomoon';
+    content: "\e902";
+    margin: 0 10px 0 0;
+}
+
+.header__communication-item:nth-of-type(2)::before{
+    font-family: 'icomoon';
+    content: "\e90a";
+    margin: 0 10px 0 0;
+}
+
+.header__communication-item_theme_dark {
+    color: #fff;
+}
+
+.header__communication-item_theme_light {
+    color: #232323;
+}
+
+/* icons  */
+
+.header__icons {
+    margin: 0 0 0 110px;
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    font-family: 'icomoon';
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.header__icon:not(:first-of-type) {
+    margin: 0 0 0 40px;
+}
+
+.header__icon:hover {
+    color: #a89365;
+}
+
+.header__icon_theme_dark {
+    color: #fff;
+}
+
+.header__icon_theme_light {
+    color: #232323;
+}
+
+
+
+
+@media all and (max-width: 1919px) {
+    /* .body {
+        display: none;
+    } */
+}

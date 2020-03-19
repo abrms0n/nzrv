@@ -1,6 +1,8 @@
 .intro {
     background: url(../images/bg.png) top center no-repeat;
     background-size: cover;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .intro__text {

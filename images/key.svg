@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.781" height="53.435" viewBox="0 0 55.781 53.435">
+  <g id="advantages-item__icon" transform="translate(1 1)">
+    <path id="Union_21" data-name="Union 21" d="M0,0V6.045L18.97,24.813a18.364,18.364,0,1,0,8.7-8.435L22.942,11.65H17.648V7.187h-2.8l-.726-3.011H9.966L9.454,0Z" transform="translate(53.78 51.435) rotate(180)" fill="none" stroke="#a89365" stroke-width="2"/>
+    <g id="Ellipse_83" data-name="Ellipse 83" transform="translate(7.298 8)" fill="none" stroke="#a89365" stroke-width="2">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4" fill="none"/>
+    </g>
+    <line id="Line_83" data-name="Line 83" x1="18.379" y1="18.379" transform="translate(35.418 33.121)" fill="none" stroke="#a89365" stroke-width="2"/>
+  </g>
+</svg>

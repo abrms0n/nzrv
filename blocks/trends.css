@@ -1,0 +1,16 @@
+.trends {
+    padding: 120px 0;
+}
+
+
+@media all and (max-width: 1919px) {
+    .trends {
+        padding: 80px 0;
+    }
+}
+
+@media all and (max-width: 1279px) {
+    .trends {
+        padding: 60px 0;
+    }
+}   

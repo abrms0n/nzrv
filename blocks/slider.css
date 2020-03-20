@@ -1,0 +1,16 @@
+/* .slider {
+
+} */
+
+.slider-item {
+    max-width: 100%;
+}
+
+.slider .slick-prev, .slider .slick-next {
+    top: 50%;
+}
+
+.slider .slick-dots
+{
+     bottom: 10px;
+}

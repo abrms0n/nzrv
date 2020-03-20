@@ -38,18 +38,18 @@
 }
 
 .header-mobile__darken {
-    width: 100vw;
+    width: calc(100% + 32px);
     height: 100vh;
     position: absolute;
     z-index: 999;
-    left: -100px;
+    left: -16px;
     top: 0;
     background: rgba(0,0,0,.5);
     display: none;
 }
 
 .header-mobile__menu {
-    height: 90vh;
+    height: 100vh;
     width: 280px;
     position: absolute;
     top: 0;

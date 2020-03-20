@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?hqzbrs');
-  src:  url('icomoon.eot?hqzbrs#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?hqzbrs') format('truetype'),
-    url('icomoon.woff?hqzbrs') format('woff'),
-    url('icomoon.svg?hqzbrs#icomoon') format('svg');
+  src:  url('icomoon.eot?qtpe5r');
+  src:  url('icomoon.eot?qtpe5r#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?qtpe5r') format('truetype'),
+    url('icomoon.woff?qtpe5r') format('woff'),
+    url('icomoon.svg?qtpe5r#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-up-icon:before {
+  content: "\e913";
+  color: #a89365;
+}
+.icon-burger1px:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-search1px:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-shopping-bag1px:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-user1px:before {
+  content: "\e912";
+  color: #fff;
+}
 .icon-advantages__chevron:before {
   content: "\e90e";
   color: #a89365;

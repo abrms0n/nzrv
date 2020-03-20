@@ -2,7 +2,7 @@
 
 $('#menu-opener').click(function(){
     $('.header-mobile__darken').css('display','block');
-    $('.header-mobile__menu').css('left','0');
+    $('.header-mobile__menu').css('left','-16px');
 })
 
 $('.header-mobile__darken').click(function(){

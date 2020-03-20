@@ -26,7 +26,6 @@
 
 @media all and (max-width: 1279px) {
     .wrapper {
-        max-width: 360px;
         padding: 0 16px;
     }
     .body {

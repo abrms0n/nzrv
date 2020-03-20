@@ -14,6 +14,16 @@
     text-align: center;
 }
 
+.intro__mobile-text {
+    display: none;
+    max-width: 328px;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fff;
+    margin: 160px auto 160px auto;
+    text-align: center;
+}
+
 .intro__chevron {
    display: block;
    margin: 30px auto; 
@@ -45,5 +55,13 @@
 @media all and (max-width: 1279px) {
     .intro {
         max-width: 360px;
+    }
+
+    .intro__text {
+        display: none;
+    }
+
+    .intro__mobile-text {
+        display: block;
     }
 }

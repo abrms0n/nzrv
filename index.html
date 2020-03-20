@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
     <title>Галерея безупречной электроники "Назáров"</title>
 </head>
 <body class="body">
@@ -30,14 +31,32 @@
                 </div>
                 <div class="header__icons">
                     <a href="#" class="header__icon header__icon_theme_dark"><div class="icon-search"></div></a>
-                    <a href="#" class="header__icon header__icon_theme_dark"><div class="icon-shopping-bag"></div></a>
                     <a href="#" class="header__icon header__icon_theme_dark"><div class="icon-user"></div></a>
+                    <a href="#" class="header__icon header__icon_theme_dark"><div class="icon-shopping-bag"></div></a>
                 </div>
             </header>
+            <div class="header-mobile">
+                <div class="header-mobile__icons">
+                    <a id="menu-opener" href="javascript:void(0)" class="header-mobile__icon header-mobile__icon_theme_dark"><div class="icon-shopping-bag"></div></a>
+                    <a href="#" class="header-mobile__icon header-mobile__icon_theme_dark"><div class="icon-search"></div></a>
+                </div>
+                <img src="images/logo.svg" alt="Галерея безупречной электроники Назáров" class="header-mobile__logo">
+                <div class="header-mobile__icons">
+                    <a href="#" class="header-mobile__icon header-mobile__icon_theme_dark"><div class="icon-user"></div></a>
+                    <a href="#" class="header-mobile__icon header-mobile__icon_theme_dark"><div class="icon-shopping-bag"></div></a>
+                </div>
+                <div class="header-mobile__menu">
+
+                </div>
+                <div class="header-mobile__darken"></div>
+            </div>
             <p class="intro__text">
                 Ваша любимая музыка? А самый интересный фильм? Хотите узнать их заново? Не в очередной раз, а как будто впервые. 
                 Не только послушать, но и услышать. Не только посмотреть, но и увидеть. Крупнейшая галерея лучшей AV-техники 
                 к вашим услугам!
+            </p>
+            <p class="intro__mobile-text">
+                Крупнейшая галерея лучшей AV-техники и автоматизации!
             </p>
             <a href="#" target="_blank" class="button button_theme_gold">
                 заказать обратный звонок
@@ -72,11 +91,12 @@
                     <p class="advantages-item__text">Персональный менеджер</p>
                 </div>
             </div>
-            <a href="#" class="intro__chevron"><div class="icon-chevron-down"></div></a>
+            <a href="#" class="intro__chevron"><div class="icon-advantages__chevron"></div></a>
         </div>
     </div>
     <div class="wrapper">
 
     </div>
+    <script src="js/menu.js"></script>
 </body>
 </html>

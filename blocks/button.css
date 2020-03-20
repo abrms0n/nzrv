@@ -44,5 +44,7 @@
 }
 
 @media all and (max-width: 1279px) {
-
-}
+    .button {
+        max-width: 260px;
+    }
+}   

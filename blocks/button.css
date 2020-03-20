@@ -47,6 +47,6 @@
 @media all and (max-width: 1279px) {
     .button {
         max-width: 260px;
-        margin: 4px 10px;
+        margin: 4px auto;
     }
 }   

@@ -4,21 +4,21 @@
     font-size: 20px;
     line-height: 48px;
     text-decoration: none;
-    max-width: 356px;
+    width: 379px;
     height: 48px;
     text-align: center;
-    margin: 0 auto;
+    transition: all .2s;
+    margin: 0 20px;
 }
 
 .button_theme_gold {
     background: #a89365;
     color: #fff;
     border: 1px solid #a89365;
-    transition: all .2s;
 }
 
 .button_theme_gold:hover {
-    opacity: .8;
+    background: #bbaa86;
 }
 
 .button_theme_white {
@@ -40,11 +40,13 @@
         text-decoration: none;
         max-width: 300px;
         height: 40px;
+        margin: 0 10px;
     }
 }
 
 @media all and (max-width: 1279px) {
     .button {
         max-width: 260px;
+        margin: 4px 10px;
     }
 }   

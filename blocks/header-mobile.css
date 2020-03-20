@@ -46,10 +46,11 @@
     top: 0;
     background: rgba(0,0,0,.5);
     display: none;
+    overflow: hidden;
 }
 
 .header-mobile__menu {
-    height: 100vh;
+    height: 120vh;
     width: 280px;
     position: absolute;
     top: 0;

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="arrow-left" transform="translate(1 1)">
+    <g id="arrow-left-circle" transform="translate(-4 -4)">
+      <path id="Path_76" data-name="Path 76" d="M24,44A20,20,0,1,0,4,24,20,20,0,0,0,24,44Z" fill="none" stroke="#b39b6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_77" data-name="Path 77" d="M24,16l-8,8,8,8" fill="none" stroke="#b39b6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_78" data-name="Path 78" d="M32,24H16" fill="none" stroke="#b39b6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

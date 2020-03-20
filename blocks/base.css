@@ -8,7 +8,8 @@
     font-family: 'Futura PT', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    background: #333741;    /* temporary */
+    background: #fff;
+    color: #232323;
 }
 
 .wrapper {
@@ -32,3 +33,15 @@
         min-width: 360px;
     }
 }
+
+/* gold: #a89365;
+greyDark: #232323; */
+
+
+@media all and (max-width: 1919px) {
+    
+}
+
+@media all and (max-width: 1279px) {
+
+}   

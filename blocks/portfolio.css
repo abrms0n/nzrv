@@ -1,0 +1,42 @@
+.portfolio {
+    padding: 120px 0 80px 0;
+}
+
+.portfolio__slider {
+    padding: 40px 0 0 0;
+}
+
+.portfolio-item {
+    max-width: 408px;
+    margin: 0 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item__image {
+    max-width: 100%;
+    align-self: center;
+    margin: 0 0 8px 0;
+}
+
+.portfolio-item__text {
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1919px) {
+    
+}
+
+@media all and (max-width: 1279px) {
+
+}   

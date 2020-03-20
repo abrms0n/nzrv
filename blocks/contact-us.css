@@ -24,7 +24,9 @@
     }
 }
 
-@media all and (max-width: 1279px) {
-    
+@media all and (max-width: 500px) {
+    .contact-us {
+        opacity: 0;
+    }
 }   
 

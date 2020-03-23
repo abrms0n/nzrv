@@ -98,22 +98,26 @@
 }
 .icon-calendar:before {
   content: "\e904";
+  color: #a89365;
 
 }
 .icon-clock:before {
   content: "\e901";
-
+  color: #a89365;
 }
 .icon-mail:before {
   content: "\e905";
+  color: #a89365;
 
 }
 .icon-map-pin:before {
   content: "\e900";
+  color: #a89365;
 
 }
 .icon-phone:before {
   content: "\e902";
+  color: #a89365;
 
 }
 
@@ -131,3 +135,4 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}

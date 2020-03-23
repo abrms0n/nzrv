@@ -1,0 +1,32 @@
+.brands {
+    padding: 80px 0 0 0;
+}
+
+.brands__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+.brands__image {
+    max-width: 308px;
+    align-self: center;
+}
+
+@media all and (max-width: 1919px) {
+    .brands__image {
+        max-width: 256px;
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width: 1279px) {
+    .brands__row {
+        overflow-x: auto;
+    }
+    .brands__image {
+        max-width: 152px;
+        padding: 0 5px;
+    }
+}   

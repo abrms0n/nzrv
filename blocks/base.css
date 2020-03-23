@@ -24,7 +24,14 @@
 
 .anti-wrapper {
     width: 100%;
+}
+
+.anti-wrapper_theme_gray {
     background: #f2f2f2;
+}
+
+.anti-wrapper_theme_dark-gray {
+    background: #232323;
 }
 
 @media all and (max-width: 1919px) {

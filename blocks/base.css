@@ -18,6 +18,15 @@
     margin: 0 auto;
 }
 
+.wrapper_theme_gray {
+    background: #f2f2f2;
+}
+
+.anti-wrapper {
+    width: 100%;
+    background: #f2f2f2;
+}
+
 @media all and (max-width: 1919px) {
     .wrapper {
         max-width: 1280px;

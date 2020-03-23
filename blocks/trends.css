@@ -2,13 +2,6 @@
     padding: 120px 0;
 }
 
-.trends__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 .trends__items {
     display: flex;
     margin: 40px 0 0 0;

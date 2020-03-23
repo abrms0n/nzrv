@@ -12,6 +12,10 @@
     line-height: 1;
 }
 
+.page-link_hidden {
+    display: none;
+}
+
 
 
 @media all and (max-width: 1919px) {

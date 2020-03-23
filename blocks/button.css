@@ -50,3 +50,10 @@
         margin: 4px auto;
     }
 }   
+
+
+@media all and (max-width: 500px) {
+    .button {
+        max-width: 100%;
+    }
+}

@@ -48,7 +48,18 @@
     }
 }
 
-@media all and (max-width: 1279px) {
+@media all and (max-width: 1110px) {
+    .solutions {
+        padding: 40px 0 0 0;
+    }
+
+    .solutions__items {
+        justify-content: center;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
     .solutions {
         display: none;
     }

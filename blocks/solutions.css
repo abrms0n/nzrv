@@ -1,5 +1,5 @@
 .solutions {
-   padding: 80px 0 0 0;
+   padding: 80px 0 60px 0;
 }
 
 .solutions__items {
@@ -30,6 +30,9 @@
 
 
 @media screen and (max-width: 1919px) {
+    .solutions {
+        padding: 80px 0 40px 0;
+     }
     .solution-item {
         max-width: 353px;
         text-align: center;

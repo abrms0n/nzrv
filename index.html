@@ -392,7 +392,7 @@
         <div class="wrapper wrapper_theme_dark-gray">
             <footer class="footer">
                 <div class="footer__columns">
-                    <div class="footer-column">
+                    <div class="footer-column footer-column_contacts">
                         <h3 class="footer-column__title">Контакты</h3>
                         <ul class="footer-column__list">
                             <li class="footer-column__elem">
@@ -412,9 +412,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-column">
-                        <h3 class="footer-column__title">Информация</h3>
-                        <ul class="footer-column__list">
+                    <div class="footer-column footer-column_info">
+                        <h3 class="footer-column__title" id="info-title">Информация<div class="icon-chevron-down"></div></h3>
+                        <ul class="footer-column__list closed" id="info-list">
                             <li class="footer-column__elem">
                                 <a href="javascript:void(0)" class="footer-column__link">Доставка</a>
                             </li>
@@ -430,9 +430,9 @@
 
                         </ul>
                     </div>
-                    <div class="footer-column">
-                        <h3 class="footer-column__title">Навигация</h3>
-                        <nav class="footer__nav">
+                    <div class="footer-column footer-column_nav">
+                        <h3 class="footer-column__title" id="nav-title">Навигация<div class="icon-chevron-down"></div></h3>
+                        <nav class="footer__nav closed">
                             <ul class="footer-column__list">
                                 <li class="footer-column__elem">
                                     <a href="#about" class="footer-column__link">О галерее</a>
@@ -504,5 +504,6 @@
     <script src="js/back-to-top-show.js" ></script>
     <script src="js/action-slider.js"></script>
     <script src="js/changeFloor.js"></script>
+    <script src="js/footer-mobile-nav.js"></script>
 </body>
 </html>

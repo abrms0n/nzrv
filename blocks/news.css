@@ -42,14 +42,14 @@
 
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .news-item__title {
         font-size: 24px;
     }
     
 }
 
-@media all and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .news-item:nth-of-type(3), .news-item:nth-of-type(4) {
         display: none;
     }

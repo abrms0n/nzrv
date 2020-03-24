@@ -29,7 +29,7 @@
 }
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .solution-item {
         max-width: 353px;
         text-align: center;
@@ -46,7 +46,7 @@
     }
 }
 
-@media all and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
     .solutions {
         padding: 40px 0 0 0;
     }
@@ -57,7 +57,7 @@
     
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .solutions {
         display: none;
     }

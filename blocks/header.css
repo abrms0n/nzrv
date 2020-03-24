@@ -128,7 +128,7 @@
 
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .header__logo {
         width: 160px;
     }
@@ -174,7 +174,7 @@
 }
 
 
-@media all and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .header {
         display: none;;
     }

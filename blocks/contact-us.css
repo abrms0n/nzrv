@@ -16,7 +16,7 @@
 
 }
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .contact-us {
         top: 400px;
         right: -95px;;
@@ -24,7 +24,7 @@
     }
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .contact-us {
         opacity: 0;
     }

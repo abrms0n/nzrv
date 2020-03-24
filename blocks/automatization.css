@@ -14,14 +14,14 @@
     align-self: center;
 }
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .automatization__image {
         max-width: 256px;
         padding: 0 10px;
     }
 }
 
-@media all and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .automatization__row {
         overflow-x: auto;
     }

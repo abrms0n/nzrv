@@ -38,14 +38,14 @@
 }
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .about__paragraph {
         font-size: 20px;
         line-height: 1.1;
     }
 }
 
-@media all and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .about {
         padding: 0 0 40px 0;
     }
@@ -67,7 +67,7 @@
 }   
 
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .about {
         padding: 0 0 20px 0;
     }

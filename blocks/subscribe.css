@@ -49,13 +49,13 @@
 }
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .subscribe__title {
         font-size: 24px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .subscribe {
         padding: 20px 0;
     }

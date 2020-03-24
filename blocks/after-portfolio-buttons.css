@@ -5,13 +5,13 @@
 }
 
 
-@media all and (max-width: 1919px) {
+@media screen and (max-width: 1919px) {
     .after-portfolio-buttons {
         padding: 0 0 100px 0;
     }
 }
 
-@media all and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .after-portfolio-buttons {
         flex-direction: column;
         padding: 0 0 40px 0;

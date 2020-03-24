@@ -168,6 +168,9 @@
 }
 
 @media all and (max-width: 600px) {
+    .trends {
+        padding: 40px 0;
+    }
     .trends-item-lg {
         max-width: 100%;
     }

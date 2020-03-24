@@ -30,6 +30,8 @@
     margin: 0 0 0 20px;
     padding: 15px;
     font-weight: 300;
+    -webkit-border-radius: 0;
+    border-radius: 0;
 }
 
 .subscribe__hint {
@@ -46,6 +48,8 @@
 
 .subscribe .button {
     margin: 0 auto;
+    -webkit-border-radius: 0;
+    border-radius: 0;
 }
 
 

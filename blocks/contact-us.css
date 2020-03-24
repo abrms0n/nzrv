@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 600px) {
     .contact-us {
-        opacity: 0;
+        right: -300px;
     }
 }   
 

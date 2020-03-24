@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 1279px) {
+    .automatization {
+        padding: 40px 0;
+    }
     .automatization__row {
         overflow-x: auto;
     }

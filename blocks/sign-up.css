@@ -11,3 +11,9 @@
         padding: 40px 0;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .sign-up {
+        padding: 20px 0;
+    }
+}   

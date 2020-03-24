@@ -1,10 +1,27 @@
+.header-container {
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+}
+
 .header {
-    padding: 12px 0 0 0;
+    padding: 12px 80px;
     display: flex;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .header__logo {
     width: 184px;
+}
+
+.header-container_fixed {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 6px rgba(35,35,35,.2);
+    background: #fff;
+    z-index: 1000;
 }
 
 /* nav */
@@ -126,9 +143,12 @@
 }
 
 
-
-
 @media screen and (max-width: 1919px) {
+    .header {
+        padding: 12px 40px;
+        max-width: 1280px;
+    }
+
     .header__logo {
         width: 160px;
     }
@@ -176,7 +196,7 @@
 
 @media screen and (max-width: 1279px) {
     .header {
-        display: none;;
+        display: none;
     }
 
 }

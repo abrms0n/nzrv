@@ -142,7 +142,6 @@
     .footer-column_info {
         width: 22%;
     }
-    
 }
 
 @media all and (max-width: 1279px) {
@@ -157,13 +156,21 @@
     .footer__columns {
         flex-wrap: wrap;
     }
+
+    .footer-column__list {
+        margin: 30px 0 0 0;
+    }
     
     .footer__nav {
         flex-direction: column;
     }
 
+    .footer-column__elem:not(:first-of-type) {
+        margin: 20px 0 0 0;
+    }
+
     .footer-column__list:not(:first-of-type) {
-        margin: 30px 0 0 0;
+        margin: 20px 0 0 0;
     }
 
     .footer .button {
@@ -186,9 +193,6 @@
     .footer__payment-icon {
         max-width: 56px;
     }
-
-
-
 }   
 
 

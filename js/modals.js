@@ -6,7 +6,8 @@ $('.open-modal').click(function() {
 
     var modal = $('.modal-overlay[data-modal="'+ modalName +'"]');
 
-    modal.addClass('isShown');
+    modal.fadeIn(500);
+ 
     $("body").css("overflow", "hidden");
 })
 
@@ -16,8 +17,8 @@ $('.modal-window__close-button').click(function() {
 
     var parent = $(this).parent();
 
-   $(parent).parent().removeClass('isShown');
-   $("body").css("overflow", "auto");
+    $(parent).parent().fadeOut(500);
+    $("body").css("overflow", "auto");
 
 
 })

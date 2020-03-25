@@ -40,6 +40,11 @@
     margin: 0 auto;
 }
 
+.modal-window .button {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
 .modal-window__title {
     font-size: 32px;
     line-height: 1.1;
@@ -70,9 +75,28 @@
     border-radius: 0;
 }
 
+.modal-window__textarea {
+    border: 1px solid #232323;
+    width: 100%;
+    min-height: 176px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #575757;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
 .modal-window__hint {
     font-size: 16px;
     line-height: 1.2;
+}
+
+.modal-window__message {
+    font-size: 20px;
+    line-height: 1.1;
+    margin: 40px 0;
+    text-align: center;
 }
 
 .modal-window__hint:first-of-type {

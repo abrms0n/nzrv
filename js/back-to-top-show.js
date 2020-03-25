@@ -1,10 +1,14 @@
 $(window).scroll(function(){
     if($(window).scrollTop()>600){
-        $('.back-to-top').fadeIn()
+        $('.scroll-up').fadeIn()
     }
 })
 
-
+$(window).scroll(function(){
+    if($(window).scrollTop()<600){
+        $('.scroll-up').fadeOut()
+    }
+})
 
 $(window).scroll(function(){
     if($(window).scrollTop()>700){

@@ -1,0 +1,26 @@
+.about-virtual {
+    width: 63%;
+}
+
+.about-virtual_second {
+    display: none;
+}
+
+.about-virtual__iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .about-virtual {
+        width: 100%;
+        height: 500px;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    .about-virtual {
+        height: 300px;
+    }
+}

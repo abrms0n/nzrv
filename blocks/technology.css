@@ -29,6 +29,10 @@
     flex-direction: column;
     }
 
+    .technology__text {
+        max-width: 100%;
+    }
+
     .technology__image {
         max-width: 100%;
         margin: 40px 0 0 0;

@@ -1,0 +1,31 @@
+.best-brands {
+    padding: 60px 0;
+}
+
+.best-brands__inner {
+    margin: 40px 0 0 0;
+}
+
+.best-brands__image {
+    max-width: 100%;
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .best-brands {
+        padding: 40px 0;
+    }
+    .best-brands__image {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .best-brands {
+        padding: 20px 0;
+    }
+
+    .best-brands__inner {
+        margin: 20px 0 0 0;
+    }
+}   

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.336" height="102.001" viewBox="0 0 73.336 102.001">
+  <g id="projects-item__icon" transform="translate(1 1)">
+    <g id="Group_42" data-name="Group 42" transform="translate(8.471 28.902)">
+      <g id="Group_41" data-name="Group 41" transform="translate(0 0)">
+        <path id="Union_7" data-name="Union 7" d="M5.789,0,3.158,5.786ZM0,2.574,3.158,5.786Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 1.203, 0)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Union_8" data-name="Union 8" d="M5.789,0,3.158,5.786ZM0,2.574,3.158,5.786Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 1.203, 14.469)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Union_9" data-name="Union 9" d="M5.789,0,3.158,5.786ZM0,2.574,3.158,5.786Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 1.203, 28.939)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_27" data-name="Line 27" x2="34.726" transform="translate(13.83 4.207)" fill="none" stroke="#a89365" stroke-width="2"/>
+        <line id="Line_28" data-name="Line 28" x2="34.726" transform="translate(13.83 18.677)" fill="none" stroke="#a89365" stroke-width="2"/>
+        <line id="Line_31" data-name="Line 31" x2="34.726" transform="translate(13.83 33.146)" fill="none" stroke="#a89365" stroke-width="2"/>
+      </g>
+    </g>
+    <path id="Union_5" data-name="Union 5" d="M35.2,0c1.691,0,3.061,1.64,3.061,3.663V5.494c0,2.023-1.37,3.663-3.061,3.663H3.061C1.37,9.157,0,7.517,0,5.494V3.663C0,1.64,1.37,0,3.061,0Z" transform="translate(12.492 0.001)" fill="rgba(0,0,0,0)" stroke="#a89365" stroke-width="2"/>
+    <path id="Union_10" data-name="Union 10" d="M54.224,93.4H9a9,9,0,0,1-9-9V15.6a9,9,0,0,1,9-9h2.947A4.291,4.291,0,0,1,11.8,5.477V3.652A3.4,3.4,0,0,1,14.865,0H47.073A3.4,3.4,0,0,1,50.14,3.652V5.477A4.291,4.291,0,0,1,49.991,6.6h6.1a9,9,0,0,1,9,9V82.985A8.683,8.683,0,1,1,54.224,93.4Z" transform="translate(0 0)" fill="none" stroke="#a89365" stroke-width="2"/>
+    <path id="Union_6" data-name="Union 6" d="M5.789,0,3.158,5.786ZM0,2.574,3.158,5.786Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 60.601, 87.478)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="8.682" cy="8.682" r="8.682" transform="translate(53.973 82.638)" fill="rgba(0,0,0,0)" stroke="#a89365" stroke-width="2"/>
+  </g>
+</svg>

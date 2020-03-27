@@ -5,4 +5,5 @@ if($(window).width() <= '1350') {
 
 $('.show-more').click(function(){
     $('.hidden-text').css('display','block');
+    $('.show-more').css('display','none');
 })

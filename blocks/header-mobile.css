@@ -10,6 +10,10 @@
     width: 152px;
 }
 
+.header__logo-link {
+    line-height: 0;
+}
+
 .header-mobile__icons {
     display: flex;
 }

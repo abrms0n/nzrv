@@ -16,6 +16,10 @@
     width: 184px;
 }
 
+.header__logo-link {
+    line-height: 0;
+}
+
 .header-container_fixed {
     position: fixed;
     top: 0;

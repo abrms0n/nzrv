@@ -1,0 +1,29 @@
+.show-more {
+    color: #a89365;
+    font-size: 20px;
+    text-decoration: none;
+    display: none;
+}
+
+.show-more::after {
+    font-family: 'icomoon';
+    content: " \e903";
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1350px) {
+    .show-more {
+        display: block;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .show-more {
+        font-size: 15px;
+    }
+
+    .show-more::after {
+        font-size: 8px;
+    }
+}   

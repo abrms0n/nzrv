@@ -1,0 +1,13 @@
+.realize {
+    padding: 60px 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .realize {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+}   

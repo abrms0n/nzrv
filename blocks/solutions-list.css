@@ -1,0 +1,32 @@
+.solutions-list {
+    padding: 40px 0;
+}
+
+.solutions-list__items {
+    margin: 80px 0;
+}
+
+.solutions-list__item {
+    display: none;
+}
+
+.solutions-list__item_active {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1919px) {
+    .solutions-list__item {
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .solutions-list {
+        padding: 40px 0;
+    }
+
+    .solutions-list__item {
+        margin: 20px 0;
+    }
+}   

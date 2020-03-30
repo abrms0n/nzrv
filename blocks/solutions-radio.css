@@ -1,0 +1,38 @@
+.solutions-radio {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.solutions-radio__elem {
+    color: #a89365;
+    border: 1px solid #a89365;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    transition: all .2s;
+}
+
+.solutions-radio__elem:not(:first-of-type) {
+    margin: 0 0 0 20px;
+}
+
+.solutions-radio__elem:hover, .solutions-radio__elem_active {
+    background: #a89365;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1919px) {
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .solutions-radio {
+        margin: 20px 0 0 0;
+    }
+}   

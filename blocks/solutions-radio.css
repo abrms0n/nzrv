@@ -32,7 +32,7 @@
         justify-content: flex-start;
     }
     .solutions-radio__elem {
-        margin: 0 0 20px 0;
+        margin: 0 0 20px 20px;
     }
     .solutions-radio__elem:not(:first-of-type) {
         margin: 0 0 20px 20px;
@@ -46,7 +46,7 @@
     .solutions-radio__elem {
         padding: 5px 20px;
         font-size: 16px;
-        margin: 0 0 12px 0;
+        margin: 0 0 12px 12px;
     }
 
     .solutions-radio__elem:not(:first-of-type) {

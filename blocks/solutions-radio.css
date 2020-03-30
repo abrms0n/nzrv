@@ -28,11 +28,28 @@
 
 
 @media screen and (max-width: 1919px) {
-    
+    .solutions-radio {
+        justify-content: flex-start;
+    }
+    .solutions-radio__elem {
+        margin: 0 0 20px 0;
+    }
+    .solutions-radio__elem:not(:first-of-type) {
+        margin: 0 0 20px 20px;
+    }
 }
 
 @media screen and (max-width: 1279px) {
     .solutions-radio {
         margin: 20px 0 0 0;
+    }
+    .solutions-radio__elem {
+        padding: 5px 20px;
+        font-size: 16px;
+        margin: 0 0 12px 0;
+    }
+
+    .solutions-radio__elem:not(:first-of-type) {
+        margin: 0 0 12px 12px;
     }
 }   

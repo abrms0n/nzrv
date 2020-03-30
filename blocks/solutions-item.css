@@ -21,7 +21,7 @@
 }
 
 .solutions-item__icon {
-    width: 230px;
+    max-width: 230px;
     margin: auto;
 }
 
@@ -33,11 +33,18 @@
     max-width: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    text-align: right;
 }
 
 .solutions-item__price-container .button {
     max-width: 176px;
+}
+
+.solutions-item__link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .solutions-item__price {
@@ -45,6 +52,7 @@
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
+    margin: 100px 0 0 0;
 }
 
 .solutions-item__price::after {
@@ -59,11 +67,49 @@
     .solutions-item {
         margin: 40px 0;
     }
+    .solutions-item__icon {
+        max-width: 180px;
+    }
+
 }
 
 @media screen and (max-width: 1279px) {
-
     .solutions-item {
         margin: 20px 0;
+        flex-direction: column;
     }
+
+    .solutions-item:not(:first-of-type) {
+        margin: 40px 0 0 0;
+    }
+
+    .solutions-item__info {
+        max-width: 100%;
+    }
+
+    .solutions-item__icon-container {
+        display: none;
+    }
+
+    .solutions-item__price-container {
+        max-width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .solutions-item__price-container .button {
+        max-width: 100%;
+    }
+
+    .solutions-item__link-container {
+        flex-direction: row-reverse;
+        margin: 0 0 12px 0;
+    }
+
+    .solutions-item__price {
+        font-size: 18px;
+        margin: 0;
+    }
+
+
+
 }   

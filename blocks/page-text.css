@@ -3,6 +3,10 @@
     line-height: 1.1;
 }
 
+.page-text_accent {
+    color: #a89365;
+}
+
 .page-text:not(:first-of-type) {
     margin: 1em 0 0 0;
 }

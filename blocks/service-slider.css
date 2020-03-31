@@ -1,0 +1,24 @@
+.service-slider {
+    padding: 20px 0 40px 0;
+}
+
+.service-slider__slides {
+    margin: 20px 0 0 0;
+}
+
+.service-slider__slides .slick-prev,
+.service-slider__slides .slick-next {
+    top: 50%;
+}
+
+.service-slider__slide {
+    max-width: 92%;
+}
+
+@media screen and (max-width: 1919px) {
+    
+}
+
+@media screen and (max-width: 1279px) {
+
+}   

@@ -11,9 +11,15 @@
     justify-content: space-between;
 }
 
+.service-advantages__image {
+    max-width: 32%;
+}
+
 .service-advantages__text {
     margin: 20px 0 0 0;
 }
+
+
 
 @media screen and (max-width: 600px) {
     .service-advantages__image {

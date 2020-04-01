@@ -6,7 +6,8 @@
 }
 
 .page-link::after {
-    content: " \e907" ;
+    content: "\e907";
+    margin: 0 0 0 10px;
     font-family: 'icomoon';
     font-size: 16px;
     line-height: 1;
@@ -15,6 +16,21 @@
 .page-link_hidden {
     display: none;
 }
+
+.page-link-back::after {
+    content: " " ;
+}
+
+.page-link-back::before {
+    content: "\e907";
+    margin: 0 10px 0 0;
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
 
 
 

@@ -17,3 +17,12 @@ $('.service-page-about__text .show-more').click(function(){
     $('.service-page-about__text .hidden-text').css('display','block');
     $('.service-page-about__text .show-more').css('display','none');
 })
+
+$('.project-manager__info .show-more').click(function(){
+    $('.project-manager__info .hidden-text').css('display','block');
+    $('.project-manager__info .show-more').css('display','none');
+})
+
+
+
+

@@ -2,28 +2,18 @@
     padding: 20px 0;
 }
 
+.service-advantages .page-subtitle {
+    margin: 20px 0 0 0;
+}
+
 .service-advantages__images {
     display: flex;
     justify-content: space-between;
 }
 
-
-
-
-
 .service-advantages__text {
     margin: 20px 0 0 0;
 }
-
-@media screen and (max-width: 1919px) {
-    
-}
-
-@media screen and (max-width: 1279px) {
-    .service-advantages {
-        padding: ;
-    }
-}  
 
 @media screen and (max-width: 600px) {
     .service-advantages__image {

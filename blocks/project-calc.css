@@ -159,9 +159,6 @@
     .project-calc {
         padding: 20px 0;
     }
-    .project-calc__app {
-        justify-content: flex-start;
-    }
     .project-calc__radio-elem{
         padding: 8px 16px;
         font-size: 16px;
@@ -182,3 +179,9 @@
         left: 3px;
     }
 }   
+
+@media screen and (max-width: 600px) {
+    .project-calc__app {
+        justify-content: flex-start;
+    }
+}

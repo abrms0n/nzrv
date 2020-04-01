@@ -58,7 +58,7 @@
                 <nav class="header-mobile__nav">
                     <ul class="header-mobile__nav-links">
                         <li class="header-mobile__nav-links-item"><a href="./about.html" class="header-mobile__nav-link">О компании</a></li>
-                        <li class="header-mobile__nav-links-item"><a href="javascript:void(0)"  lass="header-mobile__nav-link">Умный дом</a></li>
+                        <li class="header-mobile__nav-links-item"><a href="javascript:void(0)" class="header-mobile__nav-link">Умный дом</a></li>
                         <li class="header-mobile__nav-links-item"><a href="./services.html" class="header-mobile__nav-link">Услуги</a></li>
                         <li class="header-mobile__nav-links-item"><a href="javascript:void(0)" class="header-mobile__nav-link">Архитекторам</a></li>
                         <li class="header-mobile__nav-links-item"><a href="javascript:void(0)" class="header-mobile__nav-link">Каталог</a></li>
@@ -87,7 +87,8 @@
                 <p class="page-text">
                     В мире существует множество различных колонок, типов, форм и т.д. Это, пожалуй, самый широкий сегмент продукции нашего рынка, где производители развернулись по полной и у потребителя сегодня есть огромный выбор. Можно подобрать классические отдельно стоящие модели, встраиваемые в стену АС, навесные колонки (на стену), подвесные системы (на потолок), беспроводные акустические системы – выбор действительно впечатляет. И обычного человека может легко и быстро запутать. 
                 </p>
-                <p class="page-text">
+                <a href="javascript:void(0)" class="show-more">Показать полностью</a>
+                <p class="page-text hidden-text">
                     Именно поэтому <span class="page-text_accent">наши специалисты подберут оптимальные акустические системы именно для вас</span>. Являясь знатоками рынка, они выяснят ваши потребности и подберут из ассортимента максимально соответствующие модели.
                 </p>
             </div>
@@ -119,6 +120,69 @@
                 <img src="images/example-img5.png" alt="примеры работ" class="service-slider__slide">
                 <img src="images/example-img6.png" alt="примеры работ" class="service-slider__slide">
                 <img src="images/example-img7.png" alt="примеры работ" class="service-slider__slide">
+            </div>
+        </section>
+    
+        <section class="project-calc">
+            <h2 class="page-title">
+                калькулятор стоимости
+            </h2>
+            <div class="project-calc__app">
+                <div class="project-calc__column-square">
+                    <p class="project-calc__square-title">
+                        Тип помещения
+                    </p>
+                    <div class="project-calc__radio">
+                        <a href="javascript:void(0)" id="isApartment" class="project-calc__radio-elem project-calc__radio-elem_active">квартира</a>
+                        <a href="javascript:void(0)" id="isHouse" class="project-calc__radio-elem">дом/коттедж</a>
+                    </div>
+                    <p class="project-calc__square-title">
+                        Площадь помещения
+                    </p>
+                    <div class="project-calc__input-container">
+                        <input pattern="[0-9]{1,10}" type="text" id="calc-input" class="project-calc__square-input">
+                        <p class="project-calc__square-title">&nbsp;м<sup>2</sup></p>
+                    </div>
+                </div>
+                <div class="project-calc__column-checkbox">
+                    <div class="project-calc__checkbox-row">
+                        <input type="checkbox" class="project-calc__checkbox" id="light-control" data-value="0.575">
+                        <label class="project-calc__checkbox-label" for="light-control">Управление освещением</label>
+                    </div>
+                    <div class="project-calc__checkbox-row">
+                        <input type="checkbox" class="project-calc__checkbox" id="climate-control" data-value="0.075">
+                        <label class="project-calc__checkbox-label" for="climate-control">Управление климатом</label>
+                    </div>
+                    <div class="project-calc__checkbox-row">
+                        <input type="checkbox" class="project-calc__checkbox" id="av-control" data-value="0.25">
+                        <label class="project-calc__checkbox-label" for="av-control">Управление AV-техникой</label>
+                    </div>
+                </div>
+                <div class="project-calc__column-checkbox">
+                    <div class="project-calc__checkbox-row">
+                        <input type="checkbox" class="project-calc__checkbox" id="curtains-control" data-value="0.03">
+                        <label class="project-calc__checkbox-label" for="curtains-control">Управление шторами</label>
+                    </div>
+                    <div class="project-calc__checkbox-row"> 
+                        <input type="checkbox" class="project-calc__checkbox" id="security-control" data-value="0.03">
+                        <label class="project-calc__checkbox-label" for="security-control">Контроль безопасности</label>
+                    </div>
+                    <div class="project-calc__checkbox-row">
+                        <input type="checkbox" class="project-calc__checkbox" id="homephone" data-value="0.04">
+                        <label class="project-calc__checkbox-label" for="homephone">Домофония</label>
+                    </div>
+                </div>
+                <div class="project-calc__column-result">
+                    <p class="project-calc__result-title">
+                        Ориентировочная стоимость
+                    </p>
+                    <p class="project-calc__result" id="result">
+                        
+                    </p>
+                    <p class="project-calc__result-comment">
+                        Cтоимость рассчитывается приблизительно, исходя из метража вашего объекта. Для более точного расчета закажите бесплатную предварительную смету.
+                    </p>
+                </div>
             </div>
         </section>
     </div>
@@ -467,6 +531,7 @@
     <script src="js/solutions-radio.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/service-slider.js"></script>
+    <script src="js/project-calc.js"></script>
 
 </body> 
 </html>

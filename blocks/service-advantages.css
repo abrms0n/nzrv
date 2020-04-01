@@ -7,11 +7,9 @@
     justify-content: space-between;
 }
 
-.service-advantages__image {
-    max-width: 32%;
-    align-self: center;
-    margin: 0 0 20px 0;
-}
+
+
+
 
 .service-advantages__text {
     margin: 20px 0 0 0;
@@ -26,3 +24,15 @@
         padding: ;
     }
 }  
+
+@media screen and (max-width: 600px) {
+    .service-advantages__image {
+        max-width: 49%;
+        align-self: center;
+        margin: 0 0 20px 0;
+    }
+    .service-advantages__image:last-of-type {
+        display: none;
+    }
+}
+

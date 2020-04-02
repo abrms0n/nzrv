@@ -9,5 +9,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-
+    .catalog-row {
+        align-items: flex-start;
+    }
 }   

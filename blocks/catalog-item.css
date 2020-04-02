@@ -23,17 +23,14 @@
     margin: 0 0 40px 72px;
 }
 
-
 .catalog-item:hover {
     box-shadow: 0 4px 8px rgba(0,0,0, .16);
 }
-
 
 .catalog-item__image {
     max-width: 100%;
     align-self: center;
 }
-
 
 .catalog-item__info {
     margin: 80px 0 0 0;
@@ -66,7 +63,98 @@
     font-family: 'icomoon';
 }
 
-
 .catalog-item__links_children {
     margin: 10px 0 0 2em;
+}
+
+
+
+
+
+@media screen and (max-width: 1919px) {
+    .catalog-item {
+        width: 328px;
+        min-height: 720px;
+        padding: 12px;
+    }
+
+    /* отступы первого элемента и каждого четвертого на 1280 */
+
+    .catalog-item:first-of-type, .catalog-item:nth-of-type(4n) {
+        margin: 0 52px 40px 0;
+    }
+
+    /* отступы среднего (2, 5, 8, etc) элемента на 1280 */
+
+    .catalog-item:nth-of-type(3n+2) {
+        margin: 0 52px 40px 52px;
+    }
+
+    /* отступы каждого третьего элемента на 1280 */
+
+    .catalog-item:nth-of-type(3n) {
+        margin: 0 0 40px 52px;
+    }
+
+
+}
+
+@media screen and (max-width: 1279px) {
+    .catalog-item {
+        width: 48%;
+        min-height: 520px;
+        padding: 12px;
+    }
+
+    .catalog-item__info {
+        margin: 40px 0 0 0;
+    }
+
+    /* отступы первого элемента и каждого четвертого на 1280 */
+
+    .catalog-item:first-of-type, .catalog-item:nth-of-type(4n) {
+        margin: 40px auto;
+    }
+
+    /* отступы среднего (2, 5, 8, etc) элемента на 1280 */
+
+    .catalog-item:nth-of-type(3n+2) {
+        margin: 40px auto;
+    }
+
+    /* отступы каждого третьего элемента на 1280 */
+
+    .catalog-item:nth-of-type(3n) {
+        margin: 40px auto;
+    }
+}   
+
+
+@media screen and (max-width: 600px) {
+    .catalog-item {
+        width: 100%;
+    }
+
+
+    .catalog-item__info {
+        margin: 20px 0 0 0;
+    }
+    
+    .catalog-item__links {
+        margin: 20px 0 0 0;
+    }
+    
+    
+    .catalog-item__link {
+        font-size: 16px;
+    }
+    
+    
+    .catalog-item__link_parent::after {
+        font-size: 8px;
+    }
+    
+    .catalog-item__links_children {
+        margin: 10px 0 0 1em;
+    }
 }

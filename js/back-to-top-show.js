@@ -7,9 +7,7 @@ const scrollUp = `
 `
 
 const contactUs = `
-    <div class="contact-us">
-        <a data-modal="call-back" class="contact-us__link open-modal" href="javascript:void(0)">Связаться с нами</a>
-    </div>
+    <a data-modal="callBack" class="contact-us open-modal" href="javascript:void(0)">Связаться с нами</a>
 `
 
 $('body').append(scrollUp);

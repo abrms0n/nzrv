@@ -1,24 +1,9 @@
 'use strict'
 
-$('.open-modal').click(function() {
-    event.preventDefault();
-
-    let modalName = $(this).attr('data-modal');
-
-    let modal = $('.modal-overlay[data-modal="'+ modalName +'"]');
-
-    modal.fadeIn(500);
- 
-    $("body").css("overflow", "hidden");
-});
-
-
 const mailToDir = `
-    <div class="modal-overlay" data-modal="mail-to-dir">
+    <div class="modal-overlay" data-modal="mailToDir">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Письмо директору</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -46,11 +31,9 @@ const mailToDir = `
 
     
 const orderService = `
-    <div class="modal-overlay" data-modal="order-service">
+    <div class="modal-overlay" data-modal="orderService">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Заказать услугу</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -80,11 +63,9 @@ const orderService = `
 `;
 
 const signToNews = `
-    <div class="modal-overlay" data-modal="sign-to-news"> 
+    <div class="modal-overlay" data-modal="signToNews"> 
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Успешно</h2>
             <p class="modal-window__message">
                 Теперь Вы подписаны на новости
@@ -94,11 +75,9 @@ const signToNews = `
 `;
 
 const signToDemo = `
-    <div class="modal-overlay" data-modal="sign-to-demo">
+    <div class="modal-overlay" data-modal="signToDemo">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Запись в демо-зал</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -131,11 +110,9 @@ const signToDemo = `
 `;
 
 const orderProject = `
-    <div class="modal-overlay" data-modal="order-project">
+    <div class="modal-overlay" data-modal="orderProject">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Заказать проектирование</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -165,11 +142,9 @@ const orderProject = `
 `;
 
 const orderSpecialist = `
-    <div class="modal-overlay" data-modal="${this}">
+    <div class="modal-overlay" data-modal="orderSpecialist">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Заказать выезд специалиста</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -199,11 +174,9 @@ const orderSpecialist = `
 `;
 
 const callBack = `
-    <div class="modal-overlay" data-modal="call-back">
+    <div class="modal-overlay" data-modal="callBack">
         <div class="modal-window">
-            <a href="javascript:void(0)" class="modal-window__close-button">
-                <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-            </a>
+            <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
             <h2 class="modal-window__title">Заказать обратный звонок</h2>
             <form action="" class="modal-window__form">
                 <div class="modal-window__row">
@@ -226,25 +199,57 @@ const callBack = `
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
                 <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-            <input type="submit" class="button button_theme_gold" value="записаться" >
+            <input type="submit" class="button button_theme_gold" value="записаться">
             </form>
         </div>
     </div>
 `;
 
 
-$('body').append(mailToDir);
-$('body').append(orderService);
-$('body').append(signToNews);
-$('body').append(signToDemo);
-$('body').append(orderProject);
-$('body').append(orderSpecialist);
-$('body').append(callBack);
-
-
-$('.modal-window__close-button').click(function() {
+$('.open-modal').click(function() {
     event.preventDefault();
 
-    $(this).parent().parent().fadeOut(500);
-    $("body").css("overflow", "auto");
+    let modalName = $(this).attr('data-modal');
+
+    switch(modalName) {
+        case 'callBack':
+            $('.body').append(callBack);
+            break
+        case 'mailToDir':
+            $('.body').append(mailToDir); 
+            break
+        case 'orderService':
+            $('.body').append(orderService);
+            break
+        case 'signToNews':
+            $('.body').append(signToNews);
+            break
+        case 'signToDemo':
+            $('.body').append(signToDemo);
+            break
+        case 'orderProject':
+            $('.body').append(orderProject);
+            break
+        case 'orderSpecialist':
+            $('.body').append(orderSpecialist);
+            break
+    }
+
+    $('.modal-overlay').fadeIn(500);
+
+    $(".body").css("overflow", "hidden");
+
+    $('.modal-window__close-icon').click(function() {
+
+        $(this).parent().parent().fadeOut(500);
+        setTimeout(function() {
+            $('.modal-overlay').remove();
+        }, 500);
+
+        $(".body").css("overflow", "auto");
+    });
+    
 });
+
+
+

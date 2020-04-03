@@ -16,16 +16,16 @@ const footer = `
                             <a href="tel:+74956467107" class="footer-column__link"><div class="icon-phone"></div>&nbsp;+7 (495) 646-71-07</a>
                         </li>
                         <li class="footer-column__elem">
-                            <a data-modal="sign-to-demo" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-calendar"></div>&nbsp;Запись в демозал</a>
+                            <a data-modal="signToDemo" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-calendar"></div>&nbsp;Запись в демозал</a>
                         </li>
                         <li class="footer-column__elem">
-                            <a data-modal="mail-to-dir" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-mail"></div>&nbsp;Письмо директору</a>
+                            <a data-modal="mailToDir" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-mail"></div>&nbsp;Письмо директору</a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-column footer-column_info">
-                    <h3 class="footer-column__title" id="info-title">Информация<div class="icon-chevron-down"></div></h3>
-                    <ul class="footer-column__list closed" id="info-list">
+                    <h3 class="footer-column__title" id="info-title">Информация</h3>
+                    <ul class="footer-column__list" id="info-list">
                         <li class="footer-column__elem">
                             <a href="javascript:void(0)" class="footer-column__link">Доставка</a>
                         </li>
@@ -42,8 +42,8 @@ const footer = `
                     </ul>
                 </div>
                 <div class="footer-column footer-column_nav">
-                    <h3 class="footer-column__title" id="nav-title">Навигация<div class="icon-chevron-down"></div></h3>
-                    <nav class="footer__nav closed">
+                    <h3 class="footer-column__title" id="nav-title">Навигация</h3>
+                    <nav class="footer__nav">
                         <ul class="footer-column__list">
                             <li class="footer-column__elem">
                                 <a href="./about.html" class="footer-column__link">О галерее</a>
@@ -90,7 +90,7 @@ const footer = `
                 </div>
                 <div class="footer__logo-container">
                     <img src="images/logo.svg" alt="Галерея безупречной электроники Назáров" class="footer__logo">
-                    <a href="javascript:void(0)" data-modal="mail-to-dir" class="button button_theme_gold open-modal">письмо директору</a>
+                    <a href="javascript:void(0)" data-modal="mailToDir" class="button button_theme_gold open-modal">письмо директору</a>
                 </div>
             </div>
             <p class="footer__copyright">
@@ -107,53 +107,11 @@ $('.body').append(footer);
 
 if($(window).width() <= '780') {
 
-    $('#info-title').click(function(){
-        if($('#info-list').hasClass('closed')) {
-                $('#info-list').css('display','block');
-                $('#info-list').animate({
-                    opacity: 1,
-                    height: 120,
-                })
-                $('#info-list').removeClass('closed');
-                $('#info-title .icon-chevron-down').addClass('upsidedown');
-
-        } else {
-            $('#info-list').animate({
-                opacity: 0,
-                height: 0
-            });
-            setTimeout(function(){
-                $('#info-list').css('display','none');
-            }, 400);
-            $('#info-list').addClass('closed');
-            $('#info-title .icon-chevron-down').removeClass('upsidedown');
-        }
-    })
-
-
-    $('#nav-title').click(function(){
-        if($('.footer__nav').hasClass('closed')) {
-            $('.footer__nav').css('display','block');
-            $('.footer__nav').animate({
-                opacity: 1,
-                height: 250,
-            })
-            $('.footer__nav').removeClass('closed');
-            $('#nav-title .icon-chevron-down').addClass('upsidedown');
-
-        } else {
-            $('.footer__nav').animate({
-                opacity: 0,
-                height: 0
-            });
-            setTimeout(function(){
-                $('.footer__nav').css('display','none');
-            }, 400);
-            $('.footer__nav').addClass('closed');
-            $('#nav-title .icon-chevron-down').removeClass('upsidedown');
-        }
-    })
+    $('#info-title').addClass('drop-down');
+    $('#nav-title').addClass('drop-down');
 }
+
+
 
 
 

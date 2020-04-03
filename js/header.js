@@ -14,7 +14,7 @@ const header = `
             </nav>
             <div class="header__communication">
                 <a href="tel:+74956467107" class="header__communication-item">+7 (495) 646-71-07</a>
-                <a href="javascript:void(0)" data-modal="sign-to-demo" class="header__communication-item open-modal">Запись в демо-зал</a>
+                <a href="javascript:void(0)" data-modal="signToDemo" class="header__communication-item open-modal">Запись в демо-зал</a>
             </div>
             <div class="header__icons">
                 <a href="javascript:void(0)" class="header__icon"><div class="icon-search"></div></a>
@@ -41,7 +41,7 @@ const header = `
                 <div class="header-mobile__communication">
                     <a href="javascript:void(0)" class="header-mobile__communication-item">Вход / регистрация</a>
                     <a href="tel:+74956467107" class="header-mobile__communication-item">+7 (495) 646-71-07</a>
-                    <a href="javascript:void(0)" data-modal="sign-to-demo" class="header-mobile__communication-item open-modal">Запись в демо-зал</a>
+                    <a href="javascript:void(0)" data-modal="signToDemo" class="header-mobile__communication-item open-modal">Запись в демо-зал</a>
                 </div>
                 <nav class="header-mobile__nav">
                     <ul class="header-mobile__nav-links">

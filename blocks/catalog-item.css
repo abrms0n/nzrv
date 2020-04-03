@@ -57,17 +57,6 @@
     text-decoration: underline;
 }
 
-.catalog-item__link_parent {
-    cursor: pointer;
-}
-
-.catalog-item__link_parent::after {
-    content: " \e903";
-    font-size: 12px;
-    color: #a89365;
-    font-family: 'icomoon';
-}
-
 .catalog-item__link_parent:hover {
     color: #a89365;
     text-decoration: none;
@@ -75,7 +64,7 @@
 
 .catalog-item__links_children {
     margin: 10px 0 0 2em;
-    /* display: none; */
+    display: none;
 }
 
 

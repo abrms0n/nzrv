@@ -216,23 +216,10 @@
         cursor: pointer;
     }
 
-    .icon-chevron-down {
-        display: inline-block;
-        margin: 0 10px;
-        font-size: 8px;
-        position: relative;
-        top: -2px;
-    }
-
-    .upsidedown {
-        transform: rotate(180deg);
-    }
-
-    .closed {
-        height: 0;
-        opacity: 0;
+    #info-list, .footer__nav {
         display: none;
     }
+
 
     .footer-column_contacts .footer-column__title {
         cursor: default;

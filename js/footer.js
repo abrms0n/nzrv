@@ -1,3 +1,6 @@
+
+let now = new Date();
+
 const footer = `
 <div class="anti-wrapper anti-wrapper_theme_dark-gray">
     <div class="wrapper wrapper_theme_dark-gray">
@@ -94,18 +97,19 @@ const footer = `
                 </div>
             </div>
             <p class="footer__copyright">
-                &copy;&nbsp;2011–2020 Салон электроники «Назáров»
+                &copy;&nbsp;2011–${now.getFullYear()} Салон электроники «Назáров»
             </p>
         </footer>
     </div>
 </div>
-`
+`;
+
 
 $('.body').append(footer);
 
 // выпадающие списки 
 
-if($(window).width() <= '780') {
+if ($(window).width() <= '780') {
 
     $('#info-title').addClass('drop-down');
     $('#nav-title').addClass('drop-down');

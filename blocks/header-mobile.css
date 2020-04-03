@@ -23,6 +23,7 @@
     line-height: 16px;
     text-decoration: none;
     transition: all .2s;
+    color: #232323;
 }
 
 .header-mobile__icon:not(:first-of-type) {
@@ -31,14 +32,6 @@
 
 .header-mobile__icon:hover {
     color: #a89365;
-}
-
-.header-mobile__icon_theme_dark {
-    color: #fff;
-}
-
-.header-mobile__icon_theme_light {
-    color: #232323;
 }
 
 .header-mobile__darken {

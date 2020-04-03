@@ -28,3 +28,13 @@
 @import url('../blocks/footer.css');
 @import url('../blocks/modals.css');
 @import url('../blocks/scroll-up.css');
+
+
+/* только на главной элементы шапки белого цвета  */
+
+.header__nav-link, 
+.header__communication-item,
+.header__icon,
+.header-mobile__icon {
+    color: #fff;
+}

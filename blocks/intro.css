@@ -26,7 +26,7 @@
     font-size: 28px;
     line-height: 32px;
     color: #fff;
-    margin: 160px auto 160px auto;
+    margin: 40px auto 160px auto;
     text-align: center;
 }
 
@@ -62,8 +62,8 @@
 
 @media screen and (max-width: 1279px) {
     .intro {
-        padding: 0 0 40px 0;
-        margin: 0 auto;
+        padding: 200px 0 40px 0;
+        margin: -60px auto 0 auto;
     }
  
     .intro__text {

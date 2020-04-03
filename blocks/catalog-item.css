@@ -50,10 +50,15 @@
     text-decoration: none;
     font-size: 24px;
     line-height: 1.1;
+    transition: .2s;
 }
 
 .catalog-item__link:hover {
     text-decoration: underline;
+}
+
+.catalog-item__link_parent {
+    cursor: pointer;
 }
 
 .catalog-item__link_parent::after {
@@ -63,8 +68,14 @@
     font-family: 'icomoon';
 }
 
+.catalog-item__link_parent:hover {
+    color: #a89365;
+    text-decoration: none;
+}
+
 .catalog-item__links_children {
     margin: 10px 0 0 2em;
+    /* display: none; */
 }
 
 

@@ -4,12 +4,8 @@
     margin: 40px 0 0 0;
 }
 
-@media screen and (max-width: 1919px) {
-    
-}
-
 @media screen and (max-width: 1279px) {
     .catalog-row {
-        align-items: flex-start;
+        margin: 0;
     }
 }   

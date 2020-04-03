@@ -136,6 +136,24 @@
         box-shadow: 0 4px 8px rgba(0,0,0, .16);
     }
 
+    /* отступы первого элемента и каждого четвертого на 600 */
+
+    .catalog-item:first-of-type, .catalog-item:nth-of-type(4n) {
+        margin: 20px auto;
+    }
+
+    /* отступы среднего (2, 5, 8, etc) элемента на 600 */
+
+    .catalog-item:nth-of-type(3n+2) {
+        margin: 20px auto;
+    }
+
+    /* отступы каждого третьего элемента на 600 */
+
+    .catalog-item:nth-of-type(3n) {
+        margin: 20px auto;
+    }
+
 
     .catalog-item__info {
         margin: 20px 0 0 0;

@@ -9,11 +9,11 @@
     font-family: 'icomoon';
     transition: .3s;
     margin: 0 0 0 8px;
+    display: inline-block;
 }
 
 .opened::after {
     content: " \e903";
-    display: inline-block;
     transform: rotate(180deg);
 }
 

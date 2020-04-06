@@ -30,3 +30,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.listing-container__brands-container {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}

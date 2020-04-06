@@ -81,6 +81,9 @@
 .project-calc__column-result {
     text-align: center;
     width: 388px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-calc__result {

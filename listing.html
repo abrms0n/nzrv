@@ -31,27 +31,62 @@
                 <div class="listing-container__range">
                     <input type="range" class="range">
                 </div>
+                <form class="listing-container__radio-form" action="" method="POST">
+                    <input name="filter" type="radio" class="radio-button" id="popular">
+                    <label class="radio-label" for="popular">Самое популярное</label>
+                    <input name="filter" type="radio" class="radio-button" id="lowPrice">
+                    <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
+                    <input name="filter" type="radio" class="radio-button" id="highPrice">
+                    <label class="radio-label" for="highPrice">Сначала высокая цена</label>
+                    <input name="filter" type="radio" class="radio-button" id="new">
+                    <label class="radio-label" for="new">Новинки</label>
+                </form>
             </div>
             <div class="listing-container__column">
                 <div class="listing-container__brands">
                     <p class="page-subtitle page-subtitle_theme_black">Бренды</p>
-                    <input type="checkbox" class="checkbox" id="adam">
-                    <label class="checkbox-label" for="adam">ADAM</label>
-                    <input type="checkbox" class="checkbox" id="adl">
-                    <label class="checkbox-label" for="adl">ADL</label>
+                    <form action="" class="listing-container__brands-container">
+                        <input type="checkbox" class="checkbox" id="adam">
+                        <label class="checkbox-label" for="adam">ADAM</label>
+                        <input type="checkbox" class="checkbox" id="adl">
+                        <label class="checkbox-label" for="adl">ADL</label>
+                        <input type="checkbox" class="checkbox" id="akg">
+                        <label class="checkbox-label" for="akg">AKG</label>
+                        <input type="checkbox" class="checkbox" id="aftershokz">
+                        <label class="checkbox-label" for="aftershokz">AfterShokz</label>
+                        <input type="checkbox" class="checkbox" id="apple">
+                        <label class="checkbox-label" for="apple">Apple</label>
+                        <input type="checkbox" class="checkbox" id="astellkern">
+                        <label class="checkbox-label" for="astellkern">Astell&Kern</label>
+                        <input type="checkbox" class="checkbox" id="audeze">
+                        <label class="checkbox-label" for="audeze">Audeze</label>
+
+                        <span class="drop-down">Показать полностью</span>
+                        <div class="listing-container__brands-container" style="display: none">              
+                            <input type="checkbox" class="checkbox" id="audiotechnica">
+                            <label class="checkbox-label" for="audiotechnica">Audio Technica</label>
+                            <input type="checkbox" class="checkbox" id="audiolab">
+                            <label class="checkbox-label" for="audiolab">AudioLab</label>
+                            <input type="checkbox" class="checkbox" id="audioquest">
+                            <label class="checkbox-label" for="audioquest">AudioQuest</label>
+                            <input type="checkbox" class="checkbox" id="b_w">
+                            <label class="checkbox-label" for="b_w">Bowers&Wilkins</label>
+                            <input type="checkbox" class="checkbox" id="bang_olufsen">
+                            <label class="checkbox-label" for="bang_olufsen">Bang&Olufsen</label>
+                            <input type="checkbox" class="checkbox" id="beats">
+                            <label class="checkbox-label" for="beats">Beats</label>
+                            <input type="checkbox" class="checkbox" id="beyerdynamic">
+                            <label class="checkbox-label" for="beyerdynamic">Beyerdynamic</label>
+                            <input type="checkbox" class="checkbox" id="bose">
+                            <label class="checkbox-label" for="bose">Bose</label>
+                            <input type="checkbox" class="checkbox" id="campfireaudio">
+                            <label class="checkbox-label" for="campfireaudio">Campfire Audio</label>
+                        </div>
+                    </form>
                 </div>
             </div>
 
-            <form class="listing-container__radio-form" action="" method="POST">
-                <input name="filter" type="radio" class="radio-button" id="popular">
-                <label class="radio-label" for="popular">Самое популярное</label>
-                <input name="filter" type="radio" class="radio-button" id="lowPrice">
-                <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
-                <input name="filter" type="radio" class="radio-button" id="highPrice">
-                <label class="radio-label" for="highPrice">Сначала высокая цена</label>
-                <input name="filter" type="radio" class="radio-button" id="new">
-                <label class="radio-label" for="new">Новинки</label>
-            </form>
+
         </section>
 
 

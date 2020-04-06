@@ -1,21 +1,4 @@
-@import url('../fonts/futurapt.css');
-@import url('../fonts/iconfont.css');
-@import url('../blocks/base.css');
-@import url('../blocks/header.css');
-@import url('../blocks/header-mobile.css');
-@import url('../blocks/button.css');
-@import url('../blocks/contact-us.css');
-@import url('../blocks/page-title.css');
-@import url('../blocks/page-subtitle.css');
-@import url('../blocks/item-title.css');
-@import url('../blocks/page-text.css');
-@import url('../blocks/footer.css');
-@import url('../blocks/modals.css');
-@import url('../blocks/scroll-up.css');
-@import url('../blocks/show-more.css');
-@import url('../blocks/page-link.css');
-@import url('../blocks/section-header.css');
-@import url('../blocks/drop-down.css');
+@import url('../blocks/common.css');
 
 @import url('../blocks/about.css');
 @import url('../blocks/about-gallery.css');

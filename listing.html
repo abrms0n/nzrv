@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/listing.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>Наушники</title>
+</head>
+<body class="body">
+    <script src="js/header.js"></script>
+
+    <div class="wrapper">
+        <section class="breadcrumbs">
+            <a href="javascript:void(0)" class="breadcrumb">Каталог</a>
+            <a href="javascript:void(0)" class="breadcrumb">Воспроизведение</a>
+            <span class="breadcrumb breadcrumb_active">Наушники</span>
+        </section>
+        <h1 class="page-title page-title_theme_black">наушники</h1>
+        <section class="listing-container">
+            <div class="listing-container__filters">
+                <div class="listing-container__avaliable">
+                    <input type="checkbox" class="checkbox" id="avaliable">
+                    <label class="checkbox-label" for="avaliable">В салоне</label>
+                    <input type="checkbox" class="checkbox" id="action">
+                    <label class="checkbox-label" for="action">Акции</label>
+                </div>
+                <div class="listing-container__range">
+                    <input type="range" class="range">
+                </div>
+            </div>
+            <div class="listing-container__column">
+                <div class="listing-container__brands">
+                    <p class="page-subtitle page-subtitle_theme_black">Бренды</p>
+                    <input type="checkbox" class="checkbox" id="adam">
+                    <label class="checkbox-label" for="adam">ADAM</label>
+                    <input type="checkbox" class="checkbox" id="adl">
+                    <label class="checkbox-label" for="adl">ADL</label>
+                </div>
+            </div>
+
+            <form class="listing-container__radio-form" action="" method="POST">
+                <input name="filter" type="radio" class="radio-button" id="popular">
+                <label class="radio-label" for="popular">Самое популярное</label>
+                <input name="filter" type="radio" class="radio-button" id="lowPrice">
+                <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
+                <input name="filter" type="radio" class="radio-button" id="highPrice">
+                <label class="radio-label" for="highPrice">Сначала высокая цена</label>
+                <input name="filter" type="radio" class="radio-button" id="new">
+                <label class="radio-label" for="new">Новинки</label>
+            </form>
+        </section>
+
+
+    </div>
+
+
+
+    <script src="js/footer.js"></script>
+
+    <script src="js/drop-down-list.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/changeFloor.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/showMore.js"></script>
+</body>
+</html>

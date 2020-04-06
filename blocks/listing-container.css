@@ -1,0 +1,32 @@
+.listing-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-container__filters {
+    display: flex;
+    align-items: center;
+}
+
+.listing-container__radio-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-container__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-container__avaliable {
+    display: flex;
+}
+
+.listing-container__avaliable .checkbox-label {
+    margin: 0 20px 0 0;
+}
+
+.listing-container__brands {
+    display: flex;
+    flex-direction: column;
+}

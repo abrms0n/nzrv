@@ -17,11 +17,6 @@
 }
 
 
-.radio-button + .radio-label:hover {
-    background: #a89365;
-}
-
-
 .radio-button + .radio-label:before {
 	content: '';
 	position: absolute;

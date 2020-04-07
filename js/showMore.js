@@ -23,6 +23,9 @@ $('.project-manager__info .show-more').click(function(){
     $('.project-manager__info .show-more').css('display','none');
 })
 
-
+$('.listing-container__brands-container .show-more').click(function(){
+    $('.listing-container__brands-container .listing-container__brands-container_hidden').css('display','flex');
+    $('.listing-container__brands-container .show-more').css('display','none');
+})
 
 

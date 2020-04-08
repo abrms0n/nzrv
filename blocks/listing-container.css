@@ -1,49 +1,133 @@
 .listing-container {
     display: flex;
     flex-direction: column;
+    margin: 40px 0;
 }
+
+/* ряд фильтров  */
 
 .listing-container__filters {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
     font-size: 20px;
     line-height: 1.2;
+    margin: 40px 0;
 }
+
+.listing-container__filters .button {
+    max-width: 152px;
+}
+
+/* чекбоксы доступности  */
+
+
+.listing-container__avaliable {
+    display: flex;
+}
+
+.listing-container__avaliable .checkbox-label {
+    margin: 0 20px 0 0;
+}
+
+/* ценовой диапазон  */
+
+.listing-container__range  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listing-container__range .range {
+    width: 448px;
+    margin: 0 0 0 12px;
+}
+
+
+
+
+
+/* выпадающий список что отображать  */
 
 .listing-container__sort {
     cursor: pointer;
 }
 
-.listing-container__sort::after {
+.listing-container__sort-li {
+    list-style: none;
+}
+
+.listing-container__sort-title::after {
     font-family: 'icomoon';
     content: " \e903";
     color: #a89365;
     font-size: 12px;
 }
 
+.listing-container__sort:hover .listing-container__sort-submenu {
+    display: flex;
+}
+
+.listing-container__sort-submenu {
+    display: none;
+}
+
 .listing-container__radio-form {
-    visibility: hidden;
     flex-direction: column;
-    position: relative;
-    top: 85px;
-    right: 130px;
+    position: absolute;
+    top: 36px;
     box-shadow: 0 4px 8px rgba(0,0,0,.13);
     z-index: 1000;
+    background: #fff;
 }
 
-
-.listing-container__sort:hover + .listing-container__radio-form {
-    visibility: visible;
-}
 
 .listing-container__radio-container {
     padding: 5px 20px;
+    list-style: none;
 }
 
 .listing-container__radio-container:hover {
     background: #a89365;
 }
+
+/* сколько отображать  */
+
+
+.listing-container__show {
+    display: flex;
+}
+
+.listing-container__show-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.listing-container__how-much {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.listing-container__how-much:first-of-type {
+    margin: 0 6px 0 12px;
+}
+
+.listing-container__how-much_selected, .listing-container__how-much:hover {
+    border-bottom: 2px solid #a89365;
+}
+
+.listing-container__cancel {
+    color: #a89365;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/* ряд под фильтрами   */
+
 
 .listing-container__row {
     display: flex;
@@ -54,24 +138,10 @@
     flex-direction: column;
 }
 
+/* чекбоксы с брендами  */
+
 .listing-container__column_brands {
     width: 368px;
-}
-
-.listing-container__column_products {
-    width: 1310px;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.listing-container__avaliable {
-    display: flex;
-}
-
-.listing-container__avaliable .checkbox-label {
-    margin: 0 20px 0 0;
 }
 
 .listing-container__brands {
@@ -92,3 +162,36 @@
 .listing-container__brands-container_hidden {
     display: none;
 }
+
+/* колонка с карточками товаров  */
+
+.listing-container__column_products {
+    width: 1310px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1919px) {
+    .listing-container__avaliable {
+        display: none;
+    }
+    
+    .listing-container__range .range {
+        width: 419px;
+    }    
+}
+
+@media screen and (max-width: 1279px) {
+    .listing-container__range .range {
+        width: 328px;
+    }
+}   
+
+
+
+
+
+

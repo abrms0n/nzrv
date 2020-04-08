@@ -1,7 +1,15 @@
 .range {
-    width: 508px;
+    
+}
+
+@media screen and (max-width: 1919px) {
+    .range {
+       
+    }
 }
 
 @media screen and (max-width: 1279px) {
-    
+    .range {
+        
+    }
 }

@@ -65,7 +65,34 @@
 
 
 @media screen and (max-width: 1919px) {
+    .listing-item {
+        width: 276px;
+        height: 408px;
+        margin: 0 0 48px 0;
+    }
+
+    .listing-item__image-container {
+        width: 276px;
+        height: 276px;
+    }
+
+    .listing-item__title {
+        font-size: 22px;
+    }
+
+    .listing-item__vendor-code {
+        font-size: 16px;
+    }
     
+    .listing-item__fav {
+        font-size: 16px;
+    }
+    
+    .listing-item__price {
+        font-size: 24px;
+    }
+
+
 }
 
 @media screen and (max-width: 1279px) {

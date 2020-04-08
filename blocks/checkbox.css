@@ -14,7 +14,8 @@
 .checkbox + .checkbox-label {
 	position: relative;
 	padding: 0 0 0 32px;
-	cursor: pointer;
+    cursor: pointer;
+    margin: 8px 0;
 }
 
 .checkbox + .checkbox-label::before {
@@ -47,10 +48,12 @@
     border: 2px solid #a89365;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1919px) {
     .checkbox-label {
         font-size: 16px;
+    
     }
+
     .checkbox + .checkbox-label::before {
         top: 0;
         width: 16px;

@@ -32,28 +32,44 @@
                     <label for="range">Цена:</label>
                     <input id="range" type="range" class="range">
                 </div>
-                <p class="listing-container__sort">Сортировать</p>
-                <form class="listing-container__radio-form" action="" method="">
-                    <div class="listing-container__radio-container">
-                        <input checked name="filter" type="radio" class="radio-button" id="popular">
-                        <label class="radio-label" for="popular">Самое популярное</label>
-                    </div>
-                    <div class="listing-container__radio-container">
-                        <input name="filter" type="radio" class="radio-button" id="lowPrice">
-                        <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
-                    </div>
-                    <div class="listing-container__radio-container">
-                        <input name="filter" type="radio" class="radio-button" id="highPrice">
-                        <label class="radio-label" for="highPrice">Сначала высокая цена</label>
-                    </div>
-                    <div class="listing-container__radio-container">
-                        <input name="filter" type="radio" class="radio-button" id="new">
-                        <label class="radio-label" for="new">Новинки</label>
-                    </div>
-                </form>
-                <p class="lisiting-container__show">
-                    Отображать по:
-                </p>
+                <ul class="listing-container__sort">
+                    <li class="listing-container__sort-li">
+                        <p class="listing-container__sort-title">Сортировать</p>
+                        <ul class="listing-container__sort-submenu">
+                            <form class="listing-container__radio-form" action="" method="">
+                                <li class="listing-container__radio-container">
+                                    <input checked name="filter" type="radio" class="radio-button" id="popular">
+                                    <label class="radio-label" for="popular">Самое популярное</label>
+                                </li>
+                                <li class="listing-container__radio-container">
+                                    <input name="filter" type="radio" class="radio-button" id="lowPrice">
+                                    <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
+                                </li>
+                                <li class="listing-container__radio-container">
+                                    <input name="filter" type="radio" class="radio-button" id="highPrice">
+                                    <label class="radio-label" for="highPrice">Сначала высокая цена</label>
+                                </li>
+                                <li class="listing-container__radio-container">
+                                    <input name="filter" type="radio" class="radio-button" id="new">
+                                    <label class="radio-label" for="new">Новинки</label>
+                                </li>
+                            </form>
+                        </ul>
+                    </li>
+                </ul>
+                
+                
+                <div class="listing-container__show">
+                    <p class="listing-container__show-title">
+                        Отображать по:
+                    </p>
+                    <span class="listing-container__how-much">9</span>
+                    <span class="listing-container__how-much listing-container__how-much_selected">18</span>
+                    <span class="listing-container__how-much">36</span>
+                    <span class="listing-container__how-much">все</span>
+                </div>
+                <a href="javascript:void(0)" class="listing-container__cancel">Сбросить</a>
+                <a href="javascript:void(0)" class="button button_theme_gold">Найти</a>
             </div>
             <div class="listing-container__row">
                 <div class="listing-container__column listing-container__column_brands">

@@ -60,6 +60,15 @@
     padding: 12px 16px;
 }
 
+.header-mobile__close-icon {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
 .header-mobile__menu-logo {
     width: 196px;
 }

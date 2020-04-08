@@ -2,3 +2,6 @@
 
 @import url('../blocks/listing-container.css');
 @import url('../blocks/listing-item.css');
+@import url('../blocks/filters-link.css');
+@import url('../blocks/filters-mobile.css');
+@import url('../blocks/listing-about.css');

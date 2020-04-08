@@ -19,7 +19,10 @@
             <a href="javascript:void(0)" class="breadcrumb">Воспроизведение</a>
             <span class="breadcrumb breadcrumb_active">Наушники</span>
         </section>
-        <h1 class="page-title page-title_theme_black">наушники</h1>
+        <div class="section-header">
+            <h1 class="page-title page-title_theme_black">наушники</h1>
+            <a href="javascript:void(0)" class="filters-link" id="filters-opener">Фильтры</a>
+        </div>
         <section class="listing-container">
             <div class="listing-container__filters">
                 <div class="listing-container__avaliable">
@@ -102,9 +105,56 @@
                     <script src="js/listing-items.js"></script>
                 </div>
             </div>
+
+            <div class="listing-container__pagination">
+                <span class="listing-container__pagination-button">Начало</span>
+                <span class="listing-container__pagination-button">Пред.</span>
+                <span class="listing-container__pagination-button listing-container__pagination-button_selected">1</span>
+                <span class="listing-container__pagination-button">2</span>
+                <span class="listing-container__pagination-button">3</span>
+                <span class="listing-container__pagination-button">4</span>
+                <span class="listing-container__pagination-button">След.</span>
+                <span class="listing-container__pagination-button">Конец</span>
+            </div>
+        </section>
+
+        <div class="filters-mobile">
+            <img src="images/close.svg" alt="закрыть" class="filters-mobile__close-icon">
+            <p class="filters-mobile__sort-title">Сортировать</p>
+            <form class="filters-mobile__radio-form" action="" method="">
+                <div class="filters-mobile__radio-container">
+                    <input checked name="filter" type="radio" class="radio-button" id="popular-mobile">
+                    <label class="radio-label" for="popular-mobile">Самое популярное</label>
+                </div>
+                <div class="filters-mobile__radio-container">
+                    <input name="filter" type="radio" class="radio-button" id="lowPrice-mobile">
+                    <label class="radio-label" for="lowPrice-mobile">Сначала низкая цена</label>
+                </div>
+                <div class="filters-mobile__radio-container">
+                    <input name="filter" type="radio" class="radio-button" id="highPrice-mobile">
+                    <label class="radio-label" for="highPrice-mobile">Сначала высокая цена</label>
+                </div>
+                <div class="filters-mobile__radio-container">
+                    <input name="filter" type="radio" class="radio-button" id="new-mobile">
+                    <label class="radio-label" for="new-mobile">Новинки</label>
+                </div>
+            </form>
+            <div class="filters-mobile__range">
+                <label class="" for="range-mobile">Цена:</label>
+                <input id="range-mobile" type="range" class="range">
+            </div>
+            <a href="javascript:void(0)" class="button button_theme_gold">показать</a>
             
+        </div>
+        <div class="filters-mobile__darken"></div>
 
-
+        <section class="listing-about">
+            <h2 class="page-subtitle">наушники</h2>
+            <p class="page-text">На сайте галереи Назаров вы сможете: купить наушники в салоне электроники в Москве с доставкой, узнать стоимость наушников: цена самая привлекательная, ознакомиться с товаром в салоне. Продажа наушников с учетом всех ваших требований.
+            </p>
+            <p class="page-text">
+                Ничто так не украшает любимую музыку, как акустическая система премиум-класса. Когда речь идет об идеальном звуке, не может быть одного универсального решения: чтобы погрузиться в звучание симфонического оркестра или зарядиться адреналином в домашнем кинотеатре, нужны разные системы. В нашем интернет-магазине акустических систем каждый сможет сделать правильный выбор исходя из собственных приоритетов и пространства, которое будет наполнено звуком (особняк, яхта, рабочий кабинет в квартире или просторный лофт - для нас нет никаких ограничений).
+            </p>
         </section>
 
 

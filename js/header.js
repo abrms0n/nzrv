@@ -35,6 +35,7 @@ const header = `
                 <a href="javascript:void(0)" class="header-mobile__icon"><div class="icon-shopping-bag1px"></div></a>
             </div>
             <div class="header-mobile__menu">
+                <img src="images/close.svg" alt="закрыть" class="header-mobile__close-icon">
                 <a class="header-mobile__logo-link" href="./index.html">
                     <img src="images/logo.svg" alt="Галерея безупречной электроники Назáров" class="header-mobile__menu-logo">
                 </a>

@@ -25,12 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-filters-icon:before {
+  content: "\e91b";
+}
+
 .icon-star-empty:before {
   content: "\e919";
 }
 .icon-star-filled:before {
   content: "\e91a";
-  color: #a89365;
+
 }
 .icon-filled-bag-mobile:before {
   content: "\e917";
@@ -43,47 +47,47 @@
 }
 .icon-arrow-left:before {
   content: "\e914";
-  color: #b39b6b;
+
 }
 .icon-arrow-right:before {
   content: "\e915";
-  color: #b39b6b;
+
 }
 .icon-up-icon:before {
   content: "\e913";
-  color: #a89365;
+
 }
 .icon-burger1px:before {
   content: "\e90f";
-  color: #fff;
+
 }
 .icon-search1px:before {
   content: "\e910";
-  color: #fff;
+
 }
 .icon-shopping-bag1px:before {
   content: "\e911";
-  color: #fff;
+
 }
 .icon-user1px:before {
   content: "\e912";
-  color: #fff;
+
 }
 .icon-advantages__chevron:before {
   content: "\e90e";
-  color: #a89365;
+
 }
 .icon-chevron-down:before {
   content: "\e903";
-  color: #a89365;
+
 }
 .icon-chevron-up:before {
   content: "\e906";
-  color: #a89365;
+
 }
 .icon-arrow-link:before {
   content: "\e907";
-  color: #a89365;
+
 }
 .icon-user:before {
   content: "\e908";
@@ -105,21 +109,21 @@
 }
 .icon-calendar:before {
   content: "\e904";
-  color: #b39b6b;
+
 }
 .icon-clock:before {
   content: "\e901";
-  color: #b39b6b;
+
 }
 .icon-mail:before {
   content: "\e905";
-  color: #b39b6b;
+
 }
 .icon-map-pin:before {
   content: "\e900";
-  color: #b39b6b;
+
 }
 .icon-phone:before {
   content: "\e902";
-  color: #b39b6b;
+
 }

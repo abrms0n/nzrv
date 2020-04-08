@@ -28,7 +28,7 @@
 
 
         {
-            name: "Наушники Sennheiser MOMENTUM True Wireless",
+            name: "Наушники Sennheiser MOMENTUM",
             image: "sennheiser-momentum.png",
             vendorCode: 189834,
             fav: true,
@@ -101,7 +101,7 @@
 
 
         {
-            name: "Наушники Sennheiser MOMENTUM True Wireless",
+            name: "Наушники Sennheiser MOMENTUM",
             image: "sennheiser-momentum.png",
             vendorCode: 189834,
             fav: true,
@@ -125,7 +125,7 @@
         },
 
         {
-            name: "Наушники Sennheiser MOMENTUM True Wireless",
+            name: "Наушники Sennheiser MOMENTUM",
             image: "sennheiser-momentum.png",
             vendorCode: 189834,
             fav: true,

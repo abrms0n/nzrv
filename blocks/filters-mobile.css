@@ -30,6 +30,10 @@
     margin: 20px 0 0 0;
 }
 
+.filters-mobile__radio-container {
+    margin: 0 0 12px 0;
+}
+
 
 .filters-mobile__darken {
     width: calc(100% + 32px);

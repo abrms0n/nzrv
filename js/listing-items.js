@@ -155,9 +155,11 @@
         return `
         <div class="listing-item">
             <div class="listing-item__image-container">
-                <img src="images/${item.image}" alt="${item.name}" class="listing-item__image">
+                <a class="listing-item__image-link" href="./product.html">
+                    <img src="images/${item.image}" alt="${item.name}" class="listing-item__image">
+                </a>
             </div>
-            <a class="listing-item__title" href="javascript:void(0)">${item.name}</a> 
+            <a class="listing-item__title" href="./product.html">${item.name}</a> 
             <div class="listing-item__info">
                 <span class="listing-item__vendor-code">Артикул: ${item.vendorCode}</span>
                 <div class="listing-item__fav">
@@ -165,7 +167,7 @@
                     <p class="listing-item__fav-text">&nbsp;в&nbsp;избранном</p>
                 </div>
                 <span class="listing-item__price">${item.price}</span>
-                <a href="javascript:void(0)" class="button button_theme_gold">В корзину</a>
+                <a href="./product.html" class="button button_theme_gold">В корзину</a>
             </div>
         </div>
         `
@@ -173,9 +175,11 @@
             return `
         <div class="listing-item">
             <div class="listing-item__image-container">
-                <img src="images/${item.image}" alt="${item.name}" class="listing-item__image">
+                <a class="listing-item__image-link" href="./product.html">
+                    <img src="images/${item.image}" alt="${item.name}" class="listing-item__image">
+                </a>
             </div>
-            <a class="listing-item__title" href="javascript:void(0)">${item.name}</a> 
+            <a class="listing-item__title" href="./product.html">${item.name}</a> 
             <div class="listing-item__info">
                 <span class="listing-item__vendor-code">Артикул: ${item.vendorCode}</span>
                 <div class="listing-item__fav">
@@ -183,7 +187,7 @@
                     <p class="listing-item__fav-text">&nbsp;в&nbsp;избранное</p>
                 </div>
                 <span class="listing-item__price">${item.price}</span>
-                <a href="javascript:void(0)" class="button button_theme_gold">В корзину</a>
+                <a href="./product.html" class="button button_theme_gold">В корзину</a>
             </div>
         </div>
         `

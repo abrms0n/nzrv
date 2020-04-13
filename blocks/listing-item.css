@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.listing-item__image-link {
+    line-height: 0;
+}
+
 .listing-item__title {
     font-size: 32px;
     line-height: 1.2;
@@ -45,6 +49,7 @@
     line-height: 1.2;
     display: flex;
     width: 50%;
+    align-items: center;
 }
 
 .listing-item__price {

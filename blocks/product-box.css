@@ -1,0 +1,159 @@
+.product-box {
+    display: flex;
+}
+
+.product-box__images {
+    width: 49%;
+}
+
+.product-box__main-image-box {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #a89365;
+}
+
+.product-box__main-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-box__secondary-images {
+    display: flex;
+}
+
+.product-box__secondary-image {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    border: 1px solid #a89365;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-box__info {
+    width: 49%;
+}
+
+
+.product-box__vendor-code {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.product-box__title {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 8px 0 0 0;
+}
+
+.product-box__price {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+}
+
+.product-box__price::after {
+    content: " ₽";
+}
+
+
+.product-box__avaliable {
+    color: #575757;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 8px 0 0 0;
+}
+
+.product-box__is-avaliable {
+    color: #232323;
+}
+
+
+
+.product-box__colors {
+    margin: 28px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.product-box__colors-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+.product-box__color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.product-box__color_gray {
+    background: #ebebeb ;
+}
+
+
+.product-box__color_wine-red {
+    background: #451a1a;
+}
+
+.product-box__color_dark-gray {
+    background: #232323;
+}
+
+.product-box__color_selected::after {
+    content: "";
+    border: 1px solid #a89365;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: block;
+    top: -4px;
+    left: -4px;
+    position: relative;
+
+}
+
+
+
+
+.product-box__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 0 0 0;
+}
+
+.product-box__buttons .button {
+    width: 49%;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 1919px) {
+    
+}
+
+@media screen and (max-width: 1279px) {
+
+}   

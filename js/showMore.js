@@ -28,4 +28,12 @@ $('.listing-container__brands-container .show-more').click(function(){
     $('.listing-container__brands-container .show-more').css('display','none');
 })
 
+$('.product-box__about-about .show-more').click(function(){
+    $('.product-box__about-about .hidden-text').css('display','flex');
+    $('.product-box__about-about .show-more').css('display','none');
+})
+
+
+
+
 

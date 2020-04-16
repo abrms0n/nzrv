@@ -210,8 +210,7 @@ const aboutDelivery = `
     <div class="modal-overlay" data-modal="callBack">
         <div class="modal-window">
         <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
-        <h2 class="modal-window__title">О доставке</h2>
-            <p class="modal-window__subtitle">Условия доставки по Москве:</p>
+        <h2 class="modal-window__title">Условия доставки по Москве</h2>
             <p class="page-text">
                 Мы стремимся делать процесс каждой покупки максимально приятным и удобным, поэтому обязательно учтем все ваши пожелания по доставке заказа, которые вы оговорите с нашим менеджером или укажете в поле "Комментарии" в форме оформления заказа.
             </p>

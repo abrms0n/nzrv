@@ -168,6 +168,9 @@
 .product-box__fact {
     font-size: 20px;
     line-height: 1.2;
+    display: block;
+    color: #232323;
+    text-decoration: none;
 }
 
 .product-box__fact:not(:last-of-type) {

@@ -66,7 +66,7 @@ const footer = `
                                 <a href="javascript:void(0)" class="footer-column__link">Умный дом</a>
                             </li>
                             <li class="footer-column__elem">
-                                <a href="javascript:void(0)" class="footer-column__link">Контакты</a>
+                                <a href="./contacts-page.html" class="footer-column__link">Контакты</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="#brands" class="footer-column__link">Бренды</a>

@@ -1,0 +1,13 @@
+.contacts {
+    padding: 40px 0 28px 0;
+}
+
+.contacts_second {
+    padding: 80px 0
+}
+
+@media screen and (max-width: 1919px) {
+    .contacts_second {
+        padding: 40px 0
+    }
+}   

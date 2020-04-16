@@ -207,7 +207,7 @@ const callBack = `
 
 
 const aboutDelivery = `
-    <div class="modal-overlay" data-modal="callBack">
+    <div class="modal-overlay" data-modal="aboutDelivery">
         <div class="modal-window">
         <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
         <h2 class="modal-window__title">Условия доставки по Москве</h2>
@@ -243,6 +243,18 @@ const aboutDelivery = `
 `;
 
 
+const expostroyMap = `
+<div class="modal-overlay" data-modal="expostroyMap">
+    <div class="modal-window modal-window_wide">
+        <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
+        <h2 class="modal-window__title">Наш стенд в Экспострое</h2>
+        <img src="images/expostroy.jpg" class="contacts-column-img" alt="стенд в Экспострое">
+    </div>
+</div>
+`;
+
+
+
 $('.open-modal').click(function() {
     event.preventDefault();
 
@@ -272,6 +284,9 @@ $('.open-modal').click(function() {
             break
         case 'aboutDelivery':
             $('.body').append(aboutDelivery);
+            break
+        case 'expostroyMap':
+            $('.body').append(expostroyMap);
             break
     }
 

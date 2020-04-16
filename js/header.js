@@ -9,7 +9,7 @@ const header = `
                     <li class="header__nav-links-item"><a href="./services.html" class="header__nav-link">Услуги</a></li>
                     <li class="header__nav-links-item"><a href="javascript:void(0)" class="header__nav-link">Архитекторам</a></li>
                     <li class="header__nav-links-item"><a href="./catalog.html" class="header__nav-link">Каталог</a></li>
-                    <li class="header__nav-links-item"><a href="javascript:void(0)" class="header__nav-link">Контакты</a></li>
+                    <li class="header__nav-links-item"><a href="./contacts-page.html" class="header__nav-link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="header__communication">
@@ -51,7 +51,7 @@ const header = `
                         <li class="header-mobile__nav-links-item"><a href="./services.html" class="header-mobile__nav-link">Услуги</a></li>
                         <li class="header-mobile__nav-links-item"><a href="javascript:void(0)" class="header-mobile__nav-link">Архитекторам</a></li>
                         <li class="header-mobile__nav-links-item"><a href="./catalog.html" class="header-mobile__nav-link">Каталог</a></li>
-                        <li class="header-mobile__nav-links-item"><a href="javascript:void(0)" class="header-mobile__nav-link">Контакты</a></li>
+                        <li class="header-mobile__nav-links-item"><a href="./contacts-page.html" class="header-mobile__nav-link">Контакты</a></li>
                     </ul>
                 </nav>
             </div>

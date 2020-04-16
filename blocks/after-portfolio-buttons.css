@@ -1,19 +1,12 @@
 .after-portfolio-buttons {
     display: flex;
     justify-content: center;
-    padding: 0 0 120px 0;
+    padding: 0;
 }
 
-
-@media screen and (max-width: 1919px) {
-    .after-portfolio-buttons {
-        padding: 0 0 100px 0;
-    }
-}
 
 @media screen and (max-width: 1279px) {
     .after-portfolio-buttons {
         flex-direction: column;
-        padding: 0 0 40px 0;
     }
 }   

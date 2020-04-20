@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/news.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>Новости</title>
+</head>
+<body class="body">
+    <script src="js/header.js"></script>
+
+
+    <div class="wrapper">
+        <section class="news-container">
+            <h1 class="page-title">
+                новости
+            </h1>
+            <div class="buttons-radio">
+                <a href="javascript:void(0)" class="buttons-radio__elem buttons-radio__elem_active" data-tab="newest">самые новые</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="speacial-events">Специальные мероприятия</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="new-in-gallery">Новинки в галерее</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="action">Акции и спецпредложения</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="news-hifi">Новости мира Hi-fi/High-end</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="interesting">Интересно и полезно</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="lower-price">Снижение цены</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="architects">Архитекторам</a>
+                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="interior-electronics">Интерьерная электроника</a>
+            </div>
+
+            <div class="news-box">
+                <div class="news-item">
+                    <img src="images/news-item__img1.png" alt="AVR и процессор Arcam в Трейд-Ин" class="news-item__image">
+                    <p class="news-item__date">5 Августа 2019 г.</p>
+                    <h3 class="news-item__title">AVR и процессор Arcam в Трейд-Ин</h3>
+                    <p class="news-item__preview">Прекрасная возможность обновить свой устаревший AV-ресивер или процессор с акцией "Трейд-Ин от Arcam".</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img2.png" alt="Виниловый рай для меломанов" class="news-item__image">
+                    <p class="news-item__date">21 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Виниловый рай для меломанов</h3>
+                    <p class="news-item__preview">Сегодня проигрыватели виниловых пластинок пользуются большой популярностью, причем не только меломаны ищут достойные модели.</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img3.png" alt="Devialet — элегантный во всем" class="news-item__image">
+                    <p class="news-item__date">19 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Devialet — элегантный во всем</h3>
+                    <p class="news-item__preview">Если вы ищете хороший звук, но вам важен современный дизайн, экономия пространства и функциональность — то обратите внимание.</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img4.png" alt="Трейд-ин на проекторы JVC" class="news-item__image">
+                    <p class="news-item__date">5 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Трейд-ин на проекторы JVC</h3>
+                    <p class="news-item__preview">Компания JVC запустила уникальную акцию, которая на рынке аудио-видеотехники является большой редкостью.</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img1.png" alt="AVR и процессор Arcam в Трейд-Ин" class="news-item__image">
+                    <p class="news-item__date">5 Августа 2019 г.</p>
+                    <h3 class="news-item__title">AVR и процессор Arcam в Трейд-Ин</h3>
+                    <p class="news-item__preview">Прекрасная возможность обновить свой устаревший AV-ресивер или процессор с акцией "Трейд-Ин от Arcam".</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img2.png" alt="Виниловый рай для меломанов" class="news-item__image">
+                    <p class="news-item__date">21 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Виниловый рай для меломанов</h3>
+                    <p class="news-item__preview">Сегодня проигрыватели виниловых пластинок пользуются большой популярностью, причем не только меломаны ищут достойные модели.</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img3.png" alt="Devialet — элегантный во всем" class="news-item__image">
+                    <p class="news-item__date">19 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Devialet — элегантный во всем</h3>
+                    <p class="news-item__preview">Если вы ищете хороший звук, но вам важен современный дизайн, экономия пространства и функциональность — то обратите внимание.</p>
+                </div>
+                <div class="news-item">
+                    <img src="images/news-item__img4.png" alt="Трейд-ин на проекторы JVC" class="news-item__image">
+                    <p class="news-item__date">5 Июня 2019 г.</p>
+                    <h3 class="news-item__title">Трейд-ин на проекторы JVC</h3>
+                    <p class="news-item__preview">Компания JVC запустила уникальную акцию, которая на рынке аудио-видеотехники является большой редкостью.</p>
+                </div>
+
+
+                <div class="pagination">
+                    <span class="pagination-button">Начало</span>
+                    <span class="pagination-button">Пред.</span>
+                    <span class="pagination-button pagination-button_selected">1</span>
+                    <span class="pagination-button">2</span>
+                    <span class="pagination-button">3</span>
+                    <span class="pagination-button">4</span>
+                    <span class="pagination-button">След.</span>
+                    <span class="pagination-button">Конец</span>
+                </div>
+            </div>
+
+            
+
+        </section>
+
+    </div>
+
+
+    <script src="js/footer.js"></script>
+
+
+    <script src="js/drop-down-list.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/modals.js"></script>
+    <script src="js/buttons-radio.js"></script>
+    <script src="js/showMore.js"></script>
+
+</body>
+</html>

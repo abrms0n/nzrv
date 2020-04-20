@@ -1,0 +1,29 @@
+
+/* пагинация  */
+
+.pagination {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pagination-button {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.pagination-button_selected, .pagination-button:hover {
+    border-bottom: 1px solid #a89365;
+} 
+
+
+
+@media screen and (max-width: 1279px) {
+    .pagination-button {
+        font-size: 12px;
+    }
+}   
+    
+

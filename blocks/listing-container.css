@@ -174,25 +174,6 @@
 }
 
 
-/* пагинация  */
-
-.listing-container__pagination {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.listing-container__pagination-button {
-    font-size: 20px;
-    line-height: 1.2;
-    margin: 0 6px;
-    cursor: pointer;
-}
-
-.listing-container__pagination-button_selected, .listing-container__pagination-button:hover {
-    border-bottom: 1px solid #a89365;
-} 
-    
 
 
 @media screen and (max-width: 1919px) {
@@ -224,9 +205,6 @@
         display: none;
     }
 
-    .listing-container__pagination {
-        display: none;
-    }
 }   
 
 

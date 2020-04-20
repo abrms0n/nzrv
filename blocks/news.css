@@ -33,6 +33,13 @@
     font-size: 32px;
     line-height: 1.1;
     margin: 8px 0 0 0;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.news-item__title:hover {
+    text-decoration: underline;
 }
 
 .news-item__preview {

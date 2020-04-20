@@ -35,6 +35,12 @@
 }
 
 
+li {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+
 
 
 @media screen and (max-width: 1919px) {
@@ -52,6 +58,17 @@
         min-width: 360px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
 
 /* gold: #a89365;
 greyDark: #232323; */

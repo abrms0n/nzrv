@@ -1,0 +1,29 @@
+.invite {
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.invite__link {
+    color: #a89365;
+    text-decoration: none;
+}
+
+.invite h2 {
+    margin: 0 auto 32px auto;
+}
+
+
+.invite .button {
+    margin: 32px auto 0 auto;
+    max-width: 258px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .invite {
+        padding: 20px 0;
+    }
+}

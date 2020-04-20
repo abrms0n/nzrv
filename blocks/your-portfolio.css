@@ -1,0 +1,28 @@
+.your-portfolio {
+    padding: 60px 0 80px 0;
+}
+
+.your-portfolio__text {
+    margin: 40px 0 0 0;
+}
+
+.your-portfolio .button {
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .your-portfolio {
+        padding: 20px 0 80px 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .your-portfolio {
+        padding: 40px 0;
+    }
+
+    .your-portfolio__text {
+        margin: 20px 0 0 0;
+    }
+    
+}   

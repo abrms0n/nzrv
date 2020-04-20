@@ -1,0 +1,17 @@
+.arch-facts {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+@media screen and (max-width: 1919px) {
+    .arch-facts {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .arch-facts {
+        padding: 10px 0;
+    }
+}   

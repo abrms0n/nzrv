@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.44" height="156.165" viewBox="0 0 128.44 156.165">
+  <g id="Group_198" data-name="Group 198" transform="translate(-1138 -243.001)">
+    <g id="Group_42" data-name="Group 42" transform="translate(1151.704 286.199)">
+      <g id="Group_41" data-name="Group 41" transform="translate(0 0)">
+        <path id="Union_7" data-name="Union 7" d="M10.1,0,5.509,10.093ZM0,4.489l5.509,5.6Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 2.099, 0)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Union_8" data-name="Union 8" d="M10.1,0,5.509,10.093ZM0,4.489l5.509,5.6Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 2.099, 25.24)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Union_9" data-name="Union 9" d="M10.1,0,5.509,10.093ZM0,4.489l5.509,5.6Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 2.099, 50.481)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_27" data-name="Line 27" x2="60.577" transform="translate(24.126 7.34)" fill="none" stroke="#a89365" stroke-width="2"/>
+        <line id="Line_28" data-name="Line 28" x2="60.577" transform="translate(24.126 32.58)" fill="none" stroke="#a89365" stroke-width="2"/>
+        <line id="Line_31" data-name="Line 31" x2="60.577" transform="translate(24.126 57.82)" fill="none" stroke="#a89365" stroke-width="2"/>
+      </g>
+    </g>
+    <path id="Union_5" data-name="Union 5" d="M61.407,0c2.949,0,5.34,2.861,5.34,6.389V9.584c0,3.528-2.391,6.389-5.34,6.389H5.34C2.391,15.973,0,13.112,0,9.584V6.389C0,2.861,2.391,0,5.34,0Z" transform="translate(1161.022 245.001)" fill="rgba(0,0,0,0)" stroke="#a89365" stroke-width="4"/>
+    <path id="Union_10" data-name="Union 10" d="M94.94,140.683H9a9,9,0,0,1-9-9V18.947a9,9,0,0,1,9-9H20.843a5.575,5.575,0,0,1-.263-1.7V5.5A5.458,5.458,0,0,1,26,0H82.866a5.458,5.458,0,0,1,5.416,5.5V8.25a5.575,5.575,0,0,1-.263,1.7h16.533a9,9,0,0,1,9,9V121.988a14.7,14.7,0,0,1,10.887,14.028A14.886,14.886,0,0,1,109.3,150.629,15.116,15.116,0,0,1,94.94,140.683Z" transform="translate(1140 245.768)" fill="none" stroke="#a89365" stroke-width="4"/>
+    <path id="Union_6" data-name="Union 6" d="M5.507,10.093,0,4.486l5.507,5.607L10.1,0,5.507,10.093h0v0Z" transform="matrix(0.978, 0.208, -0.208, 0.978, 1244.949, 376.913)" fill="none" stroke="#a89365" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_486" data-name="Path 486" d="M15.144,0A15.144,15.144,0,1,1,0,15.144,15.144,15.144,0,0,1,15.144,0Z" transform="translate(1234.151 366.878)" fill="rgba(0,0,0,0)" stroke="#a89365" stroke-width="4"/>
+  </g>
+</svg>

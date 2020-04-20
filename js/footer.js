@@ -30,13 +30,13 @@ const footer = `
                     <h3 class="footer-column__title" id="info-title">Информация</h3>
                     <ul class="footer-column__list" id="info-list">
                         <li class="footer-column__elem">
-                            <a href="javascript:void(0)" class="footer-column__link">Доставка</a>
+                            <a href="javascript:void(0)" data-modal="aboutDelivery" class="footer-column__link open-modal">Доставка</a>
                         </li>
                         <li class="footer-column__elem">
                             <a href="javascript:void(0)" class="footer-column__link">Оплата</a>
                         </li>
                         <li class="footer-column__elem">
-                            <a href="javascript:void(0)" class="footer-column__link">Архитекторам</a>
+                            <a href="./architects.html" class="footer-column__link">Архитекторам</a>
                         </li>
                         <li class="footer-column__elem">
                             <a href="javascript:void(0)" class="footer-column__link">Акции</a>
@@ -55,7 +55,7 @@ const footer = `
                                 <a href="./services.html" class="footer-column__link">Услуги</a>
                             </li>
                             <li class="footer-column__elem">
-                                <a href="#portfolio" class="footer-column__link">Портфолио</a>
+                                <a href="./index.html#portfolio" class="footer-column__link">Портфолио</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="#news" class="footer-column__link">Новости</a>

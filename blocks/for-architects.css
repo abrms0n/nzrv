@@ -45,6 +45,7 @@
 
 .for-architects__button .button {
     margin: 0 auto;
+    max-width: 258px;
 }
 
 .for-architects__footnote {

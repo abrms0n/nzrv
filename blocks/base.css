@@ -40,6 +40,20 @@ li {
     line-height: 1.2;
 }
 
+.image-link {
+    line-height: 0;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.1;
+}
+
+p:not(:first-of-type) {
+    margin: 1em 0 0 0;
+}
+
+
 
 
 
@@ -63,6 +77,9 @@ li {
     li {
         font-size: 16px;
     }
+    p {
+        font-size: 16px;
+    }
 }
 
 
@@ -79,5 +96,9 @@ greyDark: #232323; */
 }
 
 @media screen and (max-width: 1279px) {
+
+}   
+
+@media screen and (max-width: 600px) {
 
 }   

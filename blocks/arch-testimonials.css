@@ -51,6 +51,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    .arch-testimonials {
+        padding: 20px 0;
+    }
+    
     .arch-testimonial {
         margin: 20px 0 0 0;
         flex-direction: column;

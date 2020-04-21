@@ -11,6 +11,10 @@
     color: #232323;
 }
 
+.page-title_center {
+    margin: 0 auto;
+    text-align: center;
+}
 
 @media screen and (max-width: 1279px) {
     .page-title {

@@ -7,6 +7,10 @@
     color: #a89365;
 }
 
+.page-text_center {
+    text-align: center;
+}
+
 .page-text:not(:first-of-type) {
     margin: 1em 0 0 0;
 }

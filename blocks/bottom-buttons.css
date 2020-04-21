@@ -26,6 +26,7 @@
 
 @media screen and (max-width: 600px) {
     .bottom-buttons {
+        padding: 20px 0;
         flex-direction: column-reverse;
     }
     .bottom-buttons .button {

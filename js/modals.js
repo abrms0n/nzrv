@@ -254,6 +254,31 @@ const expostroyMap = `
 `;
 
 
+const downloadBlueprints = `
+<div class="modal-overlay" data-modal="downloadBlueprints">
+    <div class="modal-window">
+        <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
+        <h2 class="modal-window__title">Чертежи и сопутствующие материалы</h2>
+        <div class="modal-window__downloads">
+            <div class="modal-window__download">
+                <p class="modal-window__text">Чертеж.pdf</p>
+                <a href="javascript:void(0)" class="modal-window__download-link">Скачать</a>
+            </div>
+            <div class="modal-window__download">
+                <p class="modal-window__text">Список всей техники проекта.xls</p>
+                <a href="javascript:void(0)" class="modal-window__download-link">Скачать</a>
+            </div>
+            <div class="modal-window__download">
+                <p class="modal-window__text">Информация о дизайнере.pdf</p>
+                <a href="javascript:void(0)" class="modal-window__download-link">Скачать</a>
+            </div>
+        </div>
+        <a class="button button_theme_gold href="javascript:void(0)">скачать всё</a>
+    </div>
+</div>
+`;
+
+
 
 $('.open-modal').click(function() {
     event.preventDefault();
@@ -288,6 +313,10 @@ $('.open-modal').click(function() {
         case 'expostroyMap':
             $('.body').append(expostroyMap);
             break
+        case 'downloadBlueprints':
+            $('.body').append(downloadBlueprints);
+            break
+
     }
 
     $('.modal-overlay').fadeIn(500);

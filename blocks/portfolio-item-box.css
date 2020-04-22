@@ -1,0 +1,15 @@
+.portfolio-item-box {
+
+}
+
+
+
+.portfolio-item-box__download-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item-box__download-buttons .button {
+    max-width: 248px;
+    margin: 0 0 0 40px;
+}

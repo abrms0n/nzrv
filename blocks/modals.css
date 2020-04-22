@@ -124,6 +124,46 @@
 }
 
 
+.modal-window__downloads {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.modal-window__download {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.modal-window__download:not(:first-of-type) {
+    margin: 20px 0 0 0;
+}
+
+.modal-window__download::before {
+    font-family: 'icomoon';
+    content: "\e923";
+    display: inline-block;
+    margin: 0 14px 0 0;
+    font-size: 36px;
+}
+
+.modal-window__text {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #575757;
+}   
+
+.modal-window__download-link {
+    color: #a89365;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.modal-window__download-link:hover {
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 900px) {
     .modal-window {

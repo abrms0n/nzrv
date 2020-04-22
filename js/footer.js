@@ -55,7 +55,7 @@ const footer = `
                                 <a href="./services.html" class="footer-column__link">Услуги</a>
                             </li>
                             <li class="footer-column__elem">
-                                <a href="./index.html#portfolio" class="footer-column__link">Портфолио</a>
+                                <a href="./portfolio.html" class="footer-column__link">Портфолио</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="./news.html" class="footer-column__link">Новости</a>

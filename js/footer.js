@@ -69,7 +69,7 @@ const footer = `
                                 <a href="./contacts-page.html" class="footer-column__link">Контакты</a>
                             </li>
                             <li class="footer-column__elem">
-                                <a href="#brands" class="footer-column__link">Бренды</a>
+                                <a href="./index.html#brands" class="footer-column__link">Бренды</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="./catalog.html" class="footer-column__link">Каталог</a>

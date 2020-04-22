@@ -44,14 +44,6 @@ li {
     line-height: 0;
 }
 
-p {
-    font-size: 24px;
-    line-height: 1.1;
-}
-
-p:not(:first-of-type) {
-    margin: 1em 0 0 0;
-}
 
 
 
@@ -75,9 +67,6 @@ p:not(:first-of-type) {
 
 @media screen and (max-width: 600px) {
     li {
-        font-size: 16px;
-    }
-    p {
         font-size: 16px;
     }
 }

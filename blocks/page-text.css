@@ -15,6 +15,13 @@
     margin: 1em 0 0 0;
 }
 
+@media screen and (max-width: 1350px) {
+    .hidden-text {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     .page-text {
         font-size: 16px;

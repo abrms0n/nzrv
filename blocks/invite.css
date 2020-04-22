@@ -6,6 +6,7 @@
     justify-content: center;
 }
 
+
 .invite__link {
     color: #a89365;
     text-decoration: none;
@@ -25,5 +26,8 @@
 @media screen and (max-width: 600px) {
     .invite {
         padding: 20px 0;
+    }
+    .invite h2 {
+        margin: 0 auto 20px auto;
     }
 }

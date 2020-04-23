@@ -1,0 +1,30 @@
+.portfolio-item-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item-about h2 {
+    margin: 0 0 12px 0;
+}
+
+.portfolio-item-about__text {
+    width: 74%;
+}
+
+.portfolio-item-about__text .download-button {
+    margin: 20px 0 0 0;
+}
+
+
+
+
+.portfolio-item-about__tags {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+
+
+.portfolio-item-about__systems {
+    margin: 40px 0 0 0;
+}

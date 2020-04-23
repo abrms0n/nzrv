@@ -4,6 +4,8 @@
     flex-wrap: wrap;
 }
 
+
+
 .buttons-radio__elem {
     color: #a89365;
     border: 1px solid #a89365;
@@ -14,11 +16,13 @@
     line-height: 1.2;
     font-weight: 400;
     transition: all .2s;
-}
-
-.buttons-radio__elem {
     margin: 0 0 20px 20px;
 }
+
+.buttons-radio__elem_disabled {
+    padding: 10px 20px;
+}
+
 
 .buttons-radio__elem:hover, .buttons-radio__elem_active {
     background: #a89365;

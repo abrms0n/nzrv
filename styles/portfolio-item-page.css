@@ -1,3 +1,10 @@
 @import url('../blocks/common.css');
 
-@import url('../blocks/portfolio-item-box.css');
+@import url('../styles/slick.css');
+@import url('../styles/slick-theme.css');
+
+@import url('../blocks/portfolio-item-header.css');
+@import url('../blocks/portfolio-item-main-image-box.css');
+@import url('../blocks/portfolio-item-slider.css');
+@import url('../blocks/portfolio-item-about.css');
+@import url('../blocks/project-manager.css');

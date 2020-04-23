@@ -12,6 +12,10 @@
     height: 360px;
 }
 
+.project-manager__image2 {
+    background: url(../images/arch1.jpg) no-repeat;
+}
+
 .project-manager__info {
     display: flex;
     flex-direction: column;

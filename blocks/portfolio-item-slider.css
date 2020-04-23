@@ -1,0 +1,12 @@
+.portfolio-item-slider {
+    padding: 40px 0;
+}
+
+.portfolio-item-slider__item {
+    max-width: 92%;
+}
+
+.portfolio-item-slider .slick-prev,
+.portfolio-item-slider .slick-next {
+    top: 50%;
+}

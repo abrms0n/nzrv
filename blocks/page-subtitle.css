@@ -11,6 +11,9 @@
     color: #232323;
 }
 
+.page-subtitle_theme_gray {
+    color: #575757;
+}
 
 @media screen and (max-width: 600px) {
     .page-subtitle {

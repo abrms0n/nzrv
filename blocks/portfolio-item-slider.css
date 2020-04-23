@@ -10,3 +10,10 @@
 .portfolio-item-slider .slick-next {
     top: 50%;
 }
+
+@media screen and (max-width: 1279px) {
+    .portfolio-item-slider {
+        padding: 20px 0;
+    }
+    
+}  

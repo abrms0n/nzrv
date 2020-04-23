@@ -199,7 +199,7 @@ const callBack = `
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
                 <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-            <input type="submit" class="button button_theme_gold" value="записаться">
+            <input type="submit" class="button button_theme_gold" value="заказать">
             </form>
         </div>
     </div>

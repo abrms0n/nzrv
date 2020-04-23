@@ -3,7 +3,7 @@ const brands = `
         <div class="wrapper">
             <div class="section-header">
                 <h2 class="page-title">бренды</h2>
-                <a href="javascript:void(0)" class="page-link">Все бренды</a>
+                <a href="./brands.html" class="page-link">Все бренды</a>
             </div>
             <div class="brands__row">
                 <img src="images/jbl_logo.png" alt="jbl" class="brands__image">

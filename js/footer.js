@@ -63,13 +63,13 @@ const footer = `
                         </ul>
                         <ul class="footer-column__list">
                             <li class="footer-column__elem">
-                                <a href="javascript:void(0)" class="footer-column__link">Умный дом</a>
+                                <a href="./smart-home.html" class="footer-column__link">Умный дом</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="./contacts-page.html" class="footer-column__link">Контакты</a>
                             </li>
                             <li class="footer-column__elem">
-                                <a href="./index.html#brands" class="footer-column__link">Бренды</a>
+                                <a href="./brands.html" class="footer-column__link">Бренды</a>
                             </li>
                             <li class="footer-column__elem">
                                 <a href="./catalog.html" class="footer-column__link">Каталог</a>

@@ -37,6 +37,10 @@
         width: 100%;
     }
 
+    .smart-home-page-item .page-subtitle {
+        margin: 0 0 12px 0;
+    }
+
     .smart-home-page-item__image {
         max-width: 308px;
         margin: 0 0 12px 0;

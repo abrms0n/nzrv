@@ -16,6 +16,7 @@
 
 .brands-logos__image {
     max-width: 228px;
+    align-self: center;
 }
 
 

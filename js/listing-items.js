@@ -20,7 +20,7 @@
 
         {
             name: "Наушники Focal Stellia",
-            image: "focal.png",
+            image: "focal-phones.png",
             vendorCode: 189944,
             fav: false,
             price: "229 900"            
@@ -93,7 +93,7 @@
 
         {
             name: "Наушники Focal Stellia",
-            image: "focal.png",
+            image: "focal-phones.png",
             vendorCode: 189944,
             fav: false,
             price: "229 900"            

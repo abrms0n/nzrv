@@ -1,5 +1,6 @@
 @import url('../fonts/futurapt.css');
 @import url('../fonts/iconfont.css');
+@import url('../blocks/accordion-panel.css');
 @import url('../blocks/base.css');
 @import url('../blocks/breadcrumbs.css');
 @import url('../blocks/bottom-buttons.css');
@@ -25,4 +26,5 @@
 @import url('../blocks/scroll-up.css');
 @import url('../blocks/section-header.css');
 @import url('../blocks/show-more.css');
+@import url('../blocks/wrap-tab.css');
 

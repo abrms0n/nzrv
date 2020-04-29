@@ -23,6 +23,12 @@
     max-height: 650px;
 }
 
+.modal-window_page-window {
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    margin: 80px auto;
+    z-index: 1;
+}
+
 .modal-window_wide {
     max-width: 1200px;
     width: 100%;
@@ -51,6 +57,10 @@
 .modal-window .button {
     max-width: 250px;
     margin: 0 auto;
+}
+
+.modal-window_page-window .button {
+    margin: 60px auto 0 auto;
 }
 
 .modal-window__title {
@@ -162,6 +172,15 @@
 
 .modal-window__download-link:hover {
     text-decoration: none;
+}
+
+.modal-window__footer {
+    text-align: center;
+}
+
+.modal-window__footer .page-link, .modal-window__footer .page-text {
+    margin: 20px 0 0 0;
+    display: block;
 }
 
 

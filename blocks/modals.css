@@ -27,6 +27,7 @@
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
     margin: 80px auto;
     z-index: 1;
+    max-height: 1000px;
 }
 
 .modal-window_wide {
@@ -190,6 +191,10 @@
         max-width: 320px;
         overflow-y: auto;
         max-height: 450px;
+    }
+
+    .modal-window_page-window {
+        max-height: 1000px;
     }
 
     .modal-window_wide {

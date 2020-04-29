@@ -1,0 +1,13 @@
+.cart-footer {
+    margin: 40px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 600px) {
+    .cart-footer {
+        margin: 20px 0 40px 0;
+        justify-content: center;
+    }
+}   

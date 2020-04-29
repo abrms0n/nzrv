@@ -22,7 +22,7 @@ const mailToDir = `
                     <label class="modal-window__label" for="mail-comment">Сообщение</label>
                 </div>
                 <textarea minlength="140" placeholder="не менее 140 символов" required id="mail-comment" class="modal-window__textarea"></textarea>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
                 <input type="submit" class="button button_theme_gold" value="отправить" >
             </form>
         </div>
@@ -55,7 +55,7 @@ const orderService = `
                 <p class="modal-window__hint">
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
             <input type="submit" class="button button_theme_gold" value="заказать" >
             </form>
         </div>
@@ -102,7 +102,7 @@ const signToDemo = `
                 <p class="modal-window__hint">
                     О возможности организации демонстрации техники в удобном для вас месте уточните у нашего консультанта.
                 </p>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
             <input type="submit" class="button button_theme_gold" value="записаться" >
             </form>
         </div>
@@ -134,7 +134,7 @@ const orderProject = `
                 <p class="modal-window__hint">
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
             <input type="submit" class="button button_theme_gold" value="заказать" >
             </form>
         </div>
@@ -166,7 +166,7 @@ const orderSpecialist = `
                 <p class="modal-window__hint">
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
             <input type="submit" class="button button_theme_gold" value="заказать" >
             </form>
         </div>
@@ -198,7 +198,7 @@ const callBack = `
                 <p class="modal-window__hint">
                     Наши консультанты свяжутся с Вами в ближайшее время.
                 </p>
-                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LemTkAUAAAAACg5dyAXZuXgApXDQ75LlwoR-kG8&amp;co=aHR0cHM6Ly9zdC1wZXRlcnNidXJnLnB1bHQucnU6NDQz&amp;hl=ru&amp;v=P6KLRNy7h3K160ZmYNUOAce7&amp;theme=light&amp;size=normal&amp;cb=ua1q403wsru2" width="304" height="78" role="presentation" name="a-cj2vant6o2oz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <iframe class="modal-window__capcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeR_Q8UAAAAAEC5UaGRFw4QRfuCLZzWB3lO6AB-&amp;co=aHR0cHM6Ly9uYXphcm92LWdhbGxlcnkucnU6NDQz&amp;hl=ru&amp;v=wk6lx42JIeYmEAQSHndnyT8Q&amp;theme=dark&amp;size=normal&amp;cb=ravpmtn3q562" width="304" height="78" role="presentation" name="a-8z0dctg48gqo" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
             <input type="submit" class="button button_theme_gold" value="заказать">
             </form>
         </div>
@@ -278,6 +278,30 @@ const downloadBlueprints = `
 </div>
 `;
 
+const fastOrder = `
+<div class="modal-overlay" data-modal="fastOrder">
+    <div class="modal-window">
+        <img src="images/close.svg" alt="закрыть" class="modal-window__close-icon">
+        <h2 class="modal-window__title">Быстрый заказ</h2>
+        <form action="" class="modal-window__form">
+            <div class="modal-window__row">
+                <label class="modal-window__label" for="name">ФИО</label>
+                <input required id="name" type="text" class="modal-window__input-text">
+            </div>
+            <div class="modal-window__row">
+                <label class="modal-window__label" for="demo-tel">Телефон</label>
+                <input required id="demo-tel" pattern="[0-9]{7,10}" type="tel" class="modal-window__input-text">
+            </div>
+            <div class="modal-window__row">
+                <label class="modal-window__label" for="demo-email">E-mail</label>
+                <input required id="demo-email" type="email" class="modal-window__input-text">
+            </div>
+        <input style="margin: 40px auto 0 auto" type="submit" class="button button_theme_gold" value="Оформить">
+        </form>
+    </div>
+</div>
+`;
+
 
 
 $('.open-modal').click(function() {
@@ -315,6 +339,9 @@ $('.open-modal').click(function() {
             break
         case 'downloadBlueprints':
             $('.body').append(downloadBlueprints);
+            break
+        case 'fastOrder':
+            $('.body').append(fastOrder);
             break
 
     }

@@ -110,12 +110,12 @@
 }
 
 .header-mobile__communication-item:nth-of-type(2)::before {
-    content: "\e90b";
+    content: "\e902";
     font-family: "icomoon";
 }
 
 .header-mobile__communication-item:nth-of-type(3)::before{
-    content: "\e90a";
+    content: "\e904";
     font-family: "icomoon";
 }
 

@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content= "" />
+    <meta property="og:image" content= "" />
+    <meta property="og:description" content= "" />
+    <meta property="og:title" content=""/>
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/listing.css">
+    <link rel="canonical" href=""/>
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Наушники</title>
 </head>
@@ -14,11 +20,35 @@
     <script src="js/header.js"></script>
 
     <div class="wrapper">
-        <section class="breadcrumbs">
-            <a href="./catalog.html" class="breadcrumb">Каталог</a>
-            <a href="javascript:void(0)" class="breadcrumb">Воспроизведение</a>
-            <span class="breadcrumb breadcrumb_active">Наушники</span>
+
+
+        <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./catalog.html"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Каталог</span>
+                    <meta itemprop="position" content="1" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Воспроизведение</span>
+                    <meta itemprop="position" content="2" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
+            class="breadcrumb breadcrumb_active">
+            <span itemprop="item">
+                <span itemprop="name">Наушники</span>
+                <meta itemprop="position" content="3" />
+            </span>
+            </a>
+
         </section>
+
         <div class="section-header">
             <h1 class="page-title page-title_theme_black">наушники</h1>
             <a href="javascript:void(0)" class="filters-link" id="filters-opener">Фильтры</a>

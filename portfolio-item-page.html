@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content= "" />
+    <meta property="og:image" content= "" />
+    <meta property="og:description" content= "" />
+    <meta property="og:title" content=""/>
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/portfolio-item-page.css">
+    <link rel="canonical" href=""/>
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Кинозал и тайные кресла</title>
 </head>
@@ -14,11 +20,35 @@
     <script src="js/header.js"></script>
 
     <div class="wrapper">
-        <section class="breadcrumbs">
-            <a href="./index.html" class="breadcrumb">Главная</a>
-            <a href="./portfolio.html" class="breadcrumb">Портфолио</a>
-            <span class="breadcrumb breadcrumb_active">Кинозал и тайные кресла</span>
+        <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./index.html"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Главная</span>
+                    <meta itemprop="position" content="1" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./portfolio.html"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Портфолио</span>
+                    <meta itemprop="position" content="2" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
+            class="breadcrumb breadcrumb_active">
+            <span itemprop="item">
+                <span itemprop="name">Кинозал и тайные кресла</span>
+                <meta itemprop="position" content="3" />
+            </span>
+            </a>
+
         </section>
+
+
+
         <section class="portfolio-item-header">
             <div class="section-header">
                 <h1 class="page-title">

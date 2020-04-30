@@ -6,17 +6,18 @@ const footer = `
     <div class="wrapper wrapper_theme_dark-gray">
         <footer class="footer">
             <div class="footer__columns">
-                <div class="footer-column footer-column_contacts">
+                <div class="footer-column footer-column_contacts" itemscope itemtype="http://schema.org/Organization">
                     <h3 class="footer-column__title">Контакты</h3>
                     <ul class="footer-column__list">
-                        <li class="footer-column__elem">
-                            <a href="javascript:void(0)" class="footer-column__link"><div class="icon-map-pin"></div>&nbsp;г. Москва, Большая Ордынка, 13/9</a>
+						<li style="display: none;" itemprop="name">ООО «НАЗАРОВ»</li>
+                        <li class="footer-column__elem" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                            <a href="javascript:void(0)" class="footer-column__link"><div class="icon-map-pin"></div>&nbsp;г. <span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">Большая Ордынка, 13/9</span></a>
                         </li>
                         <li class="footer-column__elem">
                             <a href="javascript:void(0)" class="footer-column__link"><div class="icon-clock"></div>&nbsp;Пн-Сб 10:00-20:00, Вск 10:00-19:00</a>
                         </li>
                         <li class="footer-column__elem">
-                            <a href="tel:+74956467107" class="footer-column__link"><div class="icon-phone"></div>&nbsp;+7 (495) 646-71-07</a>
+                            <a itemprop="telephone" href="tel:+74956467107" class="footer-column__link"><div class="icon-phone"></div>&nbsp;+7 (495) 646-71-07</a>
                         </li>
                         <li class="footer-column__elem">
                             <a data-modal="signToDemo" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-calendar"></div>&nbsp;Запись в демозал</a>
@@ -26,6 +27,7 @@ const footer = `
                         </li>
                     </ul>
                 </div>
+
                 <div class="footer-column footer-column_info">
                     <h3 class="footer-column__title" id="info-title">Информация</h3>
                     <ul class="footer-column__list" id="info-list">

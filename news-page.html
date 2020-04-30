@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content= "" />
+    <meta property="og:image" content= "" />
+    <meta property="og:description" content= "" />
+    <meta property="og:title" content=""/>
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/news-page.css">
+    <link rel="canonical" href=""/>
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>1 февраля презентация новых усилителей Naim!</title>
 </head>
@@ -15,11 +21,34 @@
 
 
     <div class="wrapper">
-        <section class="breadcrumbs">
-            <a href="./index.html" class="breadcrumb">Главная</a>
-            <a href="./news.html" class="breadcrumb">Новости</a>
-            <span class="breadcrumb breadcrumb_active">1 февраля презентация новых...</span>
+        <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./index.html"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Главная</span>
+                    <meta itemprop="position" content="1" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./news.html"
+                class="breadcrumb">
+                <span itemprop="item">
+                    <span itemprop="name">Новости</span>
+                    <meta itemprop="position" content="2" />
+                </span>
+            </a>
+
+            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
+            class="breadcrumb breadcrumb_active">
+            <span itemprop="item">
+                <span itemprop="name">1 февраля презентация новых...</span>
+                <meta itemprop="position" content="3" />
+            </span>
+            </a>
+
         </section>
+
+
 
         <section class="news-body">
             <div class="section-header section-header_mobile-column">

@@ -1,3 +1,6 @@
 @import url('../blocks/common.css');
 
 @import url('../blocks/account.css');
+@import url('../blocks/account-person.css');
+@import url('../blocks/account-orders.css');
+@import url('../blocks/cart-item.css');

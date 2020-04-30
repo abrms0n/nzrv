@@ -290,6 +290,15 @@
     margin: 10px 0 0 -1px
 }
 
+.cart-item .page-link {
+    font-size: 20px;
+}
+
+.cart-item .page-link::after {
+    font-size: 12px;
+    content: "\e90d"
+}
+
 @media (min-width:992px) and (max-width:1259.98px) {
     .cart-item__i_control {
         margin: 17px 0 0 -1px

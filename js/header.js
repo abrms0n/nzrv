@@ -40,7 +40,7 @@ const header = `
                     <img src="images/logo.svg" alt="Галерея безупречной электроники Назáров" class="header-mobile__menu-logo">
                 </a>
                 <div class="header-mobile__communication">
-                    <a href="./personal.html" class="header-mobile__communication-item">Вход / регистрация</a>
+                    <a href="./auth.html" class="header-mobile__communication-item">Вход / регистрация</a>
                     <a href="tel:+74956467107" class="header-mobile__communication-item">+7 (495) 646-71-07</a>
                     <a href="javascript:void(0)" data-modal="signToDemo" class="header-mobile__communication-item open-modal">Запись в демо-зал</a>
                 </div>

@@ -1,0 +1,84 @@
+.order-box {
+    padding: 40px 0;    
+}
+
+.order-box__items {
+    margin: 40px 0 0 0;
+}
+
+
+
+
+.order-box__final {
+    margin: 40px 0 0 0;
+    font-size: 32px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-box__final-price .page-text_accent::after {
+    content: " ₽"
+}
+
+
+.order-box__status {
+    margin: 40px 0 0 0;
+}
+
+
+.order-box__status-item {
+    color: #575757;
+}
+
+.order-box__footer {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-box__footer .button {
+    max-width: 232px;
+    margin: 0 20px;
+}
+
+
+ 
+
+
+
+@media screen and (max-width: 1279px) {
+    .order-box__final {
+        margin: 20px 0 0 0;
+        font-size: 18px;
+    }
+}   
+
+
+@media screen and (max-width: 600px) {
+    .order-box {
+        padding: 20px 0 40px 0;    
+    }
+
+    .order-box__items {
+        margin: 20px 0 0 0;
+    }
+    
+    .order-box__final {
+        margin: 20px 0 0 0;
+    }
+    
+    .order-box__status {
+        margin: 20px 0 0 0;
+    }
+
+    .order-box__footer {
+        margin: 20px 0 0 0;
+        flex-direction: column;
+    }
+
+    .order-box__footer .button {
+        margin: 4px auto;
+        max-width: 100%;
+    }
+}  

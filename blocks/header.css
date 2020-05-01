@@ -97,7 +97,7 @@
 
 .header__communication-item:nth-of-type(2)::before{
     font-family: 'icomoon';
-    content: "\e90a";
+    content: "\e904";
     margin: 0 10px 0 0;
 }
 

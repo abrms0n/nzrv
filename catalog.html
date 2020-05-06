@@ -1,415 +1,507 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/catalog.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Каталог</title>
 </head>
+
 <body class="body">
     <script src="js/header.js"></script>
 
-    <div class="wrapper">
-        <section class="catalog-container">
-            <h1 class="page-title">каталог</h1>
-            <div class="catalog-row">
-                <div class="catalog-item">
-                    <img src="images/catalog-item__img1.png" alt="Системы" class="catalog-item__image">
-                    <div class="catalog-item__info">
-                        <h2 class="page-subtitle">Системы</h2>
-                        <ul class="catalog-item__links">
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Рекомендованные комплекты Hi-Fi и High End;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Портативная акустика;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Музыкальные центры;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Док-станции;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Портативные плееры;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Радиоприемники;</a>
-                            </li>
-                        </ul>
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
+                <section class="catalog-container">
+                    <h1 class="page-title">каталог</h1>
+                    <div class="catalog-row">
+                        <div class="catalog-item">
+                            <img src="images/catalog-item__img1.png" alt="Системы" class="catalog-item__image">
+                            <div class="catalog-item__info">
+                                <h2 class="page-subtitle">Системы</h2>
+                                <ul class="catalog-item__links">
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Рекомендованные
+                                            комплекты Hi-Fi и High End;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Портативная
+                                            акустика;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Музыкальные центры;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Док-станции;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Портативные плееры;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Радиоприемники;</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="catalog-item">
+                            <img src="images/catalog-item__img2.png" alt="Источники" class="catalog-item__image">
+                            <div class="catalog-item__info">
+                                <h2 class="page-subtitle">Источники</h2>
+                                <ul class="catalog-item__links">
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Blu-Ray
+                                            проигрыватели;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">CD / DVD / Blu-Ray
+                                            ресиверы;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">CD и SACD
+                                            проигрыватели;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Виниловые
+                                            проигрыватели и аксессуары</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    виниловых проигрывателей</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Головки
+                                                    звукоснимателей</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Проигрыватель
+                                                    винила</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Средства по
+                                                    уходу и хранению</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Тонармы</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Столы для
+                                                    виниловых проигрывателей</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Медиаплееры</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары и
+                                                    дополнительные модули</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Сетевые аудио
+                                                    проигрыватели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Медиаплееры</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Рекомендованные
+                                            комплекты Hi-Fi и High End;</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="catalog-item">
+                            <img src="images/catalog-item__img3.png" alt="Усиление и обработка сигнала"
+                                class="catalog-item__image">
+                            <div class="catalog-item__info">
+                                <h2 class="page-subtitle">Усиление и обработка сигнала</h2>
+                                <ul class="catalog-item__links">
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">AV процессоры;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">AV ресиверы;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Интегральные
+                                            усилители;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Предусилители;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Фонокорректоры;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Усилители </a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Усилители мощности;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">Усилители мощности
+                                            многоканальные;</a>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <a href="javascript:void(0)" class="catalog-item__link">ЦАП</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="catalog-item">
+                            <img src="images/catalog-item__img4.png" alt="Воспроизведение" class="catalog-item__image">
+                            <div class="catalog-item__info">
+                                <h2 class="page-subtitle">Воспроизведение</h2>
+                                <ul class="catalog-item__links">
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Акустические
+                                            системы</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    акустики</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Всепогодная
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Встраиваемая
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Комплекты
+                                                    акустики для домашнего кинотеатра</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Ландшафтная
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Напольная
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Настенная
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Полочная
+                                                    акустика</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Сабвуферы</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Саундбар</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Акустика
+                                                    центрального канала</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Наушники</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    наушников</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="./listing.html" class="catalog-item__link">Наушники</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Усилители для
+                                                    наушников</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Проекторы и
+                                            экраны</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    проекторов</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    экранов</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Объективы для
+                                                    проекторов</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Проекторы</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Экраны</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Телевизоры</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">3D очки и
+                                                    эмиттеры</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    телевизоров</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Багеты для
+                                                    телевизоров</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Телевизоры</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="catalog-item">
+                            <img src="images/catalog-item__img5.png" alt="Инфраструктура" class="catalog-item__image">
+                            <div class="catalog-item__info">
+                                <h2 class="page-subtitle">Инфраструктура</h2>
+                                <ul class="catalog-item__links">
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Кабели</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">HDMI</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">USB, LAN</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Акустические
+                                                    кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Видео кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Межблочные
+                                                    аналоговые кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Межблочные
+                                                    цифровые кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Разъемы и
+                                                    переходники</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Силовые
+                                                    кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Розетки</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Антенные
+                                                    кабели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Беспроводные
+                                                    передатчики и по витой паре LAN</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">HDMI
+                                                    коммутаторы, разветвители, повторители</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Мебель</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для
+                                                    мебели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Крепления для
+                                                    АС</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Крепления для
+                                                    проекторов</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Крепления для
+                                                    ТВ</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Кресла для
+                                                    кинотеатров</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Подставки под
+                                                    телевизоры и Hi-Fi</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Прочая
+                                                    мебель</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Стойки под
+                                                    акустику</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Системы
+                                            Мультирум</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Комплекты
+                                                    мультирум</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Мультирум
+                                                    контроллеры и усилители</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Панели
+                                                    управления мультирум</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Прочие
+                                                    устройства</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Активная
+                                                    акустика мультирум</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары
+                                                    мультирум</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Сетевые аудио
+                                                    проигрыватели</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Источники
+                                                    мультирум</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Системы Умный
+                                            дом</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Панели
+                                                    управления</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Пульты
+                                                    программируемые</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Контроллеры и
+                                                    процессоры</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Управляемые
+                                                    шторы</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Прочие
+                                                    устройства</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Аксессуары</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Сетевое
+                                            оборудование</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Блоки
+                                                    питания</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Сетевые
+                                                    фильтры</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Бесперебойные
+                                                    источники питания</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Разное
+                                                    (источники питания, контакторы и т.п.)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="catalog-item__link-item">
+                                        <span href="javascript:void(0)"
+                                            class="catalog-item__link catalog-item__link_parent drop-down">Электрооборудование</span>
+                                        <ul class="catalog-item__links catalog-item__links_children">
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Внешние
+                                                    накопители</a>
+                                            </li>
+                                            <li class="catalog-item__link-item catalog-item__link-item_child">
+                                                <a href="javascript:void(0)" class="catalog-item__link">Роутеры</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="catalog-item">
-                    <img src="images/catalog-item__img2.png" alt="Источники" class="catalog-item__image">
-                    <div class="catalog-item__info">
-                        <h2 class="page-subtitle">Источники</h2>
-                        <ul class="catalog-item__links">
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Blu-Ray проигрыватели;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">CD / DVD / Blu-Ray ресиверы;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">CD и SACD проигрыватели;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Виниловые проигрыватели и аксессуары</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для виниловых проигрывателей</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Головки звукоснимателей</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Проигрыватель винила</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Средства по уходу и хранению</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Тонармы</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Столы для виниловых проигрывателей</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Медиаплееры</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары и дополнительные модули</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Сетевые аудио проигрыватели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Медиаплееры</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Рекомендованные комплекты Hi-Fi и High End;</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="catalog-item">
-                    <img src="images/catalog-item__img3.png" alt="Усиление и обработка сигнала" class="catalog-item__image">
-                    <div class="catalog-item__info">
-                        <h2 class="page-subtitle">Усиление и обработка сигнала</h2>
-                        <ul class="catalog-item__links">
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">AV процессоры;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">AV ресиверы;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Интегральные усилители;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Предусилители;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Фонокорректоры;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Усилители </a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Усилители мощности;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">Усилители мощности многоканальные;</a>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <a href="javascript:void(0)" class="catalog-item__link">ЦАП</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="catalog-item">
-                    <img src="images/catalog-item__img4.png" alt="Воспроизведение" class="catalog-item__image">
-                    <div class="catalog-item__info">
-                        <h2 class="page-subtitle">Воспроизведение</h2>
-                        <ul class="catalog-item__links">
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Акустические системы</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для акустики</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Всепогодная акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Встраиваемая акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Комплекты акустики для домашнего кинотеатра</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Ландшафтная акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Напольная акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Настенная акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Полочная акустика</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Сабвуферы</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Саундбар</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Акустика центрального канала</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Наушники</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для наушников</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="./listing.html" class="catalog-item__link">Наушники</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Усилители для наушников</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Проекторы и экраны</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для проекторов</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для экранов</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Объективы для проекторов</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Проекторы</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Экраны</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Телевизоры</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">3D очки и эмиттеры</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для телевизоров</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Багеты для телевизоров</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Телевизоры</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="catalog-item">
-                    <img src="images/catalog-item__img5.png" alt="Инфраструктура" class="catalog-item__image">
-                    <div class="catalog-item__info">
-                        <h2 class="page-subtitle">Инфраструктура</h2>
-                        <ul class="catalog-item__links">
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Кабели</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">HDMI</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">USB, LAN</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Акустические кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Видео кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Межблочные аналоговые кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Межблочные цифровые кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Разъемы и переходники</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Силовые кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Розетки</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Антенные кабели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Беспроводные передатчики и по витой паре LAN</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">HDMI коммутаторы, разветвители, повторители</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Мебель</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары для мебели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Крепления для АС</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Крепления для проекторов</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Крепления для ТВ</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Кресла для кинотеатров</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Подставки под телевизоры и Hi-Fi</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Прочая мебель</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Стойки под акустику</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Системы Мультирум</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Комплекты мультирум</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Мультирум контроллеры и усилители</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Панели управления мультирум</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Прочие устройства</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Активная акустика мультирум</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары мультирум</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Сетевые аудио проигрыватели</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Источники мультирум</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Системы Умный дом</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Панели управления</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Пульты программируемые</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Контроллеры и процессоры</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Управляемые шторы</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Прочие устройства</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Аксессуары</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Сетевое оборудование</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Блоки питания</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Сетевые фильтры</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Бесперебойные источники питания</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Разное (источники питания, контакторы и т.п.)</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="catalog-item__link-item">
-                                <span href="javascript:void(0)" class="catalog-item__link catalog-item__link_parent drop-down">Электрооборудование</span>
-                                <ul class="catalog-item__links catalog-item__links_children">
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Внешние накопители</a>
-                                    </li>
-                                    <li class="catalog-item__link-item catalog-item__link-item_child">
-                                        <a href="javascript:void(0)" class="catalog-item__link">Роутеры</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+                </section>
 
-        <script src="js/brands.js"></script>
+                <script src="js/brands.js"></script>
+            </div>
+        </div>
+        <script src="js/footer.js"></script>
     </div>
 
-    <script src="js/footer.js"></script>
 
     <script src="js/menu.js"></script>
-    <script src="js/scroll.js" ></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>
     <script src="js/drop-down-list.js"></script>
 
-</body> 
+</body>
+
 </html>

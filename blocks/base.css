@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+
+
+html, body {
+    height: 100%;
+}
+
+
+
 .body {
     font-family: 'Futura PT', Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -17,6 +25,19 @@
     padding: 0 80px;
     margin: 0 auto;
 }
+
+
+
+.common {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    min-height: calc( 100% - 650px);
+}
+
+
 
 .wrapper_theme_gray {
     background: #f2f2f2;

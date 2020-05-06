@@ -1,344 +1,407 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Галерея безупречной электроники "Назáров"</title>
 </head>
+
 <body class="body index">
     <script src="js/header.js"></script>
-    <section class="intro">
-        <div class="wrapper">
-            <p class="intro__text">
-                Ваша любимая музыка? А самый интересный фильм? Хотите узнать их заново? Не в очередной раз, а как будто впервые. 
-                Не только послушать, но и услышать. Не только посмотреть, но и увидеть. Крупнейшая галерея лучшей AV-техники 
-                к вашим услугам!
-            </p>
-            <p class="intro__mobile-text">
-                Крупнейшая галерея лучшей AV-техники и автоматизации!
-            </p>
-            <a href="javascript:void(0)" data-modal="callBack" class="button button_theme_gold open-modal">
-                заказать обратный звонок
-            </a>
-        </div>
-        <div class="advantages">
-            <div class="advantages__items">
-                <div class="advantages-item">
-                    <img src="images/15.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Более 15 лет
-                        опыта</p>
-                </div>
-                <div class="advantages-item">
-                    <img src="images/1440.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Более 1440 реализованных проектов</p>
-                </div>
-                <div class="advantages-item">
-                    <img src="images/prof.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Профессиональный коллектив инсталляторов</p>
-                </div>
-                <div class="advantages-item">
-                    <img src="images/kremlin.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Двухэтажный шоу-рум в 5 минутах от Кремля</p>
-                </div>
-                <div class="advantages-item">
-                    <img src="images/key.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Работы 
-                        «под ключ»</p>
-                </div>
-                <div class="advantages-item">
-                    <img src="images/manager.svg" alt="" class="advantages-item__icon">
-                    <p class="advantages-item__text">Персональный менеджер</p>
-                </div>
-            </div>
-            <a href="#solutions" class="intro__chevron"></a>
-        </div>
-    </section>
-    <div class="wrapper">
-        <section id="solutions" class="solutions">
-            <h2 class="page-title">решения</h2>
-            <div class="solutions__items">
-                <div class="solution-item">
-                    <img src="images/home-cinema.svg" alt="Домашние кинотеатры" class="solution-item__icon">
-                    <h3 class="item-title">Домашние кинотеатры</h3>
-                    <p class="solution-item__text">Расскажем о преимуществах проектора перед телевизором, объясним потенциал 
-                        современных многоканальных аудиоформатов и способы их декодирования, поможем выбрать наиболее подходящие 
-                        источники видеоконтента, включая серверы и потоковые сервисы.
+    <div class="common">
+        <div class="content">
+            <section class="intro">
+                <div class="wrapper">
+                    <p class="intro__text">
+                        Ваша любимая музыка? А самый интересный фильм? Хотите узнать их заново? Не в очередной раз, а
+                        как будто впервые.
+                        Не только послушать, но и услышать. Не только посмотреть, но и увидеть. Крупнейшая галерея
+                        лучшей AV-техники
+                        к вашим услугам!
                     </p>
-                </div>
-                <div class="solution-item">
-                    <img src="images/smart-home.svg" alt="Умный дом" class="solution-item__icon">
-                    <h3 class="item-title">«Умный дом»</h3>
-                    <p class="solution-item__text">Интернет объединил весь мир, а интернет вещей — устройства, которые благодаря 
-                        этой технологии взаимодействуют друг с другом и окружающей средой. В случае с умным домом мы получаем 
-                        бытовую технику, объединенную в единую сеть, пользоваться которой удобней и проще.
+                    <p class="intro__mobile-text">
+                        Крупнейшая галерея лучшей AV-техники и автоматизации!
                     </p>
+                    <a href="javascript:void(0)" data-modal="callBack" class="button button_theme_gold open-modal">
+                        заказать обратный звонок
+                    </a>
                 </div>
-                <div class="solution-item">
-                    <img src="images/multiroom.svg" alt="Системы Мультирум" class="solution-item__icon">
-                    <h3 class="item-title">Системы Мультирум</h3>
-                    <p class="solution-item__text">Можно начать слушать музыку в столовой, а продолжить в кабинете, включить фильм 
-                        в гостиной и досмотреть в спальне, при этом не искать очередной куда-то запропастившийся пульт, а управлять 
-                        всей электроникой с мобильного телефона или настенной панели.
-                    </p>
-                </div>
-                <div class="solution-item">
-                    <img src="images/security.svg" alt="Безопасность и видеонаблюдение" class="solution-item__icon">
-                    <h3 class="item-title">Безопасность и видеонаблюдение</h3>
-                    <p class="solution-item__text">Ваши квартира/дом всегда под контролем — дома вы, или в отпуске на другом конце планеты. Онлайн-просмотр изображения с камер, удаленный мониторинг периметра и возможность отключения охраны или открытия ворот / двери — для прибывшего курьера.
-                    </p>
-                </div>
-                <div class="solution-item">
-                    <img src="images/curtains.svg" alt="Свет и шторы" class="solution-item__icon">
-                    <h3 class="item-title">Свет и шторы</h3>
-                    <p class="solution-item__text">Автоматическое управление шторами и электрическим освещением - это оптимизация счетов на отопление/кондиционирование и совершенно новый уровень комфорта проживания в привычной среде.
-                    </p>
-                </div>
-                <div class="solution-item">
-                    <img src="images/hifi.svg" alt="Стереосистемы Hi-Fi/High End" class="solution-item__icon">
-                    <h3 class="item-title">Стереосистемы Hi-Fi/High End</h3>
-                    <p class="solution-item__text">Традиционные проигрыватели винила и ультрасовременные стримеры файлов высокого 
-                        разрешения, теплые ламповые и прогрессивные цифровые усилители, полочные и напольные колонки, из дерева и 
-                        камня — в нашем салоне есть всё для максимально качественного прослушивания музыки.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <h2 class="page-title">портфолио</h2>
-            <div class="portfolio__slider">
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img1.png" alt="Домашний кинотеатр с изюминкой" class="portfolio-item__image">
-                    <h3 class="item-title">Домашний кинотеатр с изюминкой</h3>
-                    <p class="portfolio-item__text">
-                        В нашем новом проекте домашнего кинотеатра задача была в целом довольно типичной – построить систему с 
-                        использованием встроенных акустических систем. 
-                    </p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img2.png" alt="Роскошный автомобиль с «умным салоном»" class="portfolio-item__image">
-                    <h3 class="item-title">Роскошный автомобиль с «умным салоном»</h3>
-                    <p class="portfolio-item__text">
-                        Эксклюзивный Mercedes Benz V class обрел не только шикарный салон первого класса с креслами, баром, сейфом и 
-                        телевизором, но и благодаря нашей помощи позволил управлять всем этим богатством с iPad!
-                    </p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img3.png" alt="Гостиная-кинотеатр" class="portfolio-item__image">
-                    <h3 class="item-title">Гостиная-кинотеатр</h3>
-                    <p class="portfolio-item__text">
-                        Посмотрев на фотографии этой светлой гостиной сразу и не поймешь, что расположена она в цокольном этаже дома и не имеет окон.
-                    </p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img4.png" alt="Вилла" class="portfolio-item__image">
-                    <h3 class="item-title">Вилла</h3>
-                    <p class="portfolio-item__text">
-                        О вкусах не спорят, особенно в дизайне. К интерьеру на картинке можно относиться по-разному, но в уютности ему не откажешь. 
-                        Он был симпатичным и до установки кинотеатра, но техника придала ему определенную завершенность.
-                    </p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img5.png" alt="Кухня. Гостиная. Кинотеатр. Atmos." class="portfolio-item__image">
-                    <h3 class="item-title">Кухня. Гостиная. Кинотеатр. Atmos.</h3>
-                    <p class="portfolio-item__text">
-                        В совмещенной кухне-гостиной нашлось место и полноценному домашнему кинотеатру с поддержкой Dolby Atmos.
-                    </p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio-item__img6.png" alt="Кинотеатр на крыше" class="portfolio-item__image">
-                    <h3 class="item-title">Кинотеатр на крыше</h3>
-                    <p class="portfolio-item__text">
-                        В этой трехуровневой квартире место кинотеатру отвели на самом верху — в буквальном смысле слова «на крыше».
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="after-portfolio-buttons">
-            <a href="javascript:void(0)" data-modal="orderSpecialist" class="button button_theme_white open-modal">заказать выезд специалиста</a>
-            <a href="javascript:void(0)" data-modal="orderProject" class="button button_theme_gold open-modal">заказать проектирование</a>
-        </section>
-        <section class="slider">
-            <a href="javascript:void(0)"><img src="images/slider-item-1.png" alt="" class="slider-item"></a>
-            <a href="javascript:void(0)"><img src="images/slider-item-2.png" alt="" class="slider-item"></a> 
-            <a href="javascript:void(0)"><img src="images/slider-item-3.png" alt="" class="slider-item"></a> 
-            <a href="javascript:void(0)"><img src="images/slider-item-4.png" alt="" class="slider-item"></a> 
-        </section>
-        <section class="trends">
-            <div class="section-header">
-                <h2 class="page-title">сегодня в тренде</h2>
-                <a href="javascript:void(0)" class="page-link">Смотреть каталог</a>
-            </div>
-            <div class="trends__items">
-                <div class="trends-item-lg">
-                    <img src="images/onkyo-vinyl.png" alt="Проигрыватель винила Onkyo CP-1050(D)CMP" class="trends-item-lg__image">
-                    <div class="trends-item-lg__info">
-                        <h3 class="trends-item-lg__title">Проигрыватель винила Onkyo CP-1050(D)CMP</h3>
-                        <p class="trends-item-lg__price">44 990</p>
-                    </div>
-                </div>
-                <div class="trends__items-sm-container">
-                    <div class="trends-item-sm">
-                        <img src="images/trends-item__img1.png" alt="Музыкальный центр McIntosh McAire" class="trends-item-sm__image">
-                        <div class="trends-item-sm__info">
-                            <h3 class="trends-item-sm__title">Музыкальный центр McIntosh McAire</h3>
-                            <p class="trends-item-sm__price">371 250</p>
+                <div class="advantages">
+                    <div class="advantages__items">
+                        <div class="advantages-item">
+                            <img src="images/15.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Более 15 лет
+                                опыта</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/1440.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Более 1440 реализованных проектов</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/prof.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Профессиональный коллектив инсталляторов</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/kremlin.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Двухэтажный шоу-рум в 5 минутах от Кремля</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/key.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Работы
+                                «под ключ»</p>
+                        </div>
+                        <div class="advantages-item">
+                            <img src="images/manager.svg" alt="" class="advantages-item__icon">
+                            <p class="advantages-item__text">Персональный менеджер</p>
                         </div>
                     </div>
-                    <div class="trends-item-sm">
-                        <img src="images/trends-item__img2.png" alt="Телевизор Bang & Olufsen BeoVision 12-65" class="trends-item-sm__image">
-                        <div class="trends-item-sm__info">
-                            <h3 class="trends-item-sm__title">Телевизор Bang & Olufsen BeoVision 12-65"</h3>
-                            <p class="trends-item-sm__price">805 380</p>
-                        </div>
-                    </div>
-                    <div class="trends-item-sm">
-                        <img src="images/trends-item__img3.png" alt="Акустика Marshall Stanmore brown" class="trends-item-sm__image">
-                        <div class="trends-item-sm__info">
-                            <h3 class="trends-item-sm__title">Акустика Marshall Stanmore brown</h3>
-                            <p class="trends-item-sm__price">26 990</p>
-                        </div>
-                    </div>
-                    <div class="trends-item-sm">
-                        <img src="images/trends-item__img4.png" alt="Проектор Panasonic PT-RZ120LE" class="trends-item-sm__image">
-                        <div class="trends-item-sm__info">
-                            <h3 class="trends-item-sm__title">Проектор Panasonic PT-RZ120LE</h3>
-                            <p class="trends-item-sm__price">2 084 746</p>
-                        </div>
-                    </div>
+                    <a href="#solutions" class="intro__chevron"></a>
                 </div>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <div class="section-header">
-                <h2 class="page-title">о галерее</h2>
-                <a href="javascript:void(0)" id="showSecondFloor" class="page-link">Смотреть второй этаж</a>
-                <a href="javascript:void(0)" id="showFirstFloor" class="page-link page-link_hidden">Смотреть первый этаж</a>
-            </div>
-             <div class="about__container">
-                <div class="about__text">
-                    <p class="about__paragraph">
-                        Галерея безупречной электроники "Назаров" - <span class="about__accent">крупнейшая компания</span> на рынке домашней развлекательной электроники, входящая в профильный холдинг с 15-летней историей. 
-                    </p>
-                    <p class="about__paragraph">
-                        Мы профессионально занимаемся аудиотехникой и домашним кинотеатром, а также умным домом во всех его проявлениях — освещением и климат-контролем, автоматизацией и управлением. 
-                    </p>
-                    <p class="about__paragraph">
-                        Квартира или дом, ресторан или клуб, <span class="about__accent">мы под ключ оборудуем любое пространство</span> для идеального прослушивания музыки и просмотра кино с максимально высоким качеством. 
-                    </p>
-                    <p class="about__paragraph">
-                        Наша просторная галерея в самом центре Москвы готова продемонстрировать огромное количество самых различных систем на любой вкус и кошелек. География наших работ простирается по всей России. 
-                    </p>
-                    <p class="about__paragraph">
-                        Приходите, мы готовы удивлять!
-                    </p>
-                </div>
-                <div class="about-virtual about-virtual_first">
-                    <iframe class="about-virtual__iframe" src="https://www.google.com/maps/embed?pb=!1m0!4v1507027118077!6m8!1m7!1sCAoSLEFGMVFpcE02aUE4b1dPdEM5ZmRYZm51VzNDbk1MSlBHQ0YtSzVYSFdVckVu!2m2!1d55.74348515047236!2d37.6251419012234!3f81.08784264392293!4f-0.9566650982534526!5f0.7820865974627469" allowfullscreen=""></iframe>
-                </div>
-                <div class="about-virtual about-virtual_second">
-                    <iframe class="about-virtual__iframe" src="https://www.google.com/maps/embed?pb=!1m0!4v1507027182380!6m8!1m7!1sCAoSLEFGMVFpcE0xTFpiMXFxclVaekZtaThhNG9KRmhub3hOMUx2SlR3SDdTNVB5!2m2!1d55.74364194793816!2d37.62523910631126!3f232.9601442439047!4f-7.192361551183737!5f0.7820865974627469" allowfullscreen=""></iframe>
-                </div>
-            </div>
-        </section>
-
-        <section class="sign-up">
-            <a href="javascript:void(0)" data-modal="signToDemo" class="button button_theme_gold open-modal">записаться в демо-зал</a>
-        </section>
-
-        <section class="news" id="news">
-            <div class="section-header">
-                <h2 class="page-title">новости</h2>
-                <a href="./news.html" class="page-link">Смотреть все новости</a>
-            </div>
-            <div class="news-box">
-                <div class="news-item">
-                    <img src="images/news-item__img1.png" alt="AVR и процессор Arcam в Трейд-Ин" class="news-item__image">
-                    <p class="news-item__date">5 Августа 2019 г.</p>
-                    <h3 class="news-item__title">AVR и процессор Arcam в Трейд-Ин</h3>
-                    <p class="news-item__preview">Прекрасная возможность обновить свой устаревший AV-ресивер или процессор с акцией "Трейд-Ин от Arcam".</p>
-                </div>
-                <div class="news-item">
-                    <img src="images/news-item__img2.png" alt="Виниловый рай для меломанов" class="news-item__image">
-                    <p class="news-item__date">21 Июня 2019 г.</p>
-                    <h3 class="news-item__title">Виниловый рай для меломанов</h3>
-                    <p class="news-item__preview">Сегодня проигрыватели виниловых пластинок пользуются большой популярностью, причем не только меломаны ищут достойные модели.</p>
-                </div>
-                <div class="news-item">
-                    <img src="images/news-item__img3.png" alt="Devialet — элегантный во всем" class="news-item__image">
-                    <p class="news-item__date">19 Июня 2019 г.</p>
-                    <h3 class="news-item__title">Devialet — элегантный во всем</h3>
-                    <p class="news-item__preview">Если вы ищете хороший звук, но вам важен современный дизайн, экономия пространства и функциональность — то обратите внимание.</p>
-                </div>
-                <div class="news-item">
-                    <img src="images/news-item__img4.png" alt="Трейд-ин на проекторы JVC" class="news-item__image">
-                    <p class="news-item__date">5 Июня 2019 г.</p>
-                    <h3 class="news-item__title">Трейд-ин на проекторы JVC</h3>
-                    <p class="news-item__preview">Компания JVC запустила уникальную акцию, которая на рынке аудио-видеотехники является большой редкостью.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="anti-wrapper anti-wrapper_theme_gray">
-        <div class="wrapper wrapper_theme_gray">
-            <section class="subscribe">
-                <h2 class="subscribe__title">
-                    Подпишитесь на новости
-                </h2>
-                <form class="subscribe__form" action="">
-                    <div class="subscribe__email-container">
-                        <label for="email" class="subscribe__hint">Ваш E-mail</label>
-                        <input placeholder="example@nazgal.ru" class="subscribe__email" id="email" type="email" name="email" required>
-                    </div>
-                    <p class="subscribe__respect">
-                        Мы уважаем Вашу приватность и не предоставляем данные третьим лицам.
-                    </p>
-                    <input class="button button_theme_gold" type="submit" value="подписаться">
-                </form>
             </section>
-        </div> 
-    </div>
-    
-    <div class="wrapper">
-        <script src="js/brands.js"></script>
+            <div class="wrapper">
+                <section id="solutions" class="solutions">
+                    <h2 class="page-title">решения</h2>
+                    <div class="solutions__items">
+                        <div class="solution-item">
+                            <img src="images/home-cinema.svg" alt="Домашние кинотеатры" class="solution-item__icon">
+                            <h3 class="item-title">Домашние кинотеатры</h3>
+                            <p class="solution-item__text">Расскажем о преимуществах проектора перед телевизором,
+                                объясним потенциал
+                                современных многоканальных аудиоформатов и способы их декодирования, поможем выбрать
+                                наиболее подходящие
+                                источники видеоконтента, включая серверы и потоковые сервисы.
+                            </p>
+                        </div>
+                        <div class="solution-item">
+                            <img src="images/smart-home.svg" alt="Умный дом" class="solution-item__icon">
+                            <h3 class="item-title">«Умный дом»</h3>
+                            <p class="solution-item__text">Интернет объединил весь мир, а интернет вещей — устройства,
+                                которые благодаря
+                                этой технологии взаимодействуют друг с другом и окружающей средой. В случае с умным
+                                домом мы получаем
+                                бытовую технику, объединенную в единую сеть, пользоваться которой удобней и проще.
+                            </p>
+                        </div>
+                        <div class="solution-item">
+                            <img src="images/multiroom.svg" alt="Системы Мультирум" class="solution-item__icon">
+                            <h3 class="item-title">Системы Мультирум</h3>
+                            <p class="solution-item__text">Можно начать слушать музыку в столовой, а продолжить в
+                                кабинете, включить фильм
+                                в гостиной и досмотреть в спальне, при этом не искать очередной куда-то запропастившийся
+                                пульт, а управлять
+                                всей электроникой с мобильного телефона или настенной панели.
+                            </p>
+                        </div>
+                        <div class="solution-item">
+                            <img src="images/security.svg" alt="Безопасность и видеонаблюдение"
+                                class="solution-item__icon">
+                            <h3 class="item-title">Безопасность и видеонаблюдение</h3>
+                            <p class="solution-item__text">Ваши квартира/дом всегда под контролем — дома вы, или в
+                                отпуске на другом конце планеты. Онлайн-просмотр изображения с камер, удаленный
+                                мониторинг периметра и возможность отключения охраны или открытия ворот / двери — для
+                                прибывшего курьера.
+                            </p>
+                        </div>
+                        <div class="solution-item">
+                            <img src="images/curtains.svg" alt="Свет и шторы" class="solution-item__icon">
+                            <h3 class="item-title">Свет и шторы</h3>
+                            <p class="solution-item__text">Автоматическое управление шторами и электрическим освещением
+                                - это оптимизация счетов на отопление/кондиционирование и совершенно новый уровень
+                                комфорта проживания в привычной среде.
+                            </p>
+                        </div>
+                        <div class="solution-item">
+                            <img src="images/hifi.svg" alt="Стереосистемы Hi-Fi/High End" class="solution-item__icon">
+                            <h3 class="item-title">Стереосистемы Hi-Fi/High End</h3>
+                            <p class="solution-item__text">Традиционные проигрыватели винила и ультрасовременные
+                                стримеры файлов высокого
+                                разрешения, теплые ламповые и прогрессивные цифровые усилители, полочные и напольные
+                                колонки, из дерева и
+                                камня — в нашем салоне есть всё для максимально качественного прослушивания музыки.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio" id="portfolio">
+                    <h2 class="page-title">портфолио</h2>
+                    <div class="portfolio__slider">
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img1.png" alt="Домашний кинотеатр с изюминкой"
+                                class="portfolio-item__image">
+                            <h3 class="item-title">Домашний кинотеатр с изюминкой</h3>
+                            <p class="portfolio-item__text">
+                                В нашем новом проекте домашнего кинотеатра задача была в целом довольно типичной –
+                                построить систему с
+                                использованием встроенных акустических систем.
+                            </p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img2.png" alt="Роскошный автомобиль с «умным салоном»"
+                                class="portfolio-item__image">
+                            <h3 class="item-title">Роскошный автомобиль с «умным салоном»</h3>
+                            <p class="portfolio-item__text">
+                                Эксклюзивный Mercedes Benz V class обрел не только шикарный салон первого класса с
+                                креслами, баром, сейфом и
+                                телевизором, но и благодаря нашей помощи позволил управлять всем этим богатством с iPad!
+                            </p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img3.png" alt="Гостиная-кинотеатр"
+                                class="portfolio-item__image">
+                            <h3 class="item-title">Гостиная-кинотеатр</h3>
+                            <p class="portfolio-item__text">
+                                Посмотрев на фотографии этой светлой гостиной сразу и не поймешь, что расположена она в
+                                цокольном этаже дома и не имеет окон.
+                            </p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img4.png" alt="Вилла" class="portfolio-item__image">
+                            <h3 class="item-title">Вилла</h3>
+                            <p class="portfolio-item__text">
+                                О вкусах не спорят, особенно в дизайне. К интерьеру на картинке можно относиться
+                                по-разному, но в уютности ему не откажешь.
+                                Он был симпатичным и до установки кинотеатра, но техника придала ему определенную
+                                завершенность.
+                            </p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img5.png" alt="Кухня. Гостиная. Кинотеатр. Atmos."
+                                class="portfolio-item__image">
+                            <h3 class="item-title">Кухня. Гостиная. Кинотеатр. Atmos.</h3>
+                            <p class="portfolio-item__text">
+                                В совмещенной кухне-гостиной нашлось место и полноценному домашнему кинотеатру с
+                                поддержкой Dolby Atmos.
+                            </p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="images/portfolio-item__img6.png" alt="Кинотеатр на крыше"
+                                class="portfolio-item__image">
+                            <h3 class="item-title">Кинотеатр на крыше</h3>
+                            <p class="portfolio-item__text">
+                                В этой трехуровневой квартире место кинотеатру отвели на самом верху — в буквальном
+                                смысле слова «на крыше».
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="after-portfolio-buttons">
+                    <a href="javascript:void(0)" data-modal="orderSpecialist"
+                        class="button button_theme_white open-modal">заказать выезд специалиста</a>
+                    <a href="javascript:void(0)" data-modal="orderProject"
+                        class="button button_theme_gold open-modal">заказать проектирование</a>
+                </section>
+                <section class="slider">
+                    <a href="javascript:void(0)"><img src="images/slider-item-1.png" alt="" class="slider-item"></a>
+                    <a href="javascript:void(0)"><img src="images/slider-item-2.png" alt="" class="slider-item"></a>
+                    <a href="javascript:void(0)"><img src="images/slider-item-3.png" alt="" class="slider-item"></a>
+                    <a href="javascript:void(0)"><img src="images/slider-item-4.png" alt="" class="slider-item"></a>
+                </section>
+                <section class="trends">
+                    <div class="section-header">
+                        <h2 class="page-title">сегодня в тренде</h2>
+                        <a href="javascript:void(0)" class="page-link">Смотреть каталог</a>
+                    </div>
+                    <div class="trends__items">
+                        <div class="trends-item-lg">
+                            <img src="images/onkyo-vinyl.png" alt="Проигрыватель винила Onkyo CP-1050(D)CMP"
+                                class="trends-item-lg__image">
+                            <div class="trends-item-lg__info">
+                                <h3 class="trends-item-lg__title">Проигрыватель винила Onkyo CP-1050(D)CMP</h3>
+                                <p class="trends-item-lg__price">44 990</p>
+                            </div>
+                        </div>
+                        <div class="trends__items-sm-container">
+                            <div class="trends-item-sm">
+                                <img src="images/trends-item__img1.png" alt="Музыкальный центр McIntosh McAire"
+                                    class="trends-item-sm__image">
+                                <div class="trends-item-sm__info">
+                                    <h3 class="trends-item-sm__title">Музыкальный центр McIntosh McAire</h3>
+                                    <p class="trends-item-sm__price">371 250</p>
+                                </div>
+                            </div>
+                            <div class="trends-item-sm">
+                                <img src="images/trends-item__img2.png" alt="Телевизор Bang & Olufsen BeoVision 12-65"
+                                    class="trends-item-sm__image">
+                                <div class="trends-item-sm__info">
+                                    <h3 class="trends-item-sm__title">Телевизор Bang & Olufsen BeoVision 12-65"</h3>
+                                    <p class="trends-item-sm__price">805 380</p>
+                                </div>
+                            </div>
+                            <div class="trends-item-sm">
+                                <img src="images/trends-item__img3.png" alt="Акустика Marshall Stanmore brown"
+                                    class="trends-item-sm__image">
+                                <div class="trends-item-sm__info">
+                                    <h3 class="trends-item-sm__title">Акустика Marshall Stanmore brown</h3>
+                                    <p class="trends-item-sm__price">26 990</p>
+                                </div>
+                            </div>
+                            <div class="trends-item-sm">
+                                <img src="images/trends-item__img4.png" alt="Проектор Panasonic PT-RZ120LE"
+                                    class="trends-item-sm__image">
+                                <div class="trends-item-sm__info">
+                                    <h3 class="trends-item-sm__title">Проектор Panasonic PT-RZ120LE</h3>
+                                    <p class="trends-item-sm__price">2 084 746</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about" id="about">
+                    <div class="section-header">
+                        <h2 class="page-title">о галерее</h2>
+                        <a href="javascript:void(0)" id="showSecondFloor" class="page-link">Смотреть второй этаж</a>
+                        <a href="javascript:void(0)" id="showFirstFloor" class="page-link page-link_hidden">Смотреть
+                            первый этаж</a>
+                    </div>
+                    <div class="about__container">
+                        <div class="about__text">
+                            <p class="about__paragraph">
+                                Галерея безупречной электроники "Назаров" - <span class="about__accent">крупнейшая
+                                    компания</span> на рынке домашней развлекательной электроники, входящая в профильный
+                                холдинг с 15-летней историей.
+                            </p>
+                            <p class="about__paragraph">
+                                Мы профессионально занимаемся аудиотехникой и домашним кинотеатром, а также умным домом
+                                во всех его проявлениях — освещением и климат-контролем, автоматизацией и управлением.
+                            </p>
+                            <p class="about__paragraph">
+                                Квартира или дом, ресторан или клуб, <span class="about__accent">мы под ключ оборудуем
+                                    любое пространство</span> для идеального прослушивания музыки и просмотра кино с
+                                максимально высоким качеством.
+                            </p>
+                            <p class="about__paragraph">
+                                Наша просторная галерея в самом центре Москвы готова продемонстрировать огромное
+                                количество самых различных систем на любой вкус и кошелек. География наших работ
+                                простирается по всей России.
+                            </p>
+                            <p class="about__paragraph">
+                                Приходите, мы готовы удивлять!
+                            </p>
+                        </div>
+                        <div class="about-virtual about-virtual_first">
+                            <iframe class="about-virtual__iframe"
+                                src="https://www.google.com/maps/embed?pb=!1m0!4v1507027118077!6m8!1m7!1sCAoSLEFGMVFpcE02aUE4b1dPdEM5ZmRYZm51VzNDbk1MSlBHQ0YtSzVYSFdVckVu!2m2!1d55.74348515047236!2d37.6251419012234!3f81.08784264392293!4f-0.9566650982534526!5f0.7820865974627469"
+                                allowfullscreen=""></iframe>
+                        </div>
+                        <div class="about-virtual about-virtual_second">
+                            <iframe class="about-virtual__iframe"
+                                src="https://www.google.com/maps/embed?pb=!1m0!4v1507027182380!6m8!1m7!1sCAoSLEFGMVFpcE0xTFpiMXFxclVaekZtaThhNG9KRmhub3hOMUx2SlR3SDdTNVB5!2m2!1d55.74364194793816!2d37.62523910631126!3f232.9601442439047!4f-7.192361551183737!5f0.7820865974627469"
+                                allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </section>
 
-        <section class="automatization">
-            <div class="section-header">
-                <h2 class="page-title">автоматизация</h2>
-                <a href="./smart-home.html" class="page-link">Подробнее</a>
-            </div>
-            <div class="automatization__row">
-                <img src="images/KNX_logo.png" alt="knx" class="automatization__image">
-                <img src="images/chestron.png" alt="chestron" class="automatization__image">
-                <img src="images/lutron.png" alt="lutron" class="automatization__image">
-                <img src="images/control.png" alt="control" class="automatization__image">
-                <img src="images/rti.png" alt="RTI" class="automatization__image">
-            </div>
-        </section>
-    </div>
+                <section class="sign-up">
+                    <a href="javascript:void(0)" data-modal="signToDemo"
+                        class="button button_theme_gold open-modal">записаться в демо-зал</a>
+                </section>
 
-    <script src="js/footer.js"></script>
+                <section class="news" id="news">
+                    <div class="section-header">
+                        <h2 class="page-title">новости</h2>
+                        <a href="./news.html" class="page-link">Смотреть все новости</a>
+                    </div>
+                    <div class="news-box">
+                        <div class="news-item">
+                            <img src="images/news-item__img1.png" alt="AVR и процессор Arcam в Трейд-Ин"
+                                class="news-item__image">
+                            <p class="news-item__date">5 Августа 2019 г.</p>
+                            <h3 class="news-item__title">AVR и процессор Arcam в Трейд-Ин</h3>
+                            <p class="news-item__preview">Прекрасная возможность обновить свой устаревший AV-ресивер или
+                                процессор с акцией "Трейд-Ин от Arcam".</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="images/news-item__img2.png" alt="Виниловый рай для меломанов"
+                                class="news-item__image">
+                            <p class="news-item__date">21 Июня 2019 г.</p>
+                            <h3 class="news-item__title">Виниловый рай для меломанов</h3>
+                            <p class="news-item__preview">Сегодня проигрыватели виниловых пластинок пользуются большой
+                                популярностью, причем не только меломаны ищут достойные модели.</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="images/news-item__img3.png" alt="Devialet — элегантный во всем"
+                                class="news-item__image">
+                            <p class="news-item__date">19 Июня 2019 г.</p>
+                            <h3 class="news-item__title">Devialet — элегантный во всем</h3>
+                            <p class="news-item__preview">Если вы ищете хороший звук, но вам важен современный дизайн,
+                                экономия пространства и функциональность — то обратите внимание.</p>
+                        </div>
+                        <div class="news-item">
+                            <img src="images/news-item__img4.png" alt="Трейд-ин на проекторы JVC"
+                                class="news-item__image">
+                            <p class="news-item__date">5 Июня 2019 г.</p>
+                            <h3 class="news-item__title">Трейд-ин на проекторы JVC</h3>
+                            <p class="news-item__preview">Компания JVC запустила уникальную акцию, которая на рынке
+                                аудио-видеотехники является большой редкостью.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="anti-wrapper anti-wrapper_theme_gray">
+                <div class="wrapper wrapper_theme_gray">
+                    <section class="subscribe">
+                        <h2 class="subscribe__title">
+                            Подпишитесь на новости
+                        </h2>
+                        <form class="subscribe__form" action="">
+                            <div class="subscribe__email-container">
+                                <label for="email" class="subscribe__hint">Ваш E-mail</label>
+                                <input placeholder="example@nazgal.ru" class="subscribe__email" id="email" type="email"
+                                    name="email" required>
+                            </div>
+                            <p class="subscribe__respect">
+                                Мы уважаем Вашу приватность и не предоставляем данные третьим лицам.
+                            </p>
+                            <input class="button button_theme_gold" type="submit" value="подписаться">
+                        </form>
+                    </section>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <script src="js/brands.js"></script>
+
+                <section class="automatization">
+                    <div class="section-header">
+                        <h2 class="page-title">автоматизация</h2>
+                        <a href="./smart-home.html" class="page-link">Подробнее</a>
+                    </div>
+                    <div class="automatization__row">
+                        <img src="images/KNX_logo.png" alt="knx" class="automatization__image">
+                        <img src="images/chestron.png" alt="chestron" class="automatization__image">
+                        <img src="images/lutron.png" alt="lutron" class="automatization__image">
+                        <img src="images/control.png" alt="control" class="automatization__image">
+                        <img src="images/rti.png" alt="RTI" class="automatization__image">
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script src="js/footer.js"></script>
+    </div>
 
 
     <script src="js/menu.js"></script>
-    <script src="js/scroll.js" ></script>
+    <script src="js/scroll.js"></script>
 
     <script src="js/drop-down-list.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/portfolio-slider.js"></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/action-slider.js"></script>
     <script src="js/changeFloor.js"></script>
     <script src="js/modals.js"></script>
 </body>
+
 </html>

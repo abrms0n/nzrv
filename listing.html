@@ -1,205 +1,219 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/listing.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Наушники</title>
 </head>
+
 <body class="body">
     <script src="js/header.js"></script>
 
-    <div class="wrapper">
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
 
 
-        <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./catalog.html"
-                class="breadcrumb">
-                <span itemprop="item">
-                    <span itemprop="name">Каталог</span>
-                    <meta itemprop="position" content="1" />
-                </span>
-            </a>
+                <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./catalog.html"
+                        class="breadcrumb">
+                        <span itemprop="item">
+                            <span itemprop="name">Каталог</span>
+                            <meta itemprop="position" content="1" />
+                        </span>
+                    </a>
 
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
-                class="breadcrumb">
-                <span itemprop="item">
-                    <span itemprop="name">Воспроизведение</span>
-                    <meta itemprop="position" content="2" />
-                </span>
-            </a>
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+                        href="javascript:void(0)" class="breadcrumb">
+                        <span itemprop="item">
+                            <span itemprop="name">Воспроизведение</span>
+                            <meta itemprop="position" content="2" />
+                        </span>
+                    </a>
 
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
-            class="breadcrumb breadcrumb_active">
-            <span itemprop="item">
-                <span itemprop="name">Наушники</span>
-                <meta itemprop="position" content="3" />
-            </span>
-            </a>
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+                        href="javascript:void(0)" class="breadcrumb breadcrumb_active">
+                        <span itemprop="item">
+                            <span itemprop="name">Наушники</span>
+                            <meta itemprop="position" content="3" />
+                        </span>
+                    </a>
 
-        </section>
+                </section>
 
-        <div class="section-header">
-            <h1 class="page-title page-title_theme_black">наушники</h1>
-            <a href="javascript:void(0)" class="filters-link" id="filters-opener">Фильтры</a>
-        </div>
-        <section class="listing-container">
-            <div class="listing-container__filters">
-                <div class="listing-container__avaliable">
-                    <input type="checkbox" class="checkbox" id="avaliable">
-                    <label class="checkbox-label" for="avaliable">В салоне</label>
-                    <input type="checkbox" class="checkbox" id="action">
-                    <label class="checkbox-label" for="action">Акции</label>
+                <div class="section-header">
+                    <h1 class="page-title page-title_theme_black">наушники</h1>
+                    <a href="javascript:void(0)" class="filters-link" id="filters-opener">Фильтры</a>
                 </div>
-                <div class="listing-container__range">
-                    <label for="range">Цена:</label>
-                    <input id="range" type="range" class="range">
-                </div>
-                <ul class="listing-container__sort">
-                    <li class="listing-container__sort-li">
-                        <p class="listing-container__sort-title">Сортировать</p>
-                        <ul class="listing-container__sort-submenu">
-                            <form class="listing-container__radio-form" action="" method="">
-                                <li class="listing-container__radio-container">
-                                    <input checked name="filter" type="radio" class="radio-button" id="popular">
-                                    <label class="radio-label" for="popular">Самое популярное</label>
-                                </li>
-                                <li class="listing-container__radio-container">
-                                    <input name="filter" type="radio" class="radio-button" id="lowPrice">
-                                    <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
-                                </li>
-                                <li class="listing-container__radio-container">
-                                    <input name="filter" type="radio" class="radio-button" id="highPrice">
-                                    <label class="radio-label" for="highPrice">Сначала высокая цена</label>
-                                </li>
-                                <li class="listing-container__radio-container">
-                                    <input name="filter" type="radio" class="radio-button" id="new">
-                                    <label class="radio-label" for="new">Новинки</label>
-                                </li>
-                            </form>
+                <section class="listing-container">
+                    <div class="listing-container__filters">
+                        <div class="listing-container__avaliable">
+                            <input type="checkbox" class="checkbox" id="avaliable">
+                            <label class="checkbox-label" for="avaliable">В салоне</label>
+                            <input type="checkbox" class="checkbox" id="action">
+                            <label class="checkbox-label" for="action">Акции</label>
+                        </div>
+                        <div class="listing-container__range">
+                            <label for="range">Цена:</label>
+                            <input id="range" type="range" class="range">
+                        </div>
+                        <ul class="listing-container__sort">
+                            <li class="listing-container__sort-li">
+                                <p class="listing-container__sort-title">Сортировать</p>
+                                <ul class="listing-container__sort-submenu">
+                                    <form class="listing-container__radio-form" action="" method="">
+                                        <li class="listing-container__radio-container">
+                                            <input checked name="filter" type="radio" class="radio-button" id="popular">
+                                            <label class="radio-label" for="popular">Самое популярное</label>
+                                        </li>
+                                        <li class="listing-container__radio-container">
+                                            <input name="filter" type="radio" class="radio-button" id="lowPrice">
+                                            <label class="radio-label" for="lowPrice">Сначала низкая цена</label>
+                                        </li>
+                                        <li class="listing-container__radio-container">
+                                            <input name="filter" type="radio" class="radio-button" id="highPrice">
+                                            <label class="radio-label" for="highPrice">Сначала высокая цена</label>
+                                        </li>
+                                        <li class="listing-container__radio-container">
+                                            <input name="filter" type="radio" class="radio-button" id="new">
+                                            <label class="radio-label" for="new">Новинки</label>
+                                        </li>
+                                    </form>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
-                
-                
-                <div class="listing-container__show">
-                    <p class="listing-container__show-title">
-                        Отображать по:
-                    </p>
-                    <span class="listing-container__how-much">9</span>
-                    <span class="listing-container__how-much listing-container__how-much_selected">18</span>
-                    <span class="listing-container__how-much">36</span>
-                    <span class="listing-container__how-much">все</span>
-                </div>
-                <a href="javascript:void(0)" class="listing-container__cancel">Сбросить</a>
-                <a href="javascript:void(0)" class="button button_theme_gold">Найти</a>
-            </div>
-            <div class="listing-container__row">
-                <div class="listing-container__column listing-container__column_brands">
-                    <div class="listing-container__brands">
-                        <p class="page-subtitle page-subtitle_theme_black">Бренды</p>
-                        <form action="" class="listing-container__brands-container">
-                            <input type="checkbox" class="checkbox" id="adam">
-                            <label class="checkbox-label" for="adam">ADAM</label>
-                            <input type="checkbox" class="checkbox" id="adl">
-                            <label class="checkbox-label" for="adl">ADL</label>
-                            <input type="checkbox" class="checkbox" id="akg">
-                            <label class="checkbox-label" for="akg">AKG</label>
-                            <input type="checkbox" class="checkbox" id="aftershokz">
-                            <label class="checkbox-label" for="aftershokz">AfterShokz</label>
-                            <input type="checkbox" class="checkbox" id="apple">
-                            <label class="checkbox-label" for="apple">Apple</label>
-                            <input type="checkbox" class="checkbox" id="astellkern"> 
-                            <label class="checkbox-label" for="astellkern">Astell&Kern</label>
-                            <input type="checkbox" class="checkbox" id="audeze">
-                            <label class="checkbox-label" for="audeze">Audeze</label>
-    
-                            <span class="show-more" onclick="showMoreFlex(this)">Показать полностью</span>
-                            <div class="listing-container__brands-container listing-container__brands-container_hidden">
-                                <script src="js/listing-checkboxes.js"></script>
-                            </div>
-                        </form>
+
+
+                        <div class="listing-container__show">
+                            <p class="listing-container__show-title">
+                                Отображать по:
+                            </p>
+                            <span class="listing-container__how-much">9</span>
+                            <span class="listing-container__how-much listing-container__how-much_selected">18</span>
+                            <span class="listing-container__how-much">36</span>
+                            <span class="listing-container__how-much">все</span>
+                        </div>
+                        <a href="javascript:void(0)" class="listing-container__cancel">Сбросить</a>
+                        <a href="javascript:void(0)" class="button button_theme_gold">Найти</a>
                     </div>
-                </div> 
-                <div class="listing-container__column listing-container__column_products">
-                    <script src="js/listing-items.js"></script>
+                    <div class="listing-container__row">
+                        <div class="listing-container__column listing-container__column_brands">
+                            <div class="listing-container__brands">
+                                <p class="page-subtitle page-subtitle_theme_black">Бренды</p>
+                                <form action="" class="listing-container__brands-container">
+                                    <input type="checkbox" class="checkbox" id="adam">
+                                    <label class="checkbox-label" for="adam">ADAM</label>
+                                    <input type="checkbox" class="checkbox" id="adl">
+                                    <label class="checkbox-label" for="adl">ADL</label>
+                                    <input type="checkbox" class="checkbox" id="akg">
+                                    <label class="checkbox-label" for="akg">AKG</label>
+                                    <input type="checkbox" class="checkbox" id="aftershokz">
+                                    <label class="checkbox-label" for="aftershokz">AfterShokz</label>
+                                    <input type="checkbox" class="checkbox" id="apple">
+                                    <label class="checkbox-label" for="apple">Apple</label>
+                                    <input type="checkbox" class="checkbox" id="astellkern">
+                                    <label class="checkbox-label" for="astellkern">Astell&Kern</label>
+                                    <input type="checkbox" class="checkbox" id="audeze">
+                                    <label class="checkbox-label" for="audeze">Audeze</label>
+
+                                    <span class="show-more" onclick="showMoreFlex(this)">Показать полностью</span>
+                                    <div
+                                        class="listing-container__brands-container listing-container__brands-container_hidden">
+                                        <script src="js/listing-checkboxes.js"></script>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="listing-container__column listing-container__column_products">
+                            <script src="js/listing-items.js"></script>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <span class="pagination-button">Начало</span>
+                        <span class="pagination-button">Пред.</span>
+                        <span class="pagination-button pagination-button_selected">1</span>
+                        <span class="pagination-button">2</span>
+                        <span class="pagination-button">3</span>
+                        <span class="pagination-button">4</span>
+                        <span class="pagination-button">След.</span>
+                        <span class="pagination-button">Конец</span>
+                    </div>
+                </section>
+
+                <div class="filters-mobile">
+                    <img src="images/close.svg" alt="закрыть" class="filters-mobile__close-icon">
+                    <p class="filters-mobile__sort-title">Сортировать</p>
+                    <form class="filters-mobile__radio-form" action="" method="">
+                        <div class="filters-mobile__radio-container">
+                            <input checked name="filter" type="radio" class="radio-button" id="popular-mobile">
+                            <label class="radio-label" for="popular-mobile">Самое популярное</label>
+                        </div>
+                        <div class="filters-mobile__radio-container">
+                            <input name="filter" type="radio" class="radio-button" id="lowPrice-mobile">
+                            <label class="radio-label" for="lowPrice-mobile">Сначала низкая цена</label>
+                        </div>
+                        <div class="filters-mobile__radio-container">
+                            <input name="filter" type="radio" class="radio-button" id="highPrice-mobile">
+                            <label class="radio-label" for="highPrice-mobile">Сначала высокая цена</label>
+                        </div>
+                        <div class="filters-mobile__radio-container">
+                            <input name="filter" type="radio" class="radio-button" id="new-mobile">
+                            <label class="radio-label" for="new-mobile">Новинки</label>
+                        </div>
+                    </form>
+                    <div class="filters-mobile__range">
+                        <label class="" for="range-mobile">Цена:</label>
+                        <input id="range-mobile" type="range" class="range">
+                    </div>
+                    <a href="javascript:void(0)" class="button button_theme_gold">показать</a>
+
                 </div>
+                <div class="filters-mobile__darken"></div>
+
+                <section class="listing-about">
+                    <h2 class="page-subtitle">наушники</h2>
+                    <p class="page-text">На сайте галереи Назаров вы сможете: купить наушники в салоне электроники в
+                        Москве с доставкой, узнать стоимость наушников: цена самая привлекательная, ознакомиться с
+                        товаром в салоне. Продажа наушников с учетом всех ваших требований.
+                    </p>
+                    <p class="page-text">
+                        Ничто так не украшает любимую музыку, как акустическая система премиум-класса. Когда речь идет
+                        об идеальном звуке, не может быть одного универсального решения: чтобы погрузиться в звучание
+                        симфонического оркестра или зарядиться адреналином в домашнем кинотеатре, нужны разные системы.
+                        В нашем интернет-магазине акустических систем каждый сможет сделать правильный выбор исходя из
+                        собственных приоритетов и пространства, которое будет наполнено звуком (особняк, яхта, рабочий
+                        кабинет в квартире или просторный лофт - для нас нет никаких ограничений).
+                    </p>
+                </section>
+
+
             </div>
 
-            <div class="pagination">
-                <span class="pagination-button">Начало</span>
-                <span class="pagination-button">Пред.</span>
-                <span class="pagination-button pagination-button_selected">1</span>
-                <span class="pagination-button">2</span>
-                <span class="pagination-button">3</span>
-                <span class="pagination-button">4</span>
-                <span class="pagination-button">След.</span>
-                <span class="pagination-button">Конец</span>
-            </div>
-        </section>
 
-        <div class="filters-mobile">
-            <img src="images/close.svg" alt="закрыть" class="filters-mobile__close-icon">
-            <p class="filters-mobile__sort-title">Сортировать</p>
-            <form class="filters-mobile__radio-form" action="" method="">
-                <div class="filters-mobile__radio-container">
-                    <input checked name="filter" type="radio" class="radio-button" id="popular-mobile">
-                    <label class="radio-label" for="popular-mobile">Самое популярное</label>
-                </div>
-                <div class="filters-mobile__radio-container">
-                    <input name="filter" type="radio" class="radio-button" id="lowPrice-mobile">
-                    <label class="radio-label" for="lowPrice-mobile">Сначала низкая цена</label>
-                </div>
-                <div class="filters-mobile__radio-container">
-                    <input name="filter" type="radio" class="radio-button" id="highPrice-mobile">
-                    <label class="radio-label" for="highPrice-mobile">Сначала высокая цена</label>
-                </div>
-                <div class="filters-mobile__radio-container">
-                    <input name="filter" type="radio" class="radio-button" id="new-mobile">
-                    <label class="radio-label" for="new-mobile">Новинки</label>
-                </div>
-            </form>
-            <div class="filters-mobile__range">
-                <label class="" for="range-mobile">Цена:</label>
-                <input id="range-mobile" type="range" class="range">
-            </div>
-            <a href="javascript:void(0)" class="button button_theme_gold">показать</a>
-            
         </div>
-        <div class="filters-mobile__darken"></div>
-
-        <section class="listing-about">
-            <h2 class="page-subtitle">наушники</h2>
-            <p class="page-text">На сайте галереи Назаров вы сможете: купить наушники в салоне электроники в Москве с доставкой, узнать стоимость наушников: цена самая привлекательная, ознакомиться с товаром в салоне. Продажа наушников с учетом всех ваших требований.
-            </p>
-            <p class="page-text">
-                Ничто так не украшает любимую музыку, как акустическая система премиум-класса. Когда речь идет об идеальном звуке, не может быть одного универсального решения: чтобы погрузиться в звучание симфонического оркестра или зарядиться адреналином в домашнем кинотеатре, нужны разные системы. В нашем интернет-магазине акустических систем каждый сможет сделать правильный выбор исходя из собственных приоритетов и пространства, которое будет наполнено звуком (особняк, яхта, рабочий кабинет в квартире или просторный лофт - для нас нет никаких ограничений).
-            </p>
-        </section>
-
-
+        <script src="js/footer.js"></script>
     </div>
-
-
-
-    <script src="js/footer.js"></script>
 
     <script src="js/drop-down-list.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/scroll.js"></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/changeFloor.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>
 </body>
+
 </html>

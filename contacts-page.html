@@ -1,129 +1,178 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/contacts-page.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Наши контакты</title>
 </head>
+
 <body class="body">
     <script src="js/header.js"></script>
 
-    <div class="wrapper">
-        <section class="contacts">
-            <h1 class="page-title">наши контакты</h1>
-            <div class="contacts-row">
-                <div class="contacts-column-address">
-                    <ul class="contacts-column-address__list">
-                        <li class="contacts-column-address__item contacts-column-address__item_map">
-                            <p class="page-text">г. Москва, Большая Ордынка, 13/9</p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_phone">
-                            <p class="page-text"><a href="tel:+74951343286" class="contacts-column-address__link">+7 (495) 134-32-86</a></p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_mail">
-                            <p class="page-text"><a href="mailto:info@nazarov-gallery.ru" class="contacts-column-address__link">info@nazarov-gallery.ru</a></p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_mail">
-                            <p class="page-text"><a href="mailto:AD@nazarov-gallery.ru" class="contacts-column-address__link">AD@nazarov-gallery.ru</a> - для дизайнеров</p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_clock">
-                            <p class="page-text">С понедельника по субботу с 10:00 до 20:00, в воскресенье с 10:00 до 19:00</p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_car">
-                        <p class="page-text"><span class="page-text_accent">На машине:</span> <br>
-                        Необходимо доехать до улицы Большая Ордынка и двигаться по ней из центра по направлению к Садовому кольцу. После пересечения с Черниговским переулком слева вы увидите вывеску Галереи «НАЗАРОВ». Добро пожаловать!
-                        </p>
-                        <p class="page-text">
-                            Парковка у Галереи "Назаров" стоит 380 руб/час, при этом парковочные места есть далеко не всегда. Хорошей альтернативой является плоскостная парковка по адресу "Болотная ул., вл.10-18" стоимостью 200 руб/час (первые три часа) и где с местами обычно проблем не бывает. Пешком от парковки до Галереи "Назаров" - 5 минут. Въезд на парковку со стороны Малого Москворецкого моста, нужно держаться левой стороны и заехать под шлагбаум.
-                            </p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_metro">
-                        <p class="page-text"><span class="page-text_accent">От метро:</span> <br>
-                            Необходимо доехать на метро до станции «Третьяковская». Выход на улицу в сторону Третьяковской галереи. Выйдя из метро, поверните направо на улицу Большая Ордынка и двигайтесь по ней по направлению к Кадашевской набережной. Вскоре вы увидите справа вывеску Галереи «НАЗАРОВ». Добро пожаловать!
-                        </p>
-                        </li>
-                        <li class="contacts-column-address__item">
-                            <p class="page-text"><span class="page-text_accent">Наши реквизиты:</span> <br>
-                                ООО «НАЗАРОВ» <br>
-                                115035, г. Москва, ул. Большая Ордынка д.13/9 стр.1 <br>
-                                ИНН 7705943159 / КПП 770501001 <br>
-                                ОГРН 1117746161158 / БИК 044525225 <br>
-                                Р/с 40702810338000020238 <br>
-                                в Публичное акционерное общество «Сбербанк России»
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contacts-column-maps">
-                    <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COgdbD49"  allowfullscreen="true"></iframe>
-                    <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COghQNOt"allowfullscreen="true"></iframe>
-                </div>
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
+                <section class="contacts">
+                    <h1 class="page-title">наши контакты</h1>
+                    <div class="contacts-row">
+                        <div class="contacts-column-address">
+                            <ul class="contacts-column-address__list">
+                                <li class="contacts-column-address__item contacts-column-address__item_map">
+                                    <p class="page-text">г. Москва, Большая Ордынка, 13/9</p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_phone">
+                                    <p class="page-text"><a href="tel:+74951343286"
+                                            class="contacts-column-address__link">+7 (495) 134-32-86</a></p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_mail">
+                                    <p class="page-text"><a href="mailto:info@nazarov-gallery.ru"
+                                            class="contacts-column-address__link">info@nazarov-gallery.ru</a></p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_mail">
+                                    <p class="page-text"><a href="mailto:AD@nazarov-gallery.ru"
+                                            class="contacts-column-address__link">AD@nazarov-gallery.ru</a> - для
+                                        дизайнеров</p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_clock">
+                                    <p class="page-text">С понедельника по субботу с 10:00 до 20:00, в воскресенье с
+                                        10:00 до 19:00</p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_car">
+                                    <p class="page-text"><span class="page-text_accent">На машине:</span> <br>
+                                        Необходимо доехать до улицы Большая Ордынка и двигаться по ней из центра по
+                                        направлению к Садовому кольцу. После пересечения с Черниговским переулком слева
+                                        вы увидите вывеску Галереи «НАЗАРОВ». Добро пожаловать!
+                                    </p>
+                                    <p class="page-text">
+                                        Парковка у Галереи "Назаров" стоит 380 руб/час, при этом парковочные места есть
+                                        далеко не всегда. Хорошей альтернативой является плоскостная парковка по адресу
+                                        "Болотная ул., вл.10-18" стоимостью 200 руб/час (первые три часа) и где с
+                                        местами обычно проблем не бывает. Пешком от парковки до Галереи "Назаров" - 5
+                                        минут. Въезд на парковку со стороны Малого Москворецкого моста, нужно держаться
+                                        левой стороны и заехать под шлагбаум.
+                                    </p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_metro">
+                                    <p class="page-text"><span class="page-text_accent">От метро:</span> <br>
+                                        Необходимо доехать на метро до станции «Третьяковская». Выход на улицу в сторону
+                                        Третьяковской галереи. Выйдя из метро, поверните направо на улицу Большая
+                                        Ордынка и двигайтесь по ней по направлению к Кадашевской набережной. Вскоре вы
+                                        увидите справа вывеску Галереи «НАЗАРОВ». Добро пожаловать!
+                                    </p>
+                                </li>
+                                <li class="contacts-column-address__item">
+                                    <p class="page-text"><span class="page-text_accent">Наши реквизиты:</span> <br>
+                                        ООО «НАЗАРОВ» <br>
+                                        115035, г. Москва, ул. Большая Ордынка д.13/9 стр.1 <br>
+                                        ИНН 7705943159 / КПП 770501001 <br>
+                                        ОГРН 1117746161158 / БИК 044525225 <br>
+                                        Р/с 40702810338000020238 <br>
+                                        в Публичное акционерное общество «Сбербанк России»
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts-column-maps">
+                            <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COgdbD49"
+                                allowfullscreen="true"></iframe>
+                            <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COghQNOt"
+                                allowfullscreen="true"></iframe>
+                        </div>
+                    </div>
+                </section>
+                <section class="after-portfolio-buttons">
+                    <a href="javascript:void(0)" data-modal="orderSpecialist"
+                        class="button button_theme_white open-modal">заказать выезд специалиста</a>
+                    <a href="javascript:void(0)" data-modal="signToDemo"
+                        class="button button_theme_gold open-modal">записаться на прослушивание</a>
+                </section>
+                <section class="contacts contacts_second">
+                    <h2 class="page-title">Наш стенд в Экспострое</h2>
+                    <div class="contacts-row">
+                        <div class="contacts-column-address">
+                            <ul class="contacts-column-address__list">
+                                <li class="contacts-column-address__item contacts-column-address__item_map">
+                                    <p class="page-text">117218 , Москва, Нахимовский пр-т, 24 <br>
+                                        3 павильон, вход №6, комната 480</p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_phone">
+                                    <p class="page-text"><a href="tel:+74956467107"
+                                            class="contacts-column-address__link">+7 (495) 646-71-07</a></p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_car">
+                                    <p class="page-text"><span class="page-text_accent">На машине:</span> <br>
+                                        Выставочный комплекс «Экспострой» располагается на пересечении Севастопольского
+                                        и Нахимовского проспектов. У входа удобная парковка. Необходимо доехать до
+                                        Севастопольского проспекта и двигаться по нему из центра. Поверните на
+                                        Нахимовский проспект. Примерно через 200 метров поверните направо на территорию
+                                        комплекса «Экспострой». Войдите в павильон 6 выставочного комплекса «Экспострой»
+                                        и поверните налево да конца, затем направо. Наш стенд №480. Добро пожаловать!
+                                    </p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_metro">
+                                    <p class="page-text"><span class="page-text_accent">От станции метро
+                                            «Профсоюзная»:</span> <br>
+                                        Необходимо доехать на метро до станции «Профсоюзная». Выход на улицу в сторону
+                                        улицы Кржижановского, после стеклянных дверей поверните направо. Перед вами
+                                        будет дом, где располагается магазин «Ив Роше». Поверните за угол дома и
+                                        двигайтесь прямо по улице примерно 1,5 км. Можно добраться общественным
+                                        транспортом. Для этого необходимо перейти дорогу. На троллейбусе № 52 и
+                                        автобусах №44 и №219 необходимо доехать до остановки «Ткацкая фабрика». На
+                                        троллейбусах №49 и №85 и автобусах №57 и №168 необходимо доехать до остановки
+                                        «Страховое общество». Войдите в павильон 6 выставочного комплекса «Экспострой» и
+                                        поверните налево да конца, затем направо. Наш стенд №480. Добро пожаловать!
+                                    </p>
+                                </li>
+                                <li class="contacts-column-address__item contacts-column-address__item_metro">
+                                    <p class="page-text"><span class="page-text_accent">От станции метро «Нахимовский
+                                            проспект»:</span> <br>
+                                        Необходимо доехать на метро до станции «Нахимовский проспект», последний вагон
+                                        из центра. Выход в сторону Нахимовского проспекта, по переходу поверните направо
+                                        и по левой лестнице поднимитесь наверх. Далее двигайтесь прямо до пересечения с
+                                        дорогой и перейдите дорогу по пешеходному переходу. Здесь располагается
+                                        остановка общественного транспорта. На троллейбусе № 52 и автобусе № 219 или
+                                        аналогичных маршрутках необходимо доехать до остановки «Ткацкая фабрика».
+                                        Войдите в павильон 6 выставочного комплекса «Экспострой» и поверните налево да
+                                        конца, затем направо. Наш стенд №480. Добро пожаловать!
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts-column-maps">
+                            <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COghYL-C"
+                                allowfullscreen="true"></iframe>
+                            <a href="javascript:void(0)" class="open-modal" data-modal="expostroyMap">
+                                <img src="images/expostroy.jpg" alt="стенд в Экспострое" class="contacts-column-img">
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
-        <section class="after-portfolio-buttons">
-            <a href="javascript:void(0)" data-modal="orderSpecialist" class="button button_theme_white open-modal">заказать выезд специалиста</a>
-            <a href="javascript:void(0)" data-modal="signToDemo" class="button button_theme_gold open-modal">записаться на прослушивание</a>
-        </section>
-        <section class="contacts contacts_second">
-            <h2 class="page-title">Наш стенд в Экспострое</h2>
-            <div class="contacts-row">
-                <div class="contacts-column-address">
-                    <ul class="contacts-column-address__list">
-                        <li class="contacts-column-address__item contacts-column-address__item_map">
-                            <p class="page-text">117218 , Москва, Нахимовский пр-т, 24 <br>
-                                3 павильон, вход №6, комната 480</p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_phone">
-                            <p class="page-text"><a href="tel:+74956467107" class="contacts-column-address__link">+7 (495) 646-71-07</a></p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_car">
-                            <p class="page-text"><span class="page-text_accent">На машине:</span> <br>
-                                Выставочный комплекс «Экспострой» располагается на пересечении Севастопольского и Нахимовского проспектов. У входа удобная парковка. Необходимо доехать до Севастопольского проспекта и двигаться по нему из центра. Поверните на Нахимовский проспект. Примерно через 200 метров поверните направо на территорию комплекса «Экспострой». Войдите в павильон 6 выставочного комплекса «Экспострой» и поверните налево да конца, затем направо. Наш стенд №480. Добро пожаловать!
-                            </p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_metro">
-                            <p class="page-text"><span class="page-text_accent">От станции метро «Профсоюзная»:</span> <br>
-                                Необходимо доехать на метро до станции «Профсоюзная». Выход на улицу в сторону улицы Кржижановского, после стеклянных дверей поверните направо. Перед вами будет дом, где располагается магазин «Ив Роше». Поверните за угол дома и двигайтесь прямо по улице примерно 1,5 км. Можно добраться общественным транспортом. Для этого необходимо перейти дорогу. На троллейбусе № 52 и автобусах №44 и №219 необходимо доехать до остановки «Ткацкая фабрика». На троллейбусах №49 и №85 и автобусах №57 и №168 необходимо доехать до остановки «Страховое общество». Войдите в павильон 6 выставочного комплекса «Экспострой» и поверните налево да конца, затем направо. Наш стенд №480. Добро пожаловать!
-                            </p>
-                        </li>
-                        <li class="contacts-column-address__item contacts-column-address__item_metro">
-                            <p class="page-text"><span class="page-text_accent">От станции метро «Нахимовский проспект»:</span> <br>
-                                Необходимо доехать на метро до станции «Нахимовский проспект», последний вагон из центра. Выход в сторону Нахимовского проспекта, по переходу поверните направо и по левой лестнице поднимитесь наверх. Далее двигайтесь прямо до пересечения с дорогой и перейдите дорогу по пешеходному переходу. Здесь располагается остановка общественного транспорта. На троллейбусе № 52 и автобусе № 219 или аналогичных маршрутках необходимо доехать до остановки «Ткацкая фабрика». Войдите в павильон 6 выставочного комплекса «Экспострой» и поверните налево да конца, затем направо. Наш стенд №480. Добро пожаловать!
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="contacts-column-maps">
-                    <iframe class="contacts-column-map" src="https://yandex.ru/map-widget/v1/-/COghYL-C"  allowfullscreen="true"></iframe>
-                    <a href="javascript:void(0)" class="open-modal" data-modal="expostroyMap" >
-                        <img src="images/expostroy.jpg" alt="стенд в Экспострое" class="contacts-column-img">
-                    </a>
-                </div>
-            </div>
-        </section>
+
+
+        </div>
+        <script src="js/footer.js"></script>
     </div>
-
-
-
-    <script src="js/footer.js"></script>
 
 
     <script src="js/drop-down-list.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/scroll.js"></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>
 </body>
+
 </html>

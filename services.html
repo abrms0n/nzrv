@@ -1,343 +1,463 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/services.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Услуги</title>
 </head>
+
 <body class="body">
     <script src="js/header.js"></script>
 
-    <div class="wrapper">
-        <section class="services-about">
-            <h1 class="page-title">
-                услуги
-            </h1>
-            <div class="services-about__row">
-                <div class="services-about__text">
-                    <p class="page-text">
-                        Галерея безупречной электроники «Назаров» ― проект, уникальный не только для российского, но и для европейского рынков. Это относится и к представленным товарам, и к спектру услуг, и к взаимодействию с нашими клиентами.
-                    </p>
-                    <p class="page-text">
-                        В шести залах на двух этажах разместилась экспозиция, которая охватывает все виды домашней аудио- видеотехники, а так же элементы систем мультирум и умный дом.
-                    </p>
-                    <p class="page-text">
-                        Комнаты прослушивания разного размера позволяют услышать технику практически так, как она будет звучать в вашем помещении соответствующего размера. Отдельное помещение выделено для демонстрации персонального кинозала топ-уровня, оснащенного новейшей системой объемного звучания DOLBY ATMOS.
-                    </p>
-                    <p class="page-text">
-                        В нашем салоне можно так же подобрать самые различные устройства для воспроизведения видео, ознакомиться с системами «Умный дом» и мультирум и другими инновационными домашними технологиями.
-                    </p>    
-                    <p class="page-text">
-                        Особое внимание мы уделяем дизайну аппаратуры и интерьерным решениям, поскольку эстетика техники уже давно стала не менее важным фактором, чем ее функциональность.
-                    </p>
-                    <p class="page-text">
-                        В совокупности все это дает лучшие на рынке возможности по качественному подбору домашней аудио- видеотехники. А наши консультанты с самыми широкими знаниями и колоссальным опытом всегда готовы подобрать решение, которое будет для вас идеальным.
-                    </p>
-                </div>
-                <img src="images/services.jpg" alt="Услуги" class="services-about__image">
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
+                <section class="services-about">
+                    <h1 class="page-title">
+                        услуги
+                    </h1>
+                    <div class="services-about__row">
+                        <div class="services-about__text">
+                            <p class="page-text">
+                                Галерея безупречной электроники «Назаров» ― проект, уникальный не только для
+                                российского, но и для европейского рынков. Это относится и к представленным товарам, и к
+                                спектру услуг, и к взаимодействию с нашими клиентами.
+                            </p>
+                            <p class="page-text">
+                                В шести залах на двух этажах разместилась экспозиция, которая охватывает все виды
+                                домашней аудио- видеотехники, а так же элементы систем мультирум и умный дом.
+                            </p>
+                            <p class="page-text">
+                                Комнаты прослушивания разного размера позволяют услышать технику практически так, как
+                                она будет звучать в вашем помещении соответствующего размера. Отдельное помещение
+                                выделено для демонстрации персонального кинозала топ-уровня, оснащенного новейшей
+                                системой объемного звучания DOLBY ATMOS.
+                            </p>
+                            <p class="page-text">
+                                В нашем салоне можно так же подобрать самые различные устройства для воспроизведения
+                                видео, ознакомиться с системами «Умный дом» и мультирум и другими инновационными
+                                домашними технологиями.
+                            </p>
+                            <p class="page-text">
+                                Особое внимание мы уделяем дизайну аппаратуры и интерьерным решениям, поскольку эстетика
+                                техники уже давно стала не менее важным фактором, чем ее функциональность.
+                            </p>
+                            <p class="page-text">
+                                В совокупности все это дает лучшие на рынке возможности по качественному подбору
+                                домашней аудио- видеотехники. А наши консультанты с самыми широкими знаниями и
+                                колоссальным опытом всегда готовы подобрать решение, которое будет для вас идеальным.
+                            </p>
+                        </div>
+                        <img src="images/services.jpg" alt="Услуги" class="services-about__image">
+                    </div>
+                    <div class="services-about__button">
+                        <a href="javascript:void(0)" data-modal="orderService"
+                            class="button button_theme_gold open-modal">заказать услугу</a>
+                    </div>
+                </section>
+
+                <section class="solutions-list">
+                    <h2 class="page-title">
+                        решения
+                    </h2>
+                    <div class="buttons-radio">
+                        <a href="javascript:void(0)" class="buttons-radio__elem buttons-radio__elem_active"
+                            data-tab="all">все</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="home-theater">домашние
+                            кинотеатры</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="smart-home">«умный дом»</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="multiroom">системы
+                            мультирум</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="security">безопасность</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="light-curtains">свет и
+                            шторы</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="hifi-hiend">hifi/high end</a>
+                    </div>
+                    <div class="solutions-list__items">
+                        <div class="solutions-item solutions-item_active" data-tab="home-theater">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/tv.svg" alt="подбор аудио и видео техники"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Подбор и тест аудио и видео техники</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Чтобы не ошибиться с выбором стереосистемы или домашнего кинотеатра, чтобы они
+                                        доставляли те эмоции, которые вы ожидаете, необходимо предварительно
+                                        ознакомиться с ними в действии – услышать, как они звучат в условиях,
+                                        приближенных к реальной комнате и посмотреть, как выглядит картинка именно той
+                                        видеосистемы, на которую вы нацелены.
+                                    </p>
+                                    <p class="page-text">
+                                        В галерее «Назаров» для прослушивания представлен, пожалуй, самый широкий в
+                                        России выбор аппаратуры.
+                                    </p>
+                                    <p class="page-text">
+                                        Наши консультанты с многолетним опытом помогут вам определиться, какой характер
+                                        звучания подойдет именно вам с учетом ваших музыкальных вкусов, особенностей
+                                        вашего помещения и предложат на выбор различные системы, пока вы не найдете свой
+                                        идеал. Причем мы также предложим и продемонстрируем различные аксессуары –
+                                        кабели, источники питания и различные «улучшайзеры».
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="./service-page.html" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        40 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="home-theater">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/home-cinema.svg" alt="Проектирование домашних кинотеатров"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Проектирование домашних кинотеатров</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis, hic
+                                        ipsa aut voluptatum deleniti ex dolores impedit libero! Veniam expedita ducimus
+                                        nobis provident officiis asperiores corporis animi eaque, dicta totam,
+                                        voluptatibus fugiat nihil, consequatur rerum eveniet odio voluptas dignissimos.
+                                    </p>
+                                    <p class="page-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, laborum!
+                                    </p>
+                                    <p class="page-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis accusantium
+                                        sint dolore nam, iure voluptates. Est eaque blanditiis accusamus minima!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        99 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="smart-home">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/checklist.svg" alt="Индивидуальное проектирование системы «Умный дом»"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Индивидуальное проектирование системы «Умный дом»</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Галерея "НАЗАРОВ" осуществляет комплексное проектирование автоматизированных
+                                        систем управления домом любой степени сложности по принципу «под ключ».
+                                        Сертифицированные специалисты реализуют интеграцию системы выбранной
+                                        конфигурации с уже имеющимися инженерными системами помещения либо выполнят
+                                        полный комплекс работ по проектированию, подбору оборудования, подключению и
+                                        настройке любых электронных систем основании требований и предпочтений хозяина
+                                        дома.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        80 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="smart-home">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/works.svg" alt="Монтаж и инсталляция" class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Монтаж и инсталляция</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Трудно переоценить важность акустических систем (колонок) в любой системе – будь
+                                        она музыкальной или кинотеатральной. Именно они переводят электрические сигналы
+                                        в звуковые колебания, которые уже доходят до наших ушей. Именно они – последнее
+                                        и очень важное звено любой системы.
+
+                                    </p>
+                                    <p class="page-text">
+                                        В мире существует множество различных колонок, типов, форм и т.д. Это, пожалуй,
+                                        самый широкий сегмент продукции нашего рынка, где производители развернулись
+                                        по-полной и у потребителя сегодня есть огромный выбор. Можно подобрать
+                                        классические отдельно стоящие модели, встраиваемые в стену АС, навесные колонки
+                                        (на стену), подвесные системы (на потолок), беспроводные акустические системы –
+                                        выбор действительно впечатляет. И обычного человека может легко и быстро
+                                        запутать. Именно поэтому наши специалисты подберут оптимальные акустические
+                                        системы именно для вас. Являясь знатоками рынка, они выяснят ваши потребности и
+                                        подберут из ассортимента максимально соответствующие модели.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        60 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="smart-home">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/code-tv.svg" alt="Программирование и настройка"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Программирование и настройка</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Ради эффекта «мурашек по коже» и покупается техника. Удивительно, но один и тот
+                                        же фильм может завораживать, вызывать выплеск адреналина и эндорфина, а может
+                                        выглядеть практически как скучные новости. Даже ТВ программы могут
+                                        воспринимаются захватывающими или просто быть «фоном из ящика». Цель домашнего
+                                        кинотеатра – привнести в жизнь больше положительных эмоций, которые можно
+                                        получать каждый день, даже не выходя из дома.
+                                    </p>
+                                    <p class="page-text">
+                                        Для достижения максимального результата недостаточно просто купить оборудование
+                                        и расставить его согласно стандартным рекомендациям. Необходимо учесть целый ряд
+                                        других факторов, таких как планировка помещения, его акустические особенности,
+                                        дизайн интерьера, нюансы использования домашнего кинотеатра клиентом. Только
+                                        после этого можно разработать оптимальную архитектуру и состав оборудования
+                                        системы, которые обеспечат лучший возможный эффект.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        100 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="multiroom">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/multiroom.svg" alt="Индивидуальное проектирование системы Мультирум"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Индивидуальное проектирование системы Мультирум</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis
+                                        quisquam reprehenderit. Officia nam culpa sequi suscipit accusamus tempore
+                                        temporibus nostrum doloremque aspernatur recusandae. Non architecto eum ipsum,
+                                        quo distinctio voluptas suscipit illum sequi sint cumque ipsam, nam labore
+                                        error, cupiditate aperiam blanditiis debitis hic fugit. Laboriosam saepe ducimus
+                                        illum perspiciatis provident cumque nesciunt veritatis hic dolorem assumenda non
+                                        earum laudantium dolorum, dolore libero voluptates eveniet esse veniam? Dolores
+                                        provident rem, doloremque officiis nesciunt vel? Delectus rem consequuntur a
+                                        placeat!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        80 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="multiroom">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/handshake2.svg" alt="Гарантийное и постгарантийное обслуживание"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Гарантийное и постгарантийное обслуживание</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Результат, который вы получаете от домашней аудио-видео системы, во многом
+                                        зависит от правильной установки и настройки оборудования. Многие рядовые
+                                        пользователи не знают, что даже полярность включения вилки в электрическую сеть
+                                        имеет значение, не говоря уже о расположении акустических систем, правильной
+                                        настройки процессоров кинотеатра или интеграции сетевого оборудования в вашу
+                                        домашнюю сеть. Среди наших клиентов много энтузиастов, которые сами любят
+                                        погружаться в этот процесс. Но обычно мы стараемся взять на себя все тонкости
+                                        правильной установки оборудования, а вам предоставить результат.
+
+                                    </p>
+                                    <p class="page-text">
+                                        Стоимость работ зависит от их сложности, особенностей оборудования и помещения.
+                                        Поэтому в каждом случае стоимость большинства работ определяется индивидуально.
+                                        Общий уровень цен на услуги соответствует средним рыночным значениям. Для
+                                        крупных проектов и постоянных клиентов действуют специальные скидки.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        50 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+
+                        <div class="solutions-item solutions-item_active" data-tab="hifi-hiend">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/checklist.svg" alt="Проектировние аудио и видео систем"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Проектирование аудио и видео систем</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Трудно переоценить важность акустических систем (колонок) в любой системе – будь
+                                        она музыкальной или кинотеатральной. Именно они переводят электрические сигналы
+                                        в звуковые колебания, которые уже доходят до наших ушей. Именно они – последнее
+                                        и очень важное звено любой системы.
+
+                                    </p>
+                                    <p class="page-text">
+                                        В мире существует множество различных колонок, типов, форм и т.д. Это, пожалуй,
+                                        самый широкий сегмент продукции нашего рынка, где производители развернулись
+                                        по-полной и у потребителя сегодня есть огромный выбор. Можно подобрать
+                                        классические отдельно стоящие модели, встраиваемые в стену АС, навесные колонки
+                                        (на стену), подвесные системы (на потолок), беспроводные акустические системы –
+                                        выбор действительно впечатляет. И обычного человека может легко и быстро
+                                        запутать. Именно поэтому наши специалисты подберут оптимальные акустические
+                                        системы именно для вас. Являясь знатоками рынка, они выяснят ваши потребности и
+                                        подберут из ассортимента максимально соответствующие модели.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        75 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="light-curtains">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/curtains.svg" alt="индивидуальный подбор штор и освещения"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Индивидуальный подбор штор и освещения</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem architecto
+                                        asperiores ad ipsa. Suscipit corrupti natus dolore nesciunt ea vitae ratione,
+                                        esse, deserunt quisquam optio hic ducimus eligendi nihil consequatur? Optio
+                                        illum ipsa sint iure? Id eligendi dolore, alias possimus molestiae, reiciendis
+                                        placeat repellendus labore facilis laborum pariatur fuga repudiandae.
+                                    </p>
+                                    <p class="page-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati totam id
+                                        maiores doloribus fuga eos excepturi. Placeat vitae aspernatur molestias!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        40 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+                        <div class="solutions-item solutions-item_active" data-tab="security">
+                            <div class="solutions-item__icon-container">
+                                <img src="images/security.svg" alt="проектирование систем безопасности"
+                                    class="solutions-item__icon">
+                            </div>
+                            <div class="solutions-item__info">
+                                <h3 class="page-subtitle">Проектирование систем безопасности</h3>
+                                <div class="solutions-item__text-container">
+                                    <p class="page-text">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem architecto
+                                        asperiores ad ipsa. Suscipit corrupti natus dolore nesciunt ea vitae ratione,
+                                        esse, deserunt quisquam optio hic ducimus eligendi nihil consequatur? Optio
+                                        illum ipsa sint iure? Id eligendi dolore, alias possimus molestiae, reiciendis
+                                        placeat repellendus labore facilis laborum pariatur fuga repudiandae.
+                                    </p>
+                                    <p class="page-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati totam id
+                                        maiores doloribus fuga eos excepturi. Placeat vitae aspernatur molestias!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="solutions-item__price-container">
+                                <div class="solutions-item__link-container">
+                                    <a href="javascript:void(0)" class="page-link">Подробнее</a>
+                                    <p class="solutions-item__price">
+                                        40 000
+                                    </p>
+                                </div>
+                                <a href="javascript:void(0)" data-modal="orderService"
+                                    class="button button_theme_gold open-modal">заказать</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
             </div>
-            <div class="services-about__button">
-                <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать услугу</a>
-            </div>
-        </section>
 
-        <section class="solutions-list">
-            <h2 class="page-title">
-                решения
-            </h2>
-            <div class="buttons-radio">
-                <a href="javascript:void(0)" class="buttons-radio__elem buttons-radio__elem_active" data-tab="all">все</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="home-theater">домашние кинотеатры</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="smart-home">«умный дом»</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="multiroom">системы мультирум</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="security">безопасность</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="light-curtains">свет и шторы</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="hifi-hiend">hifi/high end</a>
-            </div>
-            <div class="solutions-list__items">
-                <div class="solutions-item solutions-item_active" data-tab="home-theater">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/tv.svg" alt="подбор аудио и видео техники" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Подбор и тест аудио и видео техники</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Чтобы не ошибиться с выбором стереосистемы или домашнего кинотеатра, чтобы они доставляли те эмоции, которые вы ожидаете, необходимо предварительно ознакомиться с ними в действии – услышать, как они звучат в условиях, приближенных к реальной комнате и посмотреть, как выглядит картинка именно той видеосистемы, на которую вы нацелены.
-                            </p>
-                            <p class="page-text">
-                                В галерее «Назаров» для прослушивания представлен, пожалуй, самый широкий в России выбор аппаратуры.
-                            </p>
-                            <p class="page-text">
-                                Наши консультанты с многолетним опытом помогут вам определиться, какой характер звучания подойдет именно вам с учетом ваших музыкальных вкусов, особенностей вашего помещения и предложат на выбор различные системы, пока вы не найдете свой идеал. Причем мы также предложим и продемонстрируем различные аксессуары – кабели, источники питания и различные «улучшайзеры».
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="./service-page.html" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                40 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="home-theater">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/home-cinema.svg" alt="Проектирование домашних кинотеатров" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Проектирование домашних кинотеатров</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis, hic ipsa aut voluptatum deleniti ex dolores impedit libero! Veniam expedita ducimus nobis provident officiis asperiores corporis animi eaque, dicta totam, voluptatibus fugiat nihil, consequatur rerum eveniet odio voluptas dignissimos.
-                            </p>
-                            <p class="page-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, laborum!
-                            </p>
-                            <p class="page-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis accusantium sint dolore nam, iure voluptates. Est eaque blanditiis accusamus minima!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                99 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="smart-home">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/checklist.svg" alt="Индивидуальное проектирование системы «Умный дом»" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Индивидуальное проектирование системы «Умный дом»</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Галерея "НАЗАРОВ" осуществляет комплексное проектирование автоматизированных систем управления домом любой степени сложности по принципу «под ключ». Сертифицированные специалисты реализуют интеграцию системы выбранной конфигурации с уже имеющимися инженерными системами помещения либо выполнят полный комплекс работ по проектированию, подбору оборудования, подключению и настройке любых электронных систем основании требований и предпочтений хозяина дома.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                80 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="smart-home" >
-                    <div class="solutions-item__icon-container">
-                        <img src="images/works.svg" alt="Монтаж и инсталляция" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Монтаж и инсталляция</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Трудно переоценить важность акустических систем (колонок) в любой системе – будь она музыкальной или кинотеатральной. Именно они переводят электрические сигналы в звуковые колебания, которые уже доходят до наших ушей. Именно они – последнее и очень важное звено любой системы.
 
-                            </p>
-                            <p class="page-text">
-                                В мире существует множество различных колонок, типов, форм и т.д. Это, пожалуй, самый широкий сегмент продукции нашего рынка, где производители развернулись по-полной и у потребителя сегодня есть огромный выбор. Можно подобрать классические отдельно стоящие модели, встраиваемые в стену АС, навесные колонки (на стену), подвесные системы (на потолок), беспроводные акустические системы – выбор действительно впечатляет. И обычного человека может легко и быстро запутать. Именно поэтому наши специалисты подберут оптимальные акустические системы именно для вас. Являясь знатоками рынка, они выяснят ваши потребности и подберут из ассортимента максимально соответствующие модели.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                60 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="smart-home">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/code-tv.svg" alt="Программирование и настройка" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Программирование и настройка</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Ради эффекта «мурашек по коже» и покупается техника. Удивительно, но один и тот же фильм может завораживать, вызывать выплеск адреналина и эндорфина, а может выглядеть практически как скучные новости. Даже ТВ программы могут воспринимаются захватывающими или просто быть «фоном из ящика». Цель домашнего кинотеатра – привнести в жизнь больше положительных эмоций, которые можно получать каждый день, даже не выходя из дома.
-                            </p>
-                            <p class="page-text">
-                                Для достижения максимального результата недостаточно просто купить оборудование и расставить его согласно стандартным рекомендациям. Необходимо учесть целый ряд других факторов, таких как планировка помещения, его акустические особенности, дизайн интерьера, нюансы использования домашнего кинотеатра клиентом. Только после этого можно разработать оптимальную архитектуру и состав оборудования системы, которые обеспечат лучший возможный эффект.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                100 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="multiroom">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/multiroom.svg" alt="Индивидуальное проектирование системы Мультирум" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Индивидуальное проектирование системы Мультирум</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis blanditiis quisquam reprehenderit. Officia nam culpa sequi suscipit accusamus tempore temporibus nostrum doloremque aspernatur recusandae. Non architecto eum ipsum, quo distinctio voluptas suscipit illum sequi sint cumque ipsam, nam labore error, cupiditate aperiam blanditiis debitis hic fugit. Laboriosam saepe ducimus illum perspiciatis provident cumque nesciunt veritatis hic dolorem assumenda non earum laudantium dolorum, dolore libero voluptates eveniet esse veniam? Dolores provident rem, doloremque officiis nesciunt vel? Delectus rem consequuntur a placeat!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                80 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="multiroom">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/handshake2.svg" alt="Гарантийное и постгарантийное обслуживание" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Гарантийное и постгарантийное обслуживание</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Результат, который вы получаете от домашней аудио-видео системы, во многом зависит от правильной установки и настройки оборудования. Многие рядовые пользователи не знают, что даже полярность включения вилки в электрическую сеть имеет значение, не говоря уже о расположении акустических систем, правильной настройки процессоров кинотеатра или интеграции сетевого оборудования в вашу домашнюю сеть. Среди наших клиентов много энтузиастов, которые сами любят погружаться в этот процесс. Но обычно мы стараемся взять на себя все тонкости правильной установки оборудования, а вам предоставить результат.
 
-                            </p>
-                            <p class="page-text">
-                                Стоимость работ зависит от их сложности, особенностей оборудования и помещения. Поэтому в каждом случае стоимость большинства работ определяется индивидуально. Общий уровень цен на услуги соответствует средним рыночным значениям. Для крупных проектов и постоянных клиентов действуют специальные скидки.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                50 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
 
-                <div class="solutions-item solutions-item_active" data-tab="hifi-hiend">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/checklist.svg" alt="Проектировние аудио и видео систем" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Проектирование аудио и видео систем</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Трудно переоценить важность акустических систем (колонок) в любой системе – будь она музыкальной или кинотеатральной. Именно они переводят электрические сигналы в звуковые колебания, которые уже доходят до наших ушей. Именно они – последнее и очень важное звено любой системы.
 
-                            </p>
-                            <p class="page-text">
-                                В мире существует множество различных колонок, типов, форм и т.д. Это, пожалуй, самый широкий сегмент продукции нашего рынка, где производители развернулись по-полной и у потребителя сегодня есть огромный выбор. Можно подобрать классические отдельно стоящие модели, встраиваемые в стену АС, навесные колонки (на стену), подвесные системы (на потолок), беспроводные акустические системы – выбор действительно впечатляет. И обычного человека может легко и быстро запутать. Именно поэтому наши специалисты подберут оптимальные акустические системы именно для вас. Являясь знатоками рынка, они выяснят ваши потребности и подберут из ассортимента максимально соответствующие модели.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                75 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="light-curtains">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/curtains.svg" alt="индивидуальный подбор штор и освещения" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Индивидуальный подбор штор и освещения</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem architecto asperiores ad ipsa. Suscipit corrupti natus dolore nesciunt ea vitae ratione, esse, deserunt quisquam optio hic ducimus eligendi nihil consequatur? Optio illum ipsa sint iure? Id eligendi dolore, alias possimus molestiae, reiciendis placeat repellendus labore facilis laborum pariatur fuga repudiandae.
-                            </p>
-                            <p class="page-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati totam id maiores doloribus fuga eos excepturi. Placeat vitae aspernatur molestias!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                40 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>    
-                </div>
-                <div class="solutions-item solutions-item_active" data-tab="security">
-                    <div class="solutions-item__icon-container">
-                        <img src="images/security.svg" alt="проектирование систем безопасности" class="solutions-item__icon">
-                    </div>
-                    <div class="solutions-item__info">
-                        <h3 class="page-subtitle">Проектирование систем безопасности</h3>
-                        <div class="solutions-item__text-container">
-                            <p class="page-text">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem architecto asperiores ad ipsa. Suscipit corrupti natus dolore nesciunt ea vitae ratione, esse, deserunt quisquam optio hic ducimus eligendi nihil consequatur? Optio illum ipsa sint iure? Id eligendi dolore, alias possimus molestiae, reiciendis placeat repellendus labore facilis laborum pariatur fuga repudiandae.
-                            </p>
-                            <p class="page-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati totam id maiores doloribus fuga eos excepturi. Placeat vitae aspernatur molestias!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="solutions-item__price-container">
-                        <div class="solutions-item__link-container">
-                            <a href="javascript:void(0)" class="page-link">Подробнее</a>
-                            <p class="solutions-item__price">
-                                40 000
-                            </p>
-                        </div>
-                        <a href="javascript:void(0)" data-modal="orderService" class="button button_theme_gold open-modal">заказать</a>
-                    </div>    
-                </div>
-                
-            </div>
-        </section>
+        </div>
+        <script src="js/footer.js"></script>
     </div>
 
-
-
-
-
-
-    <script src="js/footer.js"></script>
-
     <script src="js/menu.js"></script>
-    <script src="js/scroll.js" ></script>
+    <script src="js/scroll.js"></script>
     <script src="js/drop-down-list.js"></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/showMore.js"></script>
     <script src="js/buttons-radio.js"></script>
 </body>
+
 </html>

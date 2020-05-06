@@ -10,7 +10,6 @@ const footer = `
                     <div class="footer-column footer-column_contacts" itemscope itemtype="http://schema.org/Organization">
                         <h3 class="footer-column__title">Контакты</h3>
                         <ul class="footer-column__list">
-                            <li style="display: none;" itemprop="name">ООО «НАЗАРОВ»</li>
                             <li class="footer-column__elem" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
                                 <a href="javascript:void(0)" class="footer-column__link"><div class="icon-map-pin"></div>&nbsp;г. <span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">Большая Ордынка, 13/9</span></a>
                             </li>
@@ -26,6 +25,7 @@ const footer = `
                             <li class="footer-column__elem">
                                 <a data-modal="mailToDir" href="javascript:void(0)" class="footer-column__link open-modal"><div class="icon-mail"></div>&nbsp;Письмо директору</a>
                             </li>
+                            <li style="display: none; margin: 0;" itemprop="name">ООО «НАЗАРОВ»</li>
                         </ul>
                     </div>
 

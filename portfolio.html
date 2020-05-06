@@ -1,172 +1,205 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta property="og:type" content="product"/>
-    <meta property="og:url" content= "" />
-    <meta property="og:image" content= "" />
-    <meta property="og:description" content= "" />
-    <meta property="og:title" content=""/>
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
     <link rel="icon" href="images/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/portfolio.css">
-    <link rel="canonical" href=""/>
+    <link rel="canonical" href="" />
     <script src="js/jquery-3.4.1.min.js"></script>
     <title>Портфолио</title>
 </head>
+
 <body class="body">
     <script src="js/header.js"></script>
 
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
+                <section class="portfolio-page">
+                    <div class="section-header">
+                        <h1 class="page-title">
+                            портфолио
+                        </h1>
+                        <div class="portfolio-page__download-buttons">
+                            <a href="javascript:void(0)" class="download-button">скачать портфолио</a>
+                            <a href="javascript:void(0)" data-modal="orderProject"
+                                class="button button_theme_gold open-modal">Заказать проект</a>
+                        </div>
+                    </div>
 
-    <div class="wrapper">
-        <section class="portfolio-page">
-            <div class="section-header">
-                <h1 class="page-title">
-                    портфолио
-                </h1>
-                <div class="portfolio-page__download-buttons">
+                    <div class="buttons-radio">
+                        <a href="javascript:void(0)" class="buttons-radio__elem buttons-radio__elem_active"
+                            data-tab="all-projects">все проекты</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="private">частные</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="commercial">коммерческие</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="smart-home">умный дом</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="portfolio-hifi">Hi-fi</a>
+                        <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="home-cinema">домашний
+                            кинотеатр</a>
+                    </div>
+                </section>
+                <section class="portfolio-items">
+                    <div class="portfolio-item">
+                        <a href="./portfolio-item-page.html" class="image-link">
+                            <img src="images/port4.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="./portfolio-item-page.html" class="portfolio-item__title">КИНОЗАЛ И ТАЙНЫЕ КРЕСЛА</a>
+                        <p class="portfolio-item__text">
+                            Еще один наш проект, в котором шикарные кресла-реклайнеры стали жемчужиной, дополнившей
+                            домашнюю систему, установленную в подвале частного дома, до полноценного домашнего кинозала.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port1.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР И МУЛЬТИРУМ В
+                            ОДНОЙ КВАРТИРЕ</a>
+                        <p class="portfolio-item__text">
+                            В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и
+                            комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше
+                            вписались с имеющийся интерьер.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port2.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР С
+                            ТЕЛЕВИЗОРОМ-КАРТИНОЙ</a>
+                        <p class="portfolio-item__text">
+                            В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и
+                            комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше
+                            вписались с имеющийся интерьер.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port3.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">РОСКОШНЫЙ АВТОМОБИЛЬ С «УМНЫМ
+                            САЛОНОМ»</a>
+                        <p class="portfolio-item__text">
+                            Владельцы этой квартиры хотели разместить в своей совмещенной гостиной-кухне нечто
+                            уникальное — красивое и функциональное одновременно.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port5.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">КРЕСЛА-РЕКЛАЙНЕРЫ В ДОМАШНЕМ
+                            КИНОТЕАТРЕ</a>
+                        <p class="portfolio-item__text">
+                            Персональный кинозал без кресел-реклайнеров не сможет передать те 100% эмоций, которые
+                            охватывают при просмотре современных блокбастеров.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port6.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">КИНОЗАЛ ДЛЯ ИСКУШЕННЫХ ЗРИТЕЛЕЙ</a>
+                        <p class="portfolio-item__text">
+                            Владелец этого кинозала — искушенный киноман, который решил сделать для себя персональный
+                            кинозал по самым современным технологиям.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port1.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР И МУЛЬТИРУМ В
+                            ОДНОЙ КВАРТИРЕ</a>
+                        <p class="portfolio-item__text">
+                            В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и
+                            комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше
+                            вписались с имеющийся интерьер.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port2.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР С
+                            ТЕЛЕВИЗОРОМ-КАРТИНОЙ</a>
+                        <p class="portfolio-item__text">
+                            В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и
+                            комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше
+                            вписались с имеющийся интерьер.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port3.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">РОСКОШНЫЙ АВТОМОБИЛЬ С «УМНЫМ
+                            САЛОНОМ»</a>
+                        <p class="portfolio-item__text">
+                            Владельцы этой квартиры хотели разместить в своей совмещенной гостиной-кухне нечто
+                            уникальное — красивое и функциональное одновременно.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="./portfolio-item-page.html" class="image-link">
+                            <img src="images/port4.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="./portfolio-item-page.html" class="portfolio-item__title">КИНОЗАЛ И ТАЙНЫЕ КРЕСЛА</a>
+                        <p class="portfolio-item__text">
+                            Еще один наш проект, в котором шикарные кресла-реклайнеры стали жемчужиной, дополнившей
+                            домашнюю систему, установленную в подвале частного дома, до полноценного домашнего кинозала.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port5.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">КРЕСЛА-РЕКЛАЙНЕРЫ В ДОМАШНЕМ
+                            КИНОТЕАТРЕ</a>
+                        <p class="portfolio-item__text">
+                            Персональный кинозал без кресел-реклайнеров не сможет передать те 100% эмоций, которые
+                            охватывают при просмотре современных блокбастеров.
+                        </p>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="javascript:void(0)" class="image-link">
+                            <img src="images/port6.jpg" alt="" class="portfolio-item__image">
+                        </a>
+                        <a href="javascript:void(0)" class="portfolio-item__title">КИНОЗАЛ ДЛЯ ИСКУШЕННЫХ ЗРИТЕЛЕЙ</a>
+                        <p class="portfolio-item__text">
+                            Владелец этого кинозала — искушенный киноман, который решил сделать для себя персональный
+                            кинозал по самым современным технологиям.
+                        </p>
+                    </div>
+                </section>
+                <section class="portfolio-bottom">
                     <a href="javascript:void(0)" class="download-button">скачать портфолио</a>
-                    <a href="javascript:void(0)" data-modal="orderProject" class="button button_theme_gold open-modal">Заказать проект</a>
-                </div>
+                    <a href="javascript:void(0)" data-modal="orderProject"
+                        class="button button_theme_gold open-modal">Заказать проект</a>
+                </section>
             </div>
-
-            <div class="buttons-radio">
-                <a href="javascript:void(0)" class="buttons-radio__elem buttons-radio__elem_active" data-tab="all-projects">все проекты</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="private">частные</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="commercial">коммерческие</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="smart-home">умный дом</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="portfolio-hifi">Hi-fi</a>
-                <a href="javascript:void(0)" class="buttons-radio__elem" data-tab="home-cinema">домашний кинотеатр</a>
-            </div>
-        </section>
-        <section class="portfolio-items">
-            <div class="portfolio-item">
-                <a href="./portfolio-item-page.html" class="image-link">
-                    <img src="images/port4.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="./portfolio-item-page.html" class="portfolio-item__title">КИНОЗАЛ И ТАЙНЫЕ КРЕСЛА</a>
-                <p class="portfolio-item__text">
-                    Еще один наш проект, в котором шикарные кресла-реклайнеры стали жемчужиной, дополнившей домашнюю систему, установленную в подвале частного дома, до полноценного домашнего кинозала.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port1.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР И МУЛЬТИРУМ В ОДНОЙ КВАРТИРЕ</a>
-                <p class="portfolio-item__text">
-                    В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше вписались с имеющийся интерьер.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port2.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР С ТЕЛЕВИЗОРОМ-КАРТИНОЙ</a>
-                <p class="portfolio-item__text">
-                    В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше вписались с имеющийся интерьер.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port3.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">РОСКОШНЫЙ АВТОМОБИЛЬ С «УМНЫМ САЛОНОМ»</a>
-                <p class="portfolio-item__text">
-                    Владельцы этой квартиры хотели разместить в своей совмещенной гостиной-кухне нечто уникальное — красивое и функциональное одновременно. 
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port5.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">КРЕСЛА-РЕКЛАЙНЕРЫ В ДОМАШНЕМ КИНОТЕАТРЕ</a>
-                <p class="portfolio-item__text">
-                    Персональный кинозал без кресел-реклайнеров не сможет передать те 100% эмоций, которые охватывают при просмотре современных блокбастеров.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port6.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">КИНОЗАЛ ДЛЯ ИСКУШЕННЫХ ЗРИТЕЛЕЙ</a>
-                <p class="portfolio-item__text">
-                    Владелец этого кинозала — искушенный киноман, который решил сделать для себя персональный кинозал по самым современным технологиям.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port1.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР И МУЛЬТИРУМ В ОДНОЙ КВАРТИРЕ</a>
-                <p class="portfolio-item__text">
-                    В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше вписались с имеющийся интерьер.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port2.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">ДОМАШНИЙ КИНОТЕАТР С ТЕЛЕВИЗОРОМ-КАРТИНОЙ</a>
-                <p class="portfolio-item__text">
-                    В гостиной этой квартиры мы реализовали домашний кинотеатр на базе телевизора Samsung и комплекта акустических систем DALI Rubicon в цвете «орех», которые как нельзя лучше вписались с имеющийся интерьер.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port3.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">РОСКОШНЫЙ АВТОМОБИЛЬ С «УМНЫМ САЛОНОМ»</a>
-                <p class="portfolio-item__text">
-                    Владельцы этой квартиры хотели разместить в своей совмещенной гостиной-кухне нечто уникальное — красивое и функциональное одновременно. 
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="./portfolio-item-page.html" class="image-link">
-                    <img src="images/port4.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="./portfolio-item-page.html" class="portfolio-item__title">КИНОЗАЛ И ТАЙНЫЕ КРЕСЛА</a>
-                <p class="portfolio-item__text">
-                    Еще один наш проект, в котором шикарные кресла-реклайнеры стали жемчужиной, дополнившей домашнюю систему, установленную в подвале частного дома, до полноценного домашнего кинозала.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port5.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">КРЕСЛА-РЕКЛАЙНЕРЫ В ДОМАШНЕМ КИНОТЕАТРЕ</a>
-                <p class="portfolio-item__text">
-                    Персональный кинозал без кресел-реклайнеров не сможет передать те 100% эмоций, которые охватывают при просмотре современных блокбастеров.
-                </p>
-            </div>
-            <div class="portfolio-item">
-                <a href="javascript:void(0)" class="image-link">
-                    <img src="images/port6.jpg" alt="" class="portfolio-item__image">
-                </a>
-                <a href="javascript:void(0)" class="portfolio-item__title">КИНОЗАЛ ДЛЯ ИСКУШЕННЫХ ЗРИТЕЛЕЙ</a>
-                <p class="portfolio-item__text">
-                    Владелец этого кинозала — искушенный киноман, который решил сделать для себя персональный кинозал по самым современным технологиям.
-                </p>
-            </div>
-        </section>
-        <section class="portfolio-bottom">
-            <a href="javascript:void(0)" class="download-button">скачать портфолио</a>
-            <a href="javascript:void(0)" data-modal="orderProject" class="button button_theme_gold open-modal">Заказать проект</a>
-        </section>
+        </div>
+        <script src="js/footer.js"></script>
     </div>
-
-    <script src="js/footer.js"></script>
 
 
     <script src="js/drop-down-list.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/scroll.js"></script>
-    <script src="js/back-to-top-show.js" ></script>
+    <script src="js/back-to-top-show.js"></script>
     <script src="js/modals.js"></script>
     <script src="js/buttons-radio.js"></script>
     <script src="js/showMore.js"></script>
 
 </body>
+
 </html>

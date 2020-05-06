@@ -21,237 +21,271 @@
 <body class="body">
     <script src="js/header.js"></script>
 
+    <div class="common">
+        <div class="content">
+            <div class="wrapper">
+                <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./catalog.html"
+                        class="breadcrumb">
+                        <span itemprop="item">
+                            <span itemprop="name">Каталог</span>
+                            <meta itemprop="position" content="1" />
+                        </span>
+                    </a>
 
-    <div class="wrapper">
-        <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./catalog.html"
-                class="breadcrumb">
-                <span itemprop="item">
-                    <span itemprop="name">Каталог</span>
-                    <meta itemprop="position" content="1" />
-                </span>
-            </a>
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+                        href="javascript:void(0)" class="breadcrumb">
+                        <span itemprop="item">
+                            <span itemprop="name">Воспроизведение</span>
+                            <meta itemprop="position" content="2" />
+                        </span>
+                    </a>
 
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
-                class="breadcrumb">
-                <span itemprop="item">
-                    <span itemprop="name">Воспроизведение</span>
-                    <meta itemprop="position" content="2" />
-                </span>
-            </a>
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+                        href="javascript:void(0)" class="breadcrumb">
+                        <span itemprop="item">
+                            <span itemprop="name">Наушники</span>
+                            <meta itemprop="position" content="3" />
+                        </span>
+                    </a>
 
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
-            class="breadcrumb">
-            <span itemprop="item">
-                <span itemprop="name">Наушники</span>
-                <meta itemprop="position" content="3" />
-            </span>
-            </a>
+                    <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+                        href="javascript:void(0)" class="breadcrumb breadcrumb_active">
+                        <span itemprop="item">
+                            <span itemprop="name">Наушники Audeze</span>
+                            <meta itemprop="position" content="4" />
+                        </span>
+                    </a>
 
-            <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="javascript:void(0)"
-                class="breadcrumb breadcrumb_active">
-                <span itemprop="item">
-                    <span itemprop="name">Наушники Audeze</span>
-                    <meta itemprop="position" content="4" />
-                </span>
-            </a>
+                </section>
+                <section class="product-box">
+                    <div class="product-box__row">
+                        <div class="product-box__images">
+                            <div class="product-box__main-image-box">
+                                <img src="images/audeze-lcd-4z-lg.png" alt="Audeze LCD-4z"
+                                    class="product-box__main-image">
+                            </div>
+                            <div class="product-box__secondary-images">
+                                <img src="images/audeze-lcd-4z-sm1.png" alt="Audeze LCD-4z"
+                                    class="product-box__secondary-image">
+                                <img src="images/audeze-lcd-4z-sm2.png" alt="Audeze LCD-4z"
+                                    class="product-box__secondary-image">
+                                <img src="images/audeze-lcd-4z-sm3.png" alt="Audeze LCD-4z"
+                                    class="product-box__secondary-image">
+                                <img src="images/audeze-lcd-4z-sm4.png" alt="Audeze LCD-4z"
+                                    class="product-box__secondary-image">
+                            </div>
+                        </div>
 
-        </section>
-        <section class="product-box">
-            <div class="product-box__row">
-                <div class="product-box__images">
-                    <div class="product-box__main-image-box">
-                        <img src="images/audeze-lcd-4z-lg.png" alt="Audeze LCD-4z" class="product-box__main-image">
+                        <div class="product-box__info">
+                            <p class="product-box__vendor-code">
+                                Артикул: 181151
+                            </p>
+                            <h1 class="product-box__title">
+                                Охватывающие наушники Audeze LCD-4z
+                            </h1>
+
+                            <p class="product-box__price">
+                                325 000
+                            </p>
+                            <p class="product-box__avaliable">
+                                Наличие на складе: <span class="product-box__is-avaliable">В наличии</span>
+                            </p>
+
+                            <div class="product-box__colors">
+                                <p class="product-box__colors-title">
+                                    Цвета:
+                                </p>
+                                <div class="product-box__color product-box__color_gray"></div>
+                                <div class="product-box__color product-box__color_wine-red"></div>
+                                <div
+                                    class="product-box__color product-box__color_dark-gray product-box__color_selected">
+                                </div>
+                            </div>
+
+                            <div class="product-box__buttons">
+                                <a href="javascript:void(0)" class="button button_theme_gold">в корзину</a>
+                                <a href="javascript:void(0)" data-modal="signToDemo"
+                                    class="button button_theme_white open-modal">записаться на прослушивание</a>
+                            </div>
+                            <div class="product-box__checkbox">
+                                <input type="checkbox" class="checkbox" id="order-setup" checked>
+                                <label class="checkbox-label" for="order-setup">Заказать услугу подключения и настройки
+                                    данного
+                                    оборудования</label>
+                            </div>
+                            <div class="product-box__facts">
+                                <a href="javascript:void(0)"
+                                    class="product-box__fact product-box__fact_return">Гарантированный
+                                    возврат 14 дней</a>
+                                <a href="javascript:void(0)" data-modal="aboutDelivery"
+                                    class="product-box__fact product-box__fact_delivery open-modal">Бесплатная
+                                    доставка</a>
+                                <a href="javascript:void(0)"
+                                    class="product-box__fact product-box__fact_official">Официальный
+                                    дилер</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product-box__secondary-images">
-                        <img src="images/audeze-lcd-4z-sm1.png" alt="Audeze LCD-4z"
-                            class="product-box__secondary-image">
-                        <img src="images/audeze-lcd-4z-sm2.png" alt="Audeze LCD-4z"
-                            class="product-box__secondary-image">
-                        <img src="images/audeze-lcd-4z-sm3.png" alt="Audeze LCD-4z"
-                            class="product-box__secondary-image">
-                        <img src="images/audeze-lcd-4z-sm4.png" alt="Audeze LCD-4z"
-                            class="product-box__secondary-image">
-                    </div>
-                </div>
 
-                <div class="product-box__info">
-                    <p class="product-box__vendor-code">
-                        Артикул: 181151
-                    </p>
-                    <h1 class="product-box__title">
-                        Охватывающие наушники Audeze LCD-4z
-                    </h1>
+                    <div class="product-box__row">
 
-                    <p class="product-box__price">
-                        325 000
-                    </p>
-                    <p class="product-box__avaliable">
-                        Наличие на складе: <span class="product-box__is-avaliable">В наличии</span>
-                    </p>
+                        <div class="product-box__info-box">
+                            <div class="product-box__info-buttons">
+                                <a href="javascript:void(0)"
+                                    class="product-box__info-button product-box__info-button_active" id="about">О
+                                    товаре</a>
+                                <a href="javascript:void(0)" class="product-box__info-button"
+                                    id="chars">Характеристики</a>
+                                <a href="javascript:void(0)" class="product-box__info-button"
+                                    id="question">Вопрос-Ответ</a>
+                            </div>
 
-                    <div class="product-box__colors">
-                        <p class="product-box__colors-title">
-                            Цвета:
-                        </p>
-                        <div class="product-box__color product-box__color_gray"></div>
-                        <div class="product-box__color product-box__color_wine-red"></div>
-                        <div class="product-box__color product-box__color_dark-gray product-box__color_selected"></div>
-                    </div>
+                            <div class="product-box__about product-box__about-about">
+                                <p class="page-text">Открытые полноразмерные наушники Audeze LCD-4z с
+                                    планарно-магнитными
+                                    излучателями представляют собой модифицированную версию модели LCD-4, которая
+                                    возглавляет
+                                    серию LCD Collection. Их главное отличие от флагмана заключается в более низком
+                                    значении
+                                    импеданса (15 Ом против 200 Ом), т.е. такие стереотелефоны менее требовательны к
+                                    усилителю,
+                                    поэтому их можно подключать к портативной аудиотехнике — смартфонам, планшетам,
+                                    плеерам и
+                                    т.п.
+                                </p>
 
-                    <div class="product-box__buttons">
-                        <a href="javascript:void(0)" class="button button_theme_gold">в корзину</a>
-                        <a href="javascript:void(0)" data-modal="signToDemo"
-                            class="button button_theme_white open-modal">записаться на прослушивание</a>
+                                <a href="javascript:void(0)" class="show-more" onclick="showMore(this)">Показать
+                                    полностью</a>
+                                <p class="page-text hidden-text">Планарно-магнитные драйверы Audeze LCD-4z оснащены
+                                    неодимовой
+                                    магнитной системой Double Fluxor, индукция которой составляет 1,5 Тл. Между двумя
+                                    статорами
+                                    с наборами магнитов находится сверхтонкая мембрана Uniforce, на поверхность которой
+                                    нанесены
+                                    токопроводящие дорожки и которая, по сути, является аналогом обычной звуковой
+                                    катушки. Ее
+                                    преимущества заключаются в мгновенном отклике, благодаря чему обеспечивается
+                                    исключительная
+                                    точность, высокая детальность и чистота звучания. При этом также минимизируются
+                                    искажения,
+                                    выстраивается превосходная трехмерная сцена с правильным расположением музыкальных
+                                    образов в
+                                    пространстве и обеспечивается точный, глубокий и плотный бас. В конструкции
+                                    задействованы
+                                    специальные акустические элементы (технология Fazor), которые корректируют
+                                    направление
+                                    звуковых волн и устраняют резонансы, что способствует повышению прозрачности и
+                                    улучшению
+                                    качества звучания в ВЧ-полосе. Компания акцентирует внимание на том, что уровень
+                                    искажений у
+                                    Audeze LCD-4z в десять раз меньше, чем у аналогичных по классу наушников с
+                                    динамическими
+                                    излучателями.
+                                </p>
+                                <p class="page-text hidden-text">Модель комплектуется двухсторонним съемным кабелем,
+                                    который
+                                    подсоединяется к чашкам с помощью 4-контактных разъемов mini XLR. Для подключения к
+                                    источнику сигнала используется 6,3 мм штекер. В набор входит профессиональный
+                                    пластиковый
+                                    кейс, предназначенный для хранения и переноски Audeze LCD-4z.</p>
+                            </div>
+
+                            <div class="product-box__about product-box__about_characteristics">
+                                <table class="page-table">
+                                    <th class="page-table__heading">общие</th>
+                                    <tr>
+                                        <td>Страна (главный офис):</td>
+                                        <td>США</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Вес, кг:</td>
+                                        <td>0,6</td>
+                                    </tr>
+                                </table>
+                                <table class="page-table">
+                                    <th class="page-table__heading">технические</th>
+                                    <tr>
+                                        <td>Тип излучателя:</td>
+                                        <td>Изодинамические/ортодинамические</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Количество излучателей:</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Минимальная частота, Гц:</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сопротивление, Ом:</td>
+                                        <td>15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Чувствительность, дБ/Вт/м:</td>
+                                        <td>98</td>
+                                    </tr>
+                                </table>
+                                <table class="page-table">
+                                    <th class="page-table__heading">особенности</th>
+                                    <tr>
+                                        <td>Категория:</td>
+                                        <td>Проводные</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Съёмный кабель:</td>
+                                        <td>Есть</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Встроенный аккумулятор:</td>
+                                        <td>Нет</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="product-box__about product-box__about_questions">
+                                <table class="page-table">
+                                    <tr>
+                                        <td class="hidden-text">Вопрос</td>
+                                        <td>Это флагманская модель у Audeze?</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hidden-text">Ответ</td>
+                                        <td>Да, на данный момент это флагманская модель.
+                                            Однако в следующем году планируется выпуск обновленной версии, которая будет
+                                            являться закрытым типом.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hidden-text">Вопрос</td>
+                                        <td>Входит ли кейс в комплект?</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hidden-text">Ответ</td>
+                                        <td>Да, кейс входит в комплект</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hidden-text">Вопрос</td>
+                                        <td>Нужен ли усилитель для данной модели?</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="hidden-text">Ответ</td>
+                                        <td>Данная модель отличается пониженным сопротивлением, т.е. гораздо менее
+                                            прихотлива к
+                                            источнику воспроизведения. Поэтому вы можете слушать эти наушники без
+                                            использования
+                                            усилителя.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="product-box__checkbox">
-                        <input type="checkbox" class="checkbox" id="order-setup" checked>
-                        <label class="checkbox-label" for="order-setup">Заказать услугу подключения и настройки данного
-                            оборудования</label>
-                    </div>
-                    <div class="product-box__facts">
-                        <a href="javascript:void(0)" class="product-box__fact product-box__fact_return">Гарантированный
-                            возврат 14 дней</a>
-                        <a href="javascript:void(0)" data-modal="aboutDelivery"
-                            class="product-box__fact product-box__fact_delivery open-modal">Бесплатная доставка</a>
-                        <a href="javascript:void(0)" class="product-box__fact product-box__fact_official">Официальный
-                            дилер</a>
-                    </div>
-                </div>
+                </section>
             </div>
 
-            <div class="product-box__row">
-
-                <div class="product-box__info-box">
-                    <div class="product-box__info-buttons">
-                        <a href="javascript:void(0)" class="product-box__info-button product-box__info-button_active"
-                            id="about">О товаре</a>
-                        <a href="javascript:void(0)" class="product-box__info-button" id="chars">Характеристики</a>
-                        <a href="javascript:void(0)" class="product-box__info-button" id="question">Вопрос-Ответ</a>
-                    </div>
-
-                    <div class="product-box__about product-box__about-about">
-                        <p class="page-text">Открытые полноразмерные наушники Audeze LCD-4z с планарно-магнитными
-                            излучателями представляют собой модифицированную версию модели LCD-4, которая возглавляет
-                            серию LCD Collection. Их главное отличие от флагмана заключается в более низком значении
-                            импеданса (15 Ом против 200 Ом), т.е. такие стереотелефоны менее требовательны к усилителю,
-                            поэтому их можно подключать к портативной аудиотехнике — смартфонам, планшетам, плеерам и
-                            т.п.
-                        </p>
-
-                        <a href="javascript:void(0)" class="show-more" onclick="showMore(this)">Показать полностью</a>
-                        <p class="page-text hidden-text">Планарно-магнитные драйверы Audeze LCD-4z оснащены неодимовой
-                            магнитной системой Double Fluxor, индукция которой составляет 1,5 Тл. Между двумя статорами
-                            с наборами магнитов находится сверхтонкая мембрана Uniforce, на поверхность которой нанесены
-                            токопроводящие дорожки и которая, по сути, является аналогом обычной звуковой катушки. Ее
-                            преимущества заключаются в мгновенном отклике, благодаря чему обеспечивается исключительная
-                            точность, высокая детальность и чистота звучания. При этом также минимизируются искажения,
-                            выстраивается превосходная трехмерная сцена с правильным расположением музыкальных образов в
-                            пространстве и обеспечивается точный, глубокий и плотный бас. В конструкции задействованы
-                            специальные акустические элементы (технология Fazor), которые корректируют направление
-                            звуковых волн и устраняют резонансы, что способствует повышению прозрачности и улучшению
-                            качества звучания в ВЧ-полосе. Компания акцентирует внимание на том, что уровень искажений у
-                            Audeze LCD-4z в десять раз меньше, чем у аналогичных по классу наушников с динамическими
-                            излучателями.
-                        </p>
-                        <p class="page-text hidden-text">Модель комплектуется двухсторонним съемным кабелем, который
-                            подсоединяется к чашкам с помощью 4-контактных разъемов mini XLR. Для подключения к
-                            источнику сигнала используется 6,3 мм штекер. В набор входит профессиональный пластиковый
-                            кейс, предназначенный для хранения и переноски Audeze LCD-4z.</p>
-                    </div>
-
-                    <div class="product-box__about product-box__about_characteristics">
-                        <table class="page-table">
-                            <th class="page-table__heading">общие</th>
-                            <tr>
-                                <td>Страна (главный офис):</td>
-                                <td>США</td>
-                            </tr>
-                            <tr>
-                                <td>Вес, кг:</td>
-                                <td>0,6</td>
-                            </tr>
-                        </table>
-                        <table class="page-table">
-                            <th class="page-table__heading">технические</th>
-                            <tr>
-                                <td>Тип излучателя:</td>
-                                <td>Изодинамические/ортодинамические</td>
-                            </tr>
-                            <tr>
-                                <td>Количество излучателей:</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>Минимальная частота, Гц:</td>
-                                <td>5</td>
-                            </tr>
-                            <tr>
-                                <td>Сопротивление, Ом:</td>
-                                <td>15</td>
-                            </tr>
-                            <tr>
-                                <td>Чувствительность, дБ/Вт/м:</td>
-                                <td>98</td>
-                            </tr>
-                        </table>
-                        <table class="page-table">
-                            <th class="page-table__heading">особенности</th>
-                            <tr>
-                                <td>Категория:</td>
-                                <td>Проводные</td>
-                            </tr>
-                            <tr>
-                                <td>Съёмный кабель:</td>
-                                <td>Есть</td>
-                            </tr>
-                            <tr>
-                                <td>Встроенный аккумулятор:</td>
-                                <td>Нет</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="product-box__about product-box__about_questions">
-                        <table class="page-table">
-                            <tr>
-                                <td class="hidden-text">Вопрос</td>
-                                <td>Это флагманская модель у Audeze?</td>
-                            </tr>
-                            <tr>
-                                <td class="hidden-text">Ответ</td>
-                                <td>Да, на данный момент это флагманская модель.
-                                    Однако в следующем году планируется выпуск обновленной версии, которая будет
-                                    являться закрытым типом.</td>
-                            </tr>
-                            <tr>
-                                <td class="hidden-text">Вопрос</td>
-                                <td>Входит ли кейс в комплект?</td>
-                            </tr>
-                            <tr>
-                                <td class="hidden-text">Ответ</td>
-                                <td>Да, кейс входит в комплект</td>
-                            </tr>
-                            <tr>
-                                <td class="hidden-text">Вопрос</td>
-                                <td>Нужен ли усилитель для данной модели?</td>
-                            </tr>
-                            <tr>
-                                <td class="hidden-text">Ответ</td>
-                                <td>Данная модель отличается пониженным сопротивлением, т.е. гораздо менее прихотлива к
-                                    источнику воспроизведения. Поэтому вы можете слушать эти наушники без использования
-                                    усилителя.</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        </div>
+        <script src="js/footer.js"></script>
     </div>
-
-
-    <script src="js/footer.js"></script>
 
 
     <script src="js/drop-down-list.js"></script>

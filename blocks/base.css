@@ -27,17 +27,11 @@ html, body {
 }
 
 
-
 .common {
     display: flex;
     flex-direction: column;
+    min-height: calc(100% - 650px);
 }
-
-.content {
-    min-height: calc( 100% - 650px);
-}
-
-
 
 .wrapper_theme_gray {
     background: #f2f2f2;

@@ -3,28 +3,29 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
-// var uglifycss = require('gulp-uglifycss');
+var clean = require('gulp-clean');
+
 
 gulp.task('sass', function () {
     gulp.src('./blocks/*.scss')
     .pipe(sass({outputStyle: 'compressed'}))
-    .pipe(gulp.dest('./styles'));
+    .pipe(gulp.dest('./tmp'));
    });
 
 
-gulp.task('concat', function() {
-    return gulp.src('./styles/*.css')
+
+gulp.task('concat-css', function() {
+    return gulp.src('./tmp/*.css')
     .pipe(concat('styles.css'))
     .pipe(gulp.dest('./styles'));
 });
 
 
-/* gulp.task('css', function () {
-  gulp.src('./styles/s.css')
-    .pipe(uglifycss({
-      "maxLineLen": 80,
-      "uglyComments": true
-    }))
-    .pipe(gulp.dest('./dist/'));
+ 
+gulp.task('clean', function () {
+    return gulp.src('./tmp', {read: false})
+        .pipe(clean());
 });
-*/
+
+
+// gulp.task('default', ['sass', 'concat-css', 'clean', ]);

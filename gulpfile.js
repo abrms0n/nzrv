@@ -1,34 +1,37 @@
  // подключаем gulp
- const gulp = require ("gulp");
+ import gulp from "gulp";
 
  // создадим две переменные, отвечающие за чтение исходных файлов (src) и запись сгенерированных файлов (dest).
- const {src, dest} = require ("gulp");
+ import { src, dest } from "gulp";
  
  // передаем модули в переменные
- const autoprefixer = require ("gulp-autoprefixer");
- const rename = require ("gulp-rename");
- const sass = require ("gulp-sass");
- const cssnano = require ("gulp-cssnano");
+ import autoprefixer from "gulp-autoprefixer";
+ import rename from "gulp-rename";
+ import sass from "gulp-sass";
+ import cssnano from "cssnano";
 
 
+// создаём переменную "путь" которая будет использоваться галпом в своих методах 
+
+ var path = {
+        build: {
+            // путь к новому файлу, который соберет gulp (изначально dist/)
+            css: "styles/"
+    },      
+            // путь, откуда gulp возьмёт исходные файлы (изначально src/)
+        src: {
+            css: "blocks/*.scss",
+    }
+}
 
 
-//  var path = {
-//         build: {
-//             css: "dist/"
-//     },
-//         src: {
-//             css: "src/style.scss",
-//     }
-// }
+// далее сборка 
 
-
-
-// function css (){
-//     return src(path.src.css, {base: "src/"})
-//         .pipe(sass())
-//         .pipe(autoprefixer({
-//             Browserslist: ['last 8 versions'],
-//             cascade: true
-//     }))
-// }
+function css (){
+    return src(path.src.css, {base: "blocks/"})
+        .pipe(sass())
+        .pipe(autoprefixer({
+            Browserslist: ['last 8 versions'],
+            cascade: true
+    }))
+}

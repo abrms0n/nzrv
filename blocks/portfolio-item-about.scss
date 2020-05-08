@@ -1,0 +1,50 @@
+.portfolio-item-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item-about__text h2 {
+    margin: 0 0 12px 0;
+}
+
+.portfolio-item-about__text {
+    width: 74%;
+}
+
+.portfolio-item-about__text .download-button {
+    margin: 20px 0 0 0;
+}
+
+
+
+
+.portfolio-item-about__tags {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+}
+
+
+.portfolio-item-about__systems {
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 1919px) {
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .portfolio-item-about {
+        flex-direction: column;
+    }
+    .portfolio-item-about__text {
+        width: 100%;
+    }
+    .portfolio-item-about__tags {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .portfolio-item-about__systems {
+        margin: 20px 0 0 0;
+    }
+}   

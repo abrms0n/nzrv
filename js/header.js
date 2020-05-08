@@ -62,13 +62,18 @@ const header = `
 
 $('.body').append(header);
 
+
+
+
+
+
 // прилипающая к верху шапка 
 
 $(window).scroll(function(){
     if($(window).scrollTop()>220){
         $('.header-container').addClass('header-container_fixed');
 
-        // цветовая тема для главной
+        // цветовая тема для главной после возврата в статику
 
         if ($('.body').hasClass('index')) {
                 $('.header__nav-link').css('color','#232323');
@@ -88,3 +93,4 @@ $(window).scroll(function(){
         }
     }
 });
+

@@ -13,6 +13,7 @@
     margin: 0 auto;
 }
 
+
 .header__logo {
     width: 184px;
 }
@@ -59,6 +60,10 @@
     color: #232323;
 }
 
+.index .header__nav-link {
+    color: #fff;
+}
+
 .header__nav-link:hover { 
     color: #a89365;
     text-decoration: underline;
@@ -78,6 +83,10 @@
     line-height: 24px;
     transition: all .3s;
     color: #232323;
+}
+
+.index .header__communication-item {
+    color: #fff;
 }
 
 .header__communication-item:hover {
@@ -118,6 +127,10 @@
     text-decoration: none;
     transition: all .3s;
     color: #232323;
+}
+
+.index .header__icon {
+    color: #fff;
 }
 
 .header__icon:not(:first-of-type) {

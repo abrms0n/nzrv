@@ -1,0 +1,1 @@
+.drop-down{cursor:pointer}.drop-down::after{content:"\e903";font-size:12px;color:#a89365;font-family:'icomoon';transition:.3s;margin:0 0 0 8px;display:inline-block}.opened::after{content:" \e903";transform:rotate(180deg)}@media screen and (max-width: 600px){.drop-down::after,.opened::after{font-size:8px;margin:0 0 0 4px}}

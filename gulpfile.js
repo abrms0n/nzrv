@@ -8,7 +8,7 @@ const autoprefixer = require('gulp-autoprefixer');
 
 
 gulp.task('sass', function () {
-    gulp.src('./blocks/*.scss')
+    return gulp.src('./blocks/*.scss')
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(gulp.dest('./tmp'));
    });
@@ -25,6 +25,6 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task('default', function() {  
-    gulp.run('sass', 'concat-css', 'clean');
-});
+
+gulp.task('default', gulp.series('sass','concat-css','clean'));
+

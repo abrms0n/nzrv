@@ -4,6 +4,7 @@
     "description": "gulp4",
     "author": "pult.ru team",
     "devDependencies": {
+        "@babel/preset-es2015": "^7.0.0-beta.53",
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
         "gulp": "^4.0.2",
@@ -18,6 +19,7 @@
         "gulp-uglify": "^3.0.2"
     },
     "dependencies": {
+        "babel": "^6.23.0",
         "gulp-browserify": "^0.5.1",
         "gulp-concat": "^2.6.1",
         "gulp-livereload": "^4.0.2",

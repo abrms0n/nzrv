@@ -5,7 +5,8 @@ const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const clean = require('gulp-clean');
 const autoprefixer = require('gulp-autoprefixer');
-var uglify = require('gulp-uglify');
+const babel = require('gulp-babel');
+const uglify = require('gulp-uglify');
 
 
 
@@ -22,17 +23,24 @@ gulp.task('concat-css', function() {
     .pipe(gulp.dest('./styles'));
 });
 
+
 gulp.task('concat-js', function() {
     return gulp.src('./src-js/*.js')
     .pipe(concat('app.js'))
-    .pipe(gulp.dest('./tmp'));
+    .pipe(gulp.dest('./js'));
 });
+
+/*
 
 gulp.task('compress-js', function () {
     return gulp.src('./tmp/*.js')
-          .pipe(uglify())
-          .pipe(gulp.dest('./js'));
+    .pipe(babel({
+        presets: ['es2015']
+      }))
+    .pipe(uglify())
+    .pipe(gulp.dest('./js'));
 });
+*/
 
 
 gulp.task('clean', function () {
@@ -40,7 +48,8 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task('default', gulp.series('sass','concat-css', 'concat-js', 'compress-js', 'clean'));
+gulp.task('default', gulp.series('sass','concat-css', 'concat-js', 'clean'));
+// gulp.task('default', gulp.series('sass','concat-css', 'concat-js', 'compress-js', 'clean'));
 
 
 

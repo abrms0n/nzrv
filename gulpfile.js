@@ -13,7 +13,13 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./tmp'));
    });
 
- 
+/* gulp.task('autoprefixer', function () {
+    return gulp.src('./tmp/*.css')
+        .pipe(autoprefixer())
+        .pipe(gulp.dest('./prefixed'));
+    });
+*/
+
 gulp.task('concat-css', function() {
     return gulp.src('./tmp/*.css')
     .pipe(concat('styles.css'))
@@ -25,6 +31,6 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-
 gulp.task('default', gulp.series('sass','concat-css','clean'));
+// gulp.task('default', gulp.series('sass', 'autoprefixer','concat-css','clean'));
 

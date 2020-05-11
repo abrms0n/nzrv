@@ -54,22 +54,9 @@ ul, ol {
 }
 
 
-ul {
-    list-style: none;
-}
-
 li {
     font-size: 24px;
     line-height: 1.2;
-}
-
-ul li::before {
-    content: "\2022"; 
-    color: #a89365;
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em; 
-    margin-left: -1em;
 }
 
 .image-link {

@@ -19,5 +19,11 @@
         "gulp-livereload": "^4.0.2",
         "gulp-styl": "^3.0.0",
         "tiny-lr": "^1.1.1"
-    }
+    },
+    "browserslist": [
+        "defaults",
+        "not IE 11",
+        "not IE_Mob 11",
+        "maintained node versions"
+      ]
 }

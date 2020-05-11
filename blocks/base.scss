@@ -63,7 +63,7 @@ li {
     line-height: 1.2;
 }
 
-.li::before {
+ul li::before {
     content: "\2022"; 
     color: #a89365;
     font-weight: bold; 
@@ -71,7 +71,6 @@ li {
     width: 1em; 
     margin-left: -1em;
 }
-
 
 .image-link {
     line-height: 0;

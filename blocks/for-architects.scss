@@ -16,19 +16,19 @@
     max-width: 49%;
 }
 
-.for-architects__list {
-    padding: 0 0 0 24px;
-    list-style: none;
-}
+// .for-architects__list {
+//     padding: 0 0 0 24px;
+//     list-style: none;
+// }
 
-.for-architects__list-item::before {
-    content: "\2022"; 
-    color: #a89365;
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em; 
-    margin-left: -1em;
-}
+// .for-architects__list-item::before {
+//     content: "\2022"; 
+//     color: #a89365;
+//     font-weight: bold; 
+//     display: inline-block;
+//     width: 1em; 
+//     margin-left: -1em;
+// }
 
 .for-architects__list-item_spread:not(:first-of-type) {
     margin: 1em 0 0 0;

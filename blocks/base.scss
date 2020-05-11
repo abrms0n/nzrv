@@ -12,7 +12,6 @@ html, body {
 }
 
 
-
 .body {
     font-family: 'Futura PT', Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -50,11 +49,29 @@ html, body {
     background: #232323;
 }
 
+ul, ol {
+    padding: 0 0 0 24px;
+}
+
+
+ul {
+    list-style: none;
+}
 
 li {
     font-size: 24px;
     line-height: 1.2;
 }
+
+.li::before {
+    content: "\2022"; 
+    color: #a89365;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+}
+
 
 .image-link {
     line-height: 0;

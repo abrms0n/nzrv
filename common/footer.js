@@ -4,7 +4,7 @@ let now = new Date();
 const footer = `
 <div class="footer-container">
     <div class="anti-wrapper anti-wrapper_theme_dark-gray">
-        <div class="wrapper wrapper_theme_dark-gray">
+        <div class="footer-wrapper">
             <footer class="footer">
                 <div class="footer__columns">
                     <div class="footer-column footer-column_contacts" itemscope itemtype="http://schema.org/Organization">

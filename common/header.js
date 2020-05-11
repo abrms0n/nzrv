@@ -23,7 +23,7 @@ var header = `
             </div>
         </header>
     </div>
-    <div class="wrapper" id="top">
+    <div class="header-wrapper" id="top">
         <div class="header-mobile">
             <div class="header-mobile__icons">
                 <a id="menu-opener" href="javascript:void(0)" class="header-mobile__icon"><div class="icon-burger1px"></div></a>

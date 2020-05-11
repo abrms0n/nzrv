@@ -5,8 +5,8 @@ const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const clean = require('gulp-clean');
 const autoprefixer = require('gulp-autoprefixer');
-const babel = require('gulp-babel');
-const uglify = require('gulp-uglify');
+// const babel = require('gulp-babel');
+// const uglify = require('gulp-uglify');
 
 
 

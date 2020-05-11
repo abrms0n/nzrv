@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="canonical" href="" />
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="vendor/jquery-3.4.1.min.js"></script>
+    <script src="vendor/slick.js"></script>
     <title>Галерея безупречной электроники "Назáров"</title>
 </head>
 
 <body class="body index">
-    <script src="js/header.js"></script>
+    <script src="common/header.js"></script>
     <div class="common">
         <div class="content">
             <section class="intro">
@@ -140,59 +141,59 @@
                 <section class="portfolio" id="portfolio">
                     <h2 class="page-title">портфолио</h2>
                     <div class="portfolio__slider">
-                        <div class="portfolio-item">
+                        <div class="portfolio-index-item">
                             <img src="images/portfolio-item__img1.png" alt="Домашний кинотеатр с изюминкой"
-                                class="portfolio-item__image">
+                                class="portfolio-index-item__image">
                             <h3 class="item-title">Домашний кинотеатр с изюминкой</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 В нашем новом проекте домашнего кинотеатра задача была в целом довольно типичной –
                                 построить систему с
                                 использованием встроенных акустических систем.
                             </p>
                         </div>
-                        <div class="portfolio-item">
+                        <div class="portfolio-index-item">
                             <img src="images/portfolio-item__img2.png" alt="Роскошный автомобиль с «умным салоном»"
-                                class="portfolio-item__image">
+                                class="portfolio-index-item__image">
                             <h3 class="item-title">Роскошный автомобиль с «умным салоном»</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 Эксклюзивный Mercedes Benz V class обрел не только шикарный салон первого класса с
                                 креслами, баром, сейфом и
                                 телевизором, но и благодаря нашей помощи позволил управлять всем этим богатством с iPad!
                             </p>
                         </div>
-                        <div class="portfolio-item">
+                        <div class="portfolio-index-item">
                             <img src="images/portfolio-item__img3.png" alt="Гостиная-кинотеатр"
-                                class="portfolio-item__image">
+                                class="portfolio-index-item__image">
                             <h3 class="item-title">Гостиная-кинотеатр</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 Посмотрев на фотографии этой светлой гостиной сразу и не поймешь, что расположена она в
                                 цокольном этаже дома и не имеет окон.
                             </p>
                         </div>
-                        <div class="portfolio-item">
-                            <img src="images/portfolio-item__img4.png" alt="Вилла" class="portfolio-item__image">
+                        <div class="portfolio-index-item">
+                            <img src="images/portfolio-item__img4.png" alt="Вилла" class="portfolio-index-item__image">
                             <h3 class="item-title">Вилла</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 О вкусах не спорят, особенно в дизайне. К интерьеру на картинке можно относиться
                                 по-разному, но в уютности ему не откажешь.
                                 Он был симпатичным и до установки кинотеатра, но техника придала ему определенную
                                 завершенность.
                             </p>
                         </div>
-                        <div class="portfolio-item">
+                        <div class="portfolio-index-item">
                             <img src="images/portfolio-item__img5.png" alt="Кухня. Гостиная. Кинотеатр. Atmos."
-                                class="portfolio-item__image">
+                                class="portfolio-index-item__image">
                             <h3 class="item-title">Кухня. Гостиная. Кинотеатр. Atmos.</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 В совмещенной кухне-гостиной нашлось место и полноценному домашнему кинотеатру с
                                 поддержкой Dolby Atmos.
                             </p>
                         </div>
-                        <div class="portfolio-item">
+                        <div class="portfolio-index-item">
                             <img src="images/portfolio-item__img6.png" alt="Кинотеатр на крыше"
-                                class="portfolio-item__image">
+                                class="portfolio-index-item__image">
                             <h3 class="item-title">Кинотеатр на крыше</h3>
-                            <p class="portfolio-item__text">
+                            <p class="portfolio-index-item__text">
                                 В этой трехуровневой квартире место кинотеатру отвели на самом верху — в буквальном
                                 смысле слова «на крыше».
                             </p>
@@ -374,7 +375,21 @@
             </div>
 
             <div class="wrapper">
-                <script src="js/brands.js"></script>
+                <section class="brands" id="brands">
+                    <div class="wrapper">
+                        <div class="section-header">
+                            <h2 class="page-title">бренды</h2>
+                            <a href="./brands.html" class="page-link">Все бренды</a>
+                        </div>
+                        <div class="brands__row">
+                            <img src="images/jbl_logo.png" alt="jbl" class="brands__image">
+                            <img src="images/lexicon_logo.png" alt="lexicon" class="brands__image">
+                            <img src="images/ml_logo.png" alt="mark levinson" class="brands__image">
+                            <img src="images/devialet_logo.png" alt="devialet" class="brands__image">
+                            <img src="images/revel_logo.png" alt="revel" class="brands__image">
+                        </div>
+                    </div>
+                </section>
 
                 <section class="automatization">
                     <div class="section-header">
@@ -391,20 +406,12 @@
                 </section>
             </div>
         </div>
-        <script src="js/footer.js"></script>
+        <script src="common/footer.js"></script>
     </div>
 
 
-    <script src="js/menu.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="js/app.js"></script>
 
-    <script src="js/drop-down-list.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/portfolio-slider.js"></script>
-    <script src="js/back-to-top-show.js"></script>
-    <script src="js/action-slider.js"></script>
-    <script src="js/changeFloor.js"></script>
-    <script src="js/modals.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 
-let now = new Date();
 
 const footer = `
 <div class="footer-container">
@@ -111,13 +110,7 @@ const footer = `
 
 $('.body').append(footer);
 
-// выпадающие списки 
 
-if ($(window).width() <= '780') {
-
-    $('#info-title').addClass('drop-down');
-    $('#nav-title').addClass('drop-down');
-}
 
 
 

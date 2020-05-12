@@ -15,3 +15,12 @@ $('.drop-down').click(function() {
         $(this).addClass('opened');
     }
 });
+
+
+// выпадающие списки футера
+
+if ($(window).width() <= '780') {
+
+  $('#info-title').addClass('drop-down');
+  $('#nav-title').addClass('drop-down');
+}

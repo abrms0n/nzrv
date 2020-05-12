@@ -140,6 +140,14 @@ $('.drop-down').click(function() {
     }
 });
 
+
+// выпадающие списки футера
+
+if ($(window).width() <= '780') {
+
+  $('#info-title').addClass('drop-down');
+  $('#nav-title').addClass('drop-down');
+}
 let brandsString = 'Audio-Technica AudioLab AudioQuest B&W Bang&Olufsen Beats Beyerdynamic Bose Campfire Audio Cellularline Cowon Definitive-Technology Denon Densen Dexibell Dunu Etymotic FENDER FiiO Final-Audio-Design Focal Fostex Grado Harman Kardon HiFiMAN Huawei Invotone JBL JVC K-ARRAY KEF KOSS Klipsch MEE-Audio Mackie Magnat Marshall Master&Dynamic Meters Metz Meze MrSpeakers Musical-Fidelity NAD Nobby OPPO Onkyo PSB Panasonic Pioneer Plantronics PreSonus Proel Quad RCF RHA Radius Reloop Ritmix Sennheiser Shure Simgot Skullcandy SleepPhones Sony Stax Technics Ultrasone V-moda Volta Westone Xiaomi Yamaha Z'
 
 let brands = brandsString.split(' ');
@@ -904,3 +912,29 @@ function showMoreFlex(elem) {
     $(elem).parent().children().css('display', 'flex');
     $(elem).hide()
 }
+// прилипающая к верху шапка 
+
+$(window).scroll(function(){
+    if($(window).scrollTop()>220){
+        $('.header-container').addClass('header-container_fixed');
+
+        // цветовая тема для главной после возврата в статику
+
+        if ($('.body').hasClass('index')) {
+                $('.header__nav-link').css('color','#232323');
+                $('.header__communication-item').css('color','#232323');
+                $('.header__icon').css('color','#232323');
+        }
+    }
+});
+
+$(window).scroll(function(){
+    if($(window).scrollTop()<220){
+        $('.header-container').removeClass('header-container_fixed');
+        if ($('.body').hasClass('index')) {
+            $('.header__nav-link').css('color','#fff');
+            $('.header__communication-item').css('color','#fff');
+            $('.header__icon').css('color','#fff');
+        }
+    }
+});

@@ -1,0 +1,32 @@
+.slider {
+    margin: 120px 0 0 0;
+}
+
+.slider-item {
+    max-width: 100%;
+}
+
+.slider .slick-prev, .slider .slick-next {
+    top: 40%;
+}
+
+.slider .slick-dots
+{
+     bottom: 10px;
+}
+
+@media screen and (max-width: 1919px) {
+    .slider {
+        margin: 100px 0 0 0;
+    }
+
+    .slider .slick-prev, .slider .slick-next {
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .slider {
+        margin: 40px 0 0 0;
+    }
+}   

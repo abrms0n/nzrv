@@ -99,7 +99,7 @@ const footer = `
                     </div>
                 </div>
                 <p class="footer__copyright">
-                    &copy;&nbsp;2011–${now.getFullYear()} Салон электроники «Назáров»
+                    &copy;&nbsp;2011–2020 Салон электроники «Назáров»
                 </p>
             </footer>
         </div>

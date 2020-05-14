@@ -1,0 +1,27 @@
+.cart-comments {
+    padding: 40px 0;
+}
+
+.cart-comments__textarea {
+    width: 100%;
+    height: 212px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 1.2;
+    resize: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .cart-comments {
+        padding: 20px 0;
+    }
+
+    .cart-comments__textarea {
+        height: 180px;
+        padding: 8px;
+        font-size: 16px;
+    }
+    
+}   

@@ -33,6 +33,7 @@
 @import url('../blocks/buttons-radio.css');
 @import url('../blocks/cart-box.css');
 @import url('../blocks/cart-buttons.css');
+@import url('../blocks/cart-comments.css');
 @import url('../blocks/cart-footer.css');
 @import url('../blocks/cart-item.css');
 @import url('../blocks/catalog-container.css');
@@ -59,12 +60,17 @@
 @import url('../blocks/listing-about.css');
 @import url('../blocks/listing-container.css');
 @import url('../blocks/listing-item.css');
+@import url('../blocks/make-order.css');
 @import url('../blocks/memo-container.css');
 @import url('../blocks/modals.css');
 @import url('../blocks/news-body.css');
 @import url('../blocks/news-container.css');
 @import url('../blocks/news.css');
+@import url('../blocks/number-input.css');
 @import url('../blocks/order-box.css');
+@import url('../blocks/order-how.css');
+@import url('../blocks/order-no-register.css');
+@import url('../blocks/order-where.css');
 @import url('../blocks/page-link.css');
 @import url('../blocks/page-subtitle.css');
 @import url('../blocks/page-table.css');

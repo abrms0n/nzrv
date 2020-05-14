@@ -1,0 +1,44 @@
+.order-how {
+    margin: 0 40px 0 0;
+}
+
+.order-how__carrier form, .order-how__payment form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.order-how__carrier form label, .order-how__payment form label {
+    margin: 8px 0;
+}
+
+.order-how__payment, .order-how__time, .order-how__person, .order-how__no-register {
+    margin: 40px 0 0 0;
+}
+
+.order-how__time form {
+    margin: 20px 0 0 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1279px) {
+    .order-how {
+        margin: 0;
+    }
+
+    .order-how__carrier form, .order-how__payment form {
+        margin: 12px 0 0 0;
+    }
+
+    .order-how__payment, .order-how__time, .order-how__person, .order-how__no-register {
+        margin: 20px 0 0 0;
+    }
+
+    .order-how__no-register form {
+        margin: 20px 0 0 0;
+    }
+}   

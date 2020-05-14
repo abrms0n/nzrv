@@ -158,6 +158,12 @@
                             </div>
                             <div class="cart-item__remove"><span class="icon icon-cross"></span></div>
                         </div>
+                        <div class="cart-box__checkbox-install">
+                            <form>
+                                <input name="orderInstall" id="orderInstall" type="checkbox" checked class="checkbox">
+                                <label for="orderInstall" class="checkbox-label">Заказать установку/настройку</label>
+                            </form>
+                        </div>
                         <div class="cart-box__final">
                             <span class="cart-box__final-word">Итого</span>
                             <span class="cart-box__final-quantity">3 товара</span>
@@ -168,11 +174,314 @@
 
                 </section>
                 <section class="cart-comments">
-                    
+                    <form>
+                        <textarea class="cart-comments__textarea" name="order-comments" id="order-comments" placeholder="Комментарии к заказу"></textarea>
+                    </form>
                 </section>
                 <section class="cart-footer">
                     <a href="./catalog.html" class="page-link page-link-back">Вернуться к каталогу и продолжить
                         покупки</a>
+                </section>
+                <!-- первый вариант блока make-order, юзер авторизован и хочет доставку -->
+                <section class="make-order">  
+                    <div class="order-how">
+                        <div class="order-how__carrier">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Как вы хотите получить товар?
+                            </p>
+                            <form>
+                                <input type="radio" id="self" name="isCarrier" class="radio-button">
+                                <label for="self" class="radio-label">самовывоз</label>
+                                <input type="radio" id="carrier" name="isCarrier" checked class="radio-button">
+                                <label for="carrier" class="radio-label">курьер</label>
+                            </form>
+                        </div>
+                        <div class="order-how__payment">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Форма оплаты
+                            </p>
+                            <form>
+                                <input type="radio" id="cash" name="payment" class="radio-button">
+                                <label for="cash" class="radio-label">Наличными</label>
+                                <input type="radio" id="bankCard" name="payment" checked class="radio-button">
+                                <label for="bankCard" class="radio-label">Банковской картой</label>
+                                <input type="radio" id="cashless" name="payment" class="radio-button">
+                                <label for="cashless" class="radio-label">Безналичная оплата</label>
+                            </form>
+                        </div>
+                        <div class="order-how__time">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Удобное время получения
+                            </p>
+                            <form>
+                                <label for="timeFrom">C</label>
+                                <input type="number" value="10" class="number-input" id="timeFrom">
+                                <label for="timeTo">До</label>
+                                <input type="number" class="number-input" value="22" id="timeTo">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="account-person">
+                        <p class="page-subtitle page-subtitle_theme_black">
+                            Никита Селиванов
+                        </p>
+                        <table class="account-person__info">
+                            <tr>
+                                <td>Телефон:</td>
+                                <td>+7 (495) 134-32-86</td>
+                            </tr>
+                            <tr>
+                                <td>E-mail:</td>
+                                <td>nselivanov@pult.ru</td>
+                            </tr>
+                            <tr>
+                                <td>Город:</td>
+                                <td>Санкт-Петербург</td>
+                            </tr>
+                            <tr>
+                                <td>Улица:</td>
+                                <td>Пушкина</td>
+                            </tr>
+                            <tr>
+                                <td>Дом, корпус:</td>
+                                <td>Колотушкина</td>
+                            </tr>
+                            <tr>
+                                <td>Квартира</td>
+                                <td>221B</td>
+                            </tr>
+                            <tr>
+                                <td>Грузовой лифт:</td>
+                                <td>нет</td>
+                            </tr>
+                        </table>
+                        <div class="account-person__email-checkbox">
+                            <input type="checkbox" class="checkbox" id="infoEmail" checked>
+                            <label class="checkbox-label" for="infoEmail">Согласен на информационную
+                                рассылку</label>
+                        </div>
+                    </div>
+                </section>
+                <!-- end первый вариант -->
+
+                <!-- второй вариант, юзер авторизован и хочет самовывоз -->
+                <section class="make-order">  
+                    <div class="order-how">
+                        <div class="order-how__carrier">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Как вы хотите получить товар?
+                            </p>
+                            <form>
+                                <input type="radio" id="self" name="isCarrier" checked class="radio-button">
+                                <label for="self" class="radio-label">самовывоз</label>
+                                <input type="radio" id="carrier" name="isCarrier" class="radio-button">
+                                <label for="carrier" class="radio-label">курьер</label>
+                            </form>
+                        </div>
+                        <div class="order-how__payment">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Форма оплаты
+                            </p>
+                            <form>
+                                <input type="radio" id="cash" name="payment" checked class="radio-button">
+                                <label for="cash" class="radio-label">Наличными</label>
+                                <input type="radio" id="bankCard" name="payment" class="radio-button">
+                                <label for="bankCard" class="radio-label">Банковской картой</label>
+                                <input type="radio" id="cashless" name="payment" class="radio-button">
+                                <label for="cashless" class="radio-label">Безналичная оплата</label>
+                            </form>
+                        </div>
+                        <div class="order-how__person">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Никита Селиванов
+                            </p>
+                            <table class="account-person__info">
+                                <tr>
+                                    <td>Телефон:</td>
+                                    <td>+7 (495) 134-32-86</td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail:</td>
+                                    <td>nselivanov@pult.ru</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="order-where">
+                        <p class="page-subtitle page-subtitle_theme_black">
+                            Наши контакты
+                        </p>
+                        <span class="order-where__contacts"> 
+                            <div class="icon icon-map-pin"></div>&nbsp;г. Москва, Большая Ордынка, 13/9
+                        </span>
+                        <span class="order-where__contacts"> 
+                            <div class="icon icon-clock"></div>&nbsp;Пн-Сб 10:00-20:00, Вск 10:00-19:00
+                        </span>
+                        <span class="order-where__contacts"> 
+                            <a href="tel:+74956467107" class="order-where__link"><div class="icon icon-phone"></div>&nbsp;+7 (495) 646-71-07</a>
+                        </span>
+                        <iframe class="order-where__map" src="https://yandex.ru/map-widget/v1/-/COgdbD49"
+                        allowfullscreen="true"></iframe>
+                    </div>
+                    
+                </section>
+                <!-- end второй вариант -->
+
+                <!-- третий вариант, юзер не авторизован, хочет доставку -->
+                <section class="make-order">  
+                    <div class="order-how">
+                        <div class="order-how__carrier">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Как вы хотите получить товар?
+                            </p>
+                            <form>
+                                <input type="radio" id="self" name="isCarrier" class="radio-button">
+                                <label for="self" class="radio-label">самовывоз</label>
+                                <input type="radio" id="carrier" name="isCarrier" checked  class="radio-button">
+                                <label for="carrier" class="radio-label">курьер</label>
+                            </form>
+                        </div>
+                        <div class="order-how__payment">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Форма оплаты
+                            </p>
+                            <form>
+                                <input type="radio" id="cash" name="payment" checked class="radio-button">
+                                <label for="cash" class="radio-label">Наличными</label>
+                                <input type="radio" id="bankCard" name="payment" class="radio-button">
+                                <label for="bankCard" class="radio-label">Банковской картой</label>
+                                <input type="radio" id="cashless" name="payment" class="radio-button">
+                                <label for="cashless" class="radio-label">Безналичная оплата</label>
+                            </form>
+                        </div>
+                        <div class="order-how__time">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Удобное время получения
+                            </p>
+                            <form>
+                                <label for="timeFrom">C</label>
+                                <input type="number" value="10" class="number-input" id="timeFrom">
+                                <label for="timeTo">До</label>
+                                <input type="number" class="number-input" value="22" id="timeTo">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="order-no-register">
+                        <p class="page-subtitle page-subtitle_theme_black">
+                            Оформление заказа без регистрации
+                        </p>
+                        <form>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="name">ФИО</label>
+                                <input name="name" required="" id="name" type="text" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="phone">Телефон</label>
+                                <input name="phone" required="" id="phone" pattern="\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}" type="tel" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="email">E-mail</label>
+                                <input name="email" required="" id="email" pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}" type="email" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="city">Город</label>
+                                <input name="city" required="" id="city" type="text" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="street">Улица</label>
+                                <input name="street" required="" id="street" type="text" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="house">Дом, корп., кв.</label>
+                                <input name="house" required="" id="house" type="text" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <label class="order-no-register__label" for="domophone">Домофон</label>
+                                <input name="domophone" required="" id="domophone" type="text" class="order-no-register__input-text" value="">
+                            </div>
+                            <div class="order-no-register__row">
+                                <input type="checkbox" class="checkbox" id="elevator">
+                                <label class="checkbox-label" for="elevator">Грузовой лифт</label>
+                            </div>
+                            
+                            <div class="order-no-register__row">
+                                <input type="checkbox" class="checkbox" id="order-agree" checked>
+                                <label class="checkbox-label" for="order-agree">Согласие на обработку персональных данных</label>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                <!-- end третий вариант -->
+
+                <!-- четвертый вариант, юзер не авторизован и хочет самовывоз -->
+                <section class="make-order">  
+                    <div class="order-how">
+                        <div class="order-how__carrier">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Как вы хотите получить товар?
+                            </p>
+                            <form>
+                                <input type="radio" id="self" name="isCarrier" checked class="radio-button">
+                                <label for="self" class="radio-label">самовывоз</label>
+                                <input type="radio" id="carrier" name="isCarrier" class="radio-button">
+                                <label for="carrier" class="radio-label">курьер</label>
+                            </form>
+                        </div>
+                        <div class="order-how__payment">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Форма оплаты
+                            </p>
+                            <form>
+                                <input type="radio" id="cash" name="payment" checked class="radio-button">
+                                <label for="cash" class="radio-label">Наличными</label>
+                                <input type="radio" id="bankCard" name="payment" class="radio-button">
+                                <label for="bankCard" class="radio-label">Банковской картой</label>
+                                <input type="radio" id="cashless" name="payment" class="radio-button">
+                                <label for="cashless" class="radio-label">Безналичная оплата</label>
+                            </form>
+                        </div>
+                        <div class="order-how__no-register">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Оформление заказа без регистрации
+                            </p>
+                            <form>
+                                <div class="order-no-register__row">
+                                    <label class="order-no-register__label" for="name">ФИО</label>
+                                    <input name="name" required="" id="name" type="text" class="order-no-register__input-text" value="">
+                                </div>
+                                <div class="order-no-register__row">
+                                    <label class="order-no-register__label" for="phone">Телефон</label>
+                                    <input name="phone" required="" id="phone" pattern="\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}" type="tel" class="order-no-register__input-text" value="">
+                                </div>
+                                <div class="order-no-register__row">
+                                    <label class="order-no-register__label" for="email">E-mail</label>
+                                    <input name="email" required="" id="email" pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}" type="email" class="order-no-register__input-text" value="">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="order-where">
+                        <p class="page-subtitle page-subtitle_theme_black">
+                            Наши контакты
+                        </p>
+                        <span class="order-where__contacts"> 
+                            <div class="icon icon-map-pin"></div>&nbsp;г. Москва, Большая Ордынка, 13/9
+                        </span>
+                        <span class="order-where__contacts"> 
+                            <div class="icon icon-clock"></div>&nbsp;Пн-Сб 10:00-20:00, Вск 10:00-19:00
+                        </span>
+                        <span class="order-where__contacts"> 
+                            <a href="tel:+74956467107" class="order-where__link"><div class="icon icon-phone"></div>&nbsp;+7 (495) 646-71-07</a>
+                        </span>
+                        <iframe class="order-where__map" src="https://yandex.ru/map-widget/v1/-/COgdbD49"
+                        allowfullscreen="true"></iframe>
+                    </div>
+                    
+                </section>
+                <!-- end четвертый вариант -->
+
+                <section class="cart-buttons">
+                    <a href="javascript:void(0)" class="button button_theme_gold">оформить заказ</a>
                 </section>
             </div>
 
@@ -188,8 +497,8 @@
     <script src="js/changeFloor.js"></script>
     <script src="js/changeFloor.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/drop-down-list.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/drop-down-list.js"></script>
     <script src="js/header.js"></script>
     <script src="js/mask.js"></script>
     <script src="js/menu.js"></script>

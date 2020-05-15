@@ -49,6 +49,11 @@ html, body {
     background: #232323;
 }
 
+p {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
 ul, ol {
     padding: 0 0 0 24px;
 }
@@ -64,8 +69,8 @@ li {
     margin: 0 auto;
 }
 
-a{
-    color:#a89365
+a {
+    color:#a89365;
 }
 
 @media screen and (max-width: 1919px) {
@@ -86,6 +91,10 @@ a{
 
 @media screen and (max-width: 600px) {
     li {
+        font-size: 16px;
+    }
+
+    p {
         font-size: 16px;
     }
 }

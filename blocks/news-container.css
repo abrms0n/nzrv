@@ -1,6 +1,5 @@
 .news-container {
-    padding: 40px 0 100px 0;
-    position: relative;
+    padding: 20px 0 80px 0;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,11 +1,17 @@
-
+.news-body {
+    padding: 0 0 80px 0;
+}
 
 .news-body__banner-box {
     margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .news-body__banner {
     max-width: 100%;
+    margin: 0 auto;
+    align-self: center;
 }
 
 .news-body__text {
@@ -15,3 +21,19 @@
 .news-body__buttons {
     margin: 80px auto 0 auto;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .news-body {
+        padding: 0 0 40px 0;
+    }
+
+    .news-body__banner-box {
+        margin: 20px 0 0 0;
+    }
+
+    .news-body__text {
+        margin: 20px 0 0 0;
+    }
+}   
+

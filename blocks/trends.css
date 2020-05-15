@@ -7,7 +7,10 @@
     margin: 40px 0 0 0;
     justify-content: space-between;
 }
-
+.trends__items a{
+    color:#000;
+    text-decoration:none
+}
 .trends-item-lg {
     display: flex;
     flex-direction: column;

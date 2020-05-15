@@ -4,10 +4,12 @@
 
 .slider-item {
     max-width: 100%;
+    min-height: 540px;
+    object-fit: cover;
 }
 
 .slider .slick-prev, .slider .slick-next {
-    top: 40%;
+    top: 50%;
 }
 
 .slider .slick-dots
@@ -20,13 +22,20 @@
         margin: 100px 0 0 0;
     }
 
+    .slider-item {
+        min-height: 368px;
+    }
+
     .slider .slick-prev, .slider .slick-next {
-        top: 30%;
+        top: 50%;
     }
 }
 
 @media screen and (max-width: 1279px) {
     .slider {
         margin: 40px 0 0 0;
+    }
+    .slider-item {
+        min-height: 180px;
     }
 }   

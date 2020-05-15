@@ -27,6 +27,7 @@
         <div class="content">
 
             <div class="wrapper">
+                
                 <section class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
                     <a itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" href="./index.html"
                         class="breadcrumb">
@@ -54,12 +55,105 @@
 
                 </section>
 
-                <section class="cart-box">
+                <section class="cart-header">
                     <h1 class="page-title">
                         корзина
                     </h1>
+                    
+                </section>
+
+                <section class="make-order">
+                      
+                    <div class="order-how">
+                        <div class="order-how__carrier">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Как вы хотите получить товар?
+                            </p>
+                            <form>
+                                <input type="radio" id="self" name="isCarrier" class="radio-button">
+                                <label for="self" class="radio-label">самовывоз</label>
+                                <input type="radio" id="carrier" name="isCarrier" checked  class="radio-button">
+                                <label for="carrier" class="radio-label">курьер</label>
+                            </form>
+                        </div>
+                        <div class="order-how__payment">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Форма оплаты
+                            </p>
+                            <form>
+                                <input type="radio" id="cash" name="payment" checked class="radio-button">
+                                <label for="cash" class="radio-label">Наличными</label>
+                                <input type="radio" id="bankCard" name="payment" class="radio-button">
+                                <label for="bankCard" class="radio-label">Банковской картой</label>
+                                <input type="radio" id="cashless" name="payment" class="radio-button">
+                                <label for="cashless" class="radio-label">Безналичная оплата</label>
+                            </form>
+                        </div>
+                        <!-- hidden DC  -->
+                        <div class="order-how__card" style="display: none;">
+                            <p class="page-subtitle page-subtitle_theme_black">
+                                Дисконтная карта
+                            </p>
+                            <form>
+                                <div class="order-how__card-number">
+                                    <label class="order-personal__label" for="name">Номер карты</label>
+                                    <input name="name" id="name" type="text" class="order-personal__input-text" value="">
+                                </div>
+                                <button type="submit" class="button button_theme_gold">Применить</button>
+                            </form>
+                        </div>
+                        <!-- end hidden DC  -->
+
+                    </div>
+                    <div class="order-personal">
+                        <p class="page-subtitle page-subtitle_theme_black">
+                            Ваши данные
+                        </p>
+                        <form>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="name">ФИО</label>
+                                <input name="name" required="" id="name" type="text" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="phone">Телефон</label>
+                                <input name="phone" required="" id="phone" pattern="\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}" type="tel" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="email">E-mail</label>
+                                <input name="email" required="" id="email" pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}" type="email" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="city">Город</label>
+                                <input name="city" required="" id="city" type="text" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="street">Улица</label>
+                                <input name="street" required="" id="street" type="text" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="house">Дом, корп., кв.</label>
+                                <input name="house" required="" id="house" type="text" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <label class="order-personal__label" for="domophone">Домофон</label>
+                                <input name="domophone" required="" id="domophone" type="text" class="order-personal__input-text" value="">
+                            </div>
+                            <div class="order-personal__row">
+                                <input type="checkbox" class="checkbox" id="elevator">
+                                <label class="checkbox-label" for="elevator">Грузовой лифт</label>
+                            </div>
+                            
+                            <div class="order-personal__row">
+                                <input type="checkbox" class="checkbox" id="order-agree" checked>
+                                <label class="checkbox-label" for="order-agree">Согласие на обработку персональных данных</label>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <section class="cart-box">
                     <div class="section-header">
-                        <h2 class="page-subtitle page-subtitle_theme_black">В корзине</h2>
+                        <h2 class="page-subtitle page-subtitle_theme_black">Состав заказа</h2>
                         <div class="cart-box__icons">
                             <a href="javascript:void(0)" class="cart-box__icon">
                                 <div class="icon-print"></div>
@@ -97,6 +191,10 @@
                             </div>
                             <div class="cart-item__prices">
                                 <div class="cart-item__p_inner">
+                                    <div class="discount">
+                                        <div class="amount amount--old">327 000 ₽</div>
+                                        <div class="discount-percent">- 5%</div>
+                                    </div>                                    
                                     <div class="amount amount--current">325 000 ₽</div>
                                 </div>
                             </div>
@@ -167,8 +265,7 @@
                         <div class="cart-box__final">
                             <span class="cart-box__final-word">Итого</span>
                             <span class="cart-box__final-quantity">3 товара</span>
-                            <span class="cart-box__final-price">на сумму <span
-                                    class="page-text_accent page-text_bold">975 000</span></span>
+                            <span class="cart-box__final-price">на сумму <span class="page-text_accent page-text_bold">975 000</span></span>
                         </div>
                     </div>
 
@@ -182,81 +279,7 @@
                     <a href="./catalog.html" class="page-link page-link-back">Вернуться к каталогу и продолжить
                         покупки</a>
                 </section>
-                
-                <section class="make-order">  
-                    <div class="order-how">
-                        <div class="order-how__carrier">
-                            <p class="page-subtitle page-subtitle_theme_black">
-                                Как вы хотите получить товар?
-                            </p>
-                            <form>
-                                <input type="radio" id="self" name="isCarrier" class="radio-button">
-                                <label for="self" class="radio-label">самовывоз</label>
-                                <input type="radio" id="carrier" name="isCarrier" checked  class="radio-button">
-                                <label for="carrier" class="radio-label">курьер</label>
-                            </form>
-                        </div>
-                        <div class="order-how__payment">
-                            <p class="page-subtitle page-subtitle_theme_black">
-                                Форма оплаты
-                            </p>
-                            <form>
-                                <input type="radio" id="cash" name="payment" checked class="radio-button">
-                                <label for="cash" class="radio-label">Наличными</label>
-                                <input type="radio" id="bankCard" name="payment" class="radio-button">
-                                <label for="bankCard" class="radio-label">Банковской картой</label>
-                                <input type="radio" id="cashless" name="payment" class="radio-button">
-                                <label for="cashless" class="radio-label">Безналичная оплата</label>
-                            </form>
-                        </div>
 
-                    </div>
-                    <div class="order-no-register">
-                        <p class="page-subtitle page-subtitle_theme_black">
-                            Ваши данные
-                        </p>
-                        <form>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="name">ФИО</label>
-                                <input name="name" required="" id="name" type="text" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="phone">Телефон</label>
-                                <input name="phone" required="" id="phone" pattern="\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}" type="tel" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="email">E-mail</label>
-                                <input name="email" required="" id="email" pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}" type="email" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="city">Город</label>
-                                <input name="city" required="" id="city" type="text" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="street">Улица</label>
-                                <input name="street" required="" id="street" type="text" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="house">Дом, корп., кв.</label>
-                                <input name="house" required="" id="house" type="text" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <label class="order-no-register__label" for="domophone">Домофон</label>
-                                <input name="domophone" required="" id="domophone" type="text" class="order-no-register__input-text" value="">
-                            </div>
-                            <div class="order-no-register__row">
-                                <input type="checkbox" class="checkbox" id="elevator">
-                                <label class="checkbox-label" for="elevator">Грузовой лифт</label>
-                            </div>
-                            
-                            <div class="order-no-register__row">
-                                <input type="checkbox" class="checkbox" id="order-agree" checked>
-                                <label class="checkbox-label" for="order-agree">Согласие на обработку персональных данных</label>
-                            </div>
-                        </form>
-                    </div>
-                </section>
-                
                 <section class="cart-buttons">
                     <a href="javascript:void(0)" class="button button_theme_gold">оформить заказ</a>
                 </section>

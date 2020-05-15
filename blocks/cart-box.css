@@ -2,8 +2,6 @@
     margin: 40px 0 0 0;
 }
 
-
-
 .cart-box h2::before {
     font-family: 'icomoon';
     content: "\e90d";
@@ -40,12 +38,6 @@
 
 .cart-box__products {
     margin: 40px 0 0 0;
-}
-
-.cart-box__checkbox-install {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0 0 0;
 }
 
 .cart-box__final {

@@ -12,6 +12,8 @@
     line-height: 1.2;
     margin: 0 6px;
     cursor: pointer;
+    color:#000;
+    text-decoration: none;
 }
 
 .pagination-button_selected, .pagination-button:hover {

@@ -48,6 +48,11 @@
     justify-content: space-between;
 }
 
+.cart-box__checkbox-install {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 0 0;
+}
 
 
 .cart-box__final-price .page-text_accent::after {

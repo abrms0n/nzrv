@@ -12,12 +12,29 @@
     margin: 8px 0;
 }
 
-.order-how__payment, .order-how__time, .order-how__person, .order-how__no-register {
+.order-how__payment, .order-how__card, .order-how__person {
     margin: 40px 0 0 0;
 }
 
-.order-how__time form {
+.order-how__card form {
     margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-how__card-number {
+    display: flex;
+}
+
+.order-how__card form input {
+    width: 180px;
+    text-align: center;
+}
+
+.order-how__card button {
+    max-width: 180px;
+    margin: 0 20px;
 }
 
 
@@ -34,11 +51,24 @@
         margin: 12px 0 0 0;
     }
 
-    .order-how__payment, .order-how__time, .order-how__person, .order-how__no-register {
+    .order-how__payment, .order-how__card, .order-how__person  {
         margin: 20px 0 0 0;
     }
 
-    .order-how__no-register form {
-        margin: 20px 0 0 0;
+    .order-how__card form {
+        justify-content: flex-start;
     }
 }   
+
+
+
+@media screen and (max-width: 600px) {
+    .order-how__card button {
+        margin: 20px auto 0 auto;
+    }
+
+    .order-how__card form {
+        flex-direction: column;
+    }
+}
+

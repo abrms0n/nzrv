@@ -121,6 +121,22 @@
     line-height: 1.2;
 }
 
+.amount--old {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.discount {
+    display: flex;
+}
+
+.discount-percent {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a89365;
+    margin: 0 0 0 12px;
+}
+
 @media (prefers-reduced-motion:reduce) {
     .form-control {
         -webkit-transition: none;

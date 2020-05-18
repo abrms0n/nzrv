@@ -142,12 +142,27 @@
     color:#a89365;
 }
 
-.header__search-input {
+.header__icons form {
     display: none;
-    width: 100%;
-    padding: 4px;
+}
+
+.header__search-input {
+    width: 200px;
+    padding: 4px 28px 4px 4px;
     position: relative;
-    left: 100px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.header__search-button {
+    color: #232323;
+    z-index: 1000;
+    font-size: 20px;
+    position: relative;
+    left: 14px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -198,6 +213,19 @@
     
     .header__icon:not(:first-of-type) {
         margin: 0 0 0 30px;
+    }
+
+    .header__search-input {
+        width: 160px;
+        padding: 4px 20px 4px 4px;
+        position: relative;
+        left: 20px;
+        font-size: 16px;
+    }
+    
+    .header__search-button {
+        font-size: 16px;
+        left: 0;
     }
 }
 

@@ -15,12 +15,13 @@ var header = `
             <div class="header__communication">
                 <a href="tel:+74956467107" class="header__communication-item">+7 (495) 646-71-07</a>
                 <a href="javascript:void(0)" data-modal="signToDemo" class="header__communication-item open-modal">Запись в демо-зал</a>
-                <form>
-                    <input class="header__search-input" type="text" placeholder="Искать">
-                </form>
             </div>
             <div class="header__icons">
                 <a href="javascript:void(0)" onclick="openSearch(this)" class="header__icon"><div class="icon-search"></div></a>
+                <form>
+                    <input class="header__search-input" type="text" placeholder="Найти товар">
+                    <button type="submit" class="header__search-button"><div class="icon-search"></div></button>
+                </form>
                 <a href="./personal.html" class="header__icon"><div class="icon-user"></div></a>
                 <a href="./cart.html" class="header__icon"><div class="icon-shopping-bag"></div></a>
             </div>

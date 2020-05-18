@@ -1,0 +1,27 @@
+.brand-listing-about {
+    margin: 40px 0;
+}
+
+.brand-listing-about .section-header {
+    margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .brand-listing-about {
+        margin: 20px 0;
+    }
+
+    .brand-listing-about .brands-names__nav-box {
+        display: none;
+    }
+    
+}   
+
+@media screen and (max-width: 600px) {
+    .brand-listing-about {
+        margin: 12px 0;
+    }
+    .brand-listing-about .section-header {
+        margin: 0 0 12px 0;
+    }
+}

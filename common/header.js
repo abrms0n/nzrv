@@ -15,9 +15,12 @@ var header = `
             <div class="header__communication">
                 <a href="tel:+74956467107" class="header__communication-item">+7 (495) 646-71-07</a>
                 <a href="javascript:void(0)" data-modal="signToDemo" class="header__communication-item open-modal">Запись в демо-зал</a>
+                <form>
+                    <input class="header__search-input" type="text" placeholder="Искать">
+                </form>
             </div>
             <div class="header__icons">
-                <a href="javascript:void(0)" class="header__icon"><div class="icon-search"></div></a>
+                <a href="javascript:void(0)" onclick="openSearch(this)" class="header__icon"><div class="icon-search"></div></a>
                 <a href="./personal.html" class="header__icon"><div class="icon-user"></div></a>
                 <a href="./cart.html" class="header__icon"><div class="icon-shopping-bag"></div></a>
             </div>
@@ -27,7 +30,7 @@ var header = `
         <div class="header-mobile">
             <div class="header-mobile__icons">
                 <a id="menu-opener" href="javascript:void(0)" class="header-mobile__icon"><div class="icon-burger1px"></div></a>
-                <a href="javascript:void(0)" class="header-mobile__icon"><div class="icon-search1px"></div></a>
+                <a href="./search.html" class="header-mobile__icon"><div class="icon-search1px"></div></a>
             </div>
             <a class="header-mobile__logo-link" href="./index.html"><img src="images/logo.svg" alt="Галерея безупречной электроники Назáров" class="header-mobile__logo"></a>
             <div class="header-mobile__icons">

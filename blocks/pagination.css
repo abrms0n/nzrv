@@ -3,8 +3,14 @@
 
 .pagination {
     display: flex;
+    width: 100%;
     justify-content: flex-end;
     margin: 40px 0;
+    padding: 0 20px;
+}
+
+.pagination a {
+    text-decoration: none;
 }
 
 
@@ -21,6 +27,10 @@
     border-bottom: 1px solid #a89365;
     color: #a89365;
 } 
+
+.pagination-button_selected {
+    font-weight: 400;
+}
 
 
 

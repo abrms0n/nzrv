@@ -87,6 +87,7 @@ a.listing-container__how-much{
     box-shadow: 0 4px 8px rgba(0,0,0,.13);
     z-index: 100;
     background: #fff;
+    padding: 0;
 }
 
 
@@ -180,7 +181,68 @@ a.listing-container__how-much_selected, .listing-container__how-much:hover {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+/* стили ползунков  */
+
+.bx-filter.bx-red .bx-ui-slider-handle.left {
+    background: url(../images/circle.svg) no-repeat right top;
+}
+
+.bx-filter.bx-red .bx-ui-slider-handle.right {
+    background: url(../images/circle.svg) no-repeat left top;
+}
+
+.bx-filter .bx-ui-slider-handle {
+    top: -57%;
+    width: 16px;
+    height: 16px;
+    z-index: 50;
+}
+
+.bx-filter .bx-ui-slider-handle.left {
+    margin-left: -14px;
+}
+
+.bx-filter .bx-ui-slider-handle.right {
+    margin-right: -14px;
+}
+
+.bx-filter .bx-ui-slider-pricebar-vn {
+    z-index: 50;
+}
+
+.bx-filter .bx-ui-slider-part {
+   background: none;
+}
+
+/* стили всплывахи "показать"  */
+
+.bx-filter .bx-filter-popup-result.left {
+    right: 0;
+    bottom: 70px;
+    left: 25%;
+}
+
+.bx-filter .bx-filter-popup-result.left {
+    border: 1px solid #575757;
+    background: #fff;
+    border-image: none;
+}
+
+.bx-filter .bx-filter-popup-result.left a {
+    color: #a89365;
+}
+
+/* стили фильтра подкатегорий */
+
+.bx-filter .catalog-section-list-list {
+    padding: 0;
+}
+
+.catalog-section-list-list-link {
+    white-space: normal;
 }
 
 

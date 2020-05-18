@@ -73,6 +73,10 @@
     width: 196px;
 }
 
+.header-mobile__nav-links {
+    padding: 0;
+}
+
 .header-mobile__nav-links-item {
     list-style: none;
     font-size: 20px;

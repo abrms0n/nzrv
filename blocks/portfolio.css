@@ -23,6 +23,7 @@
     align-self: center;
     margin: 0 0 8px 0;
     min-height: 540px;
+    max-height: 540px;
     object-fit: cover;
 }
 
@@ -56,6 +57,7 @@
 
     .portfolio-index-item__image {
         min-height: 360px;
+        max-height: 360px;
     }
 }
 
@@ -74,5 +76,6 @@
 
     .portfolio-index-item__image {
         min-height: 212px;
+        max-height: 212px;
     }
 }   
